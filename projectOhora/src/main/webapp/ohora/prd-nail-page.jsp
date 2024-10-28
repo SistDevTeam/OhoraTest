@@ -11,6 +11,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="google" content="notranslate">
 <link rel="stylesheet" href="../resources/cdn-main/prd-page.css">
+<link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="http://localhost/jspPro/resources/cdn-main/example.js"></script>
 <style>
  span.material-symbols-outlined{
@@ -122,7 +124,7 @@
 					<button type="button" id="my-design">내가 원하는 디자인 찾기</button>
 				</div>
 			</div>
-
+			
 			<div id="custom-filter-wrap">
 				<div class="swiper-container" id="custom-filter">
 					<ul class="swiper-wrapper">
@@ -217,10 +219,10 @@
 									<a href="" class="item-viewlink"></a>
 									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
 									<div class="item-image">
-										<img src="../image/prd_image/마롱네일1jpg.jpg" alt="" width="800"
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800"
 											height="800" />
 										<!--썸네일 이미지1-->
-										<img src="../image/prd_image/마롱네일2.jpg" alt="" width="800"
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800"
 											height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
@@ -256,11 +258,11 @@
 									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
 									<div class="item-image">
 										<img
-											src="//ohora.kr/web/product/extra/big/202409/4134ac210c07f7550f9cc682149761cb.jpg"
+											src="../resources/images/prd_image/마롱네일1jpg.jpg"
 											alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
 										<img
-											src="//ohora.kr/web/product/extra/big/202408/01bab1168aea04627ee1fb2618a0cbe1.jpg"
+											src="../resources/images/prd_image/마롱네일1jpg.jpg"
 											alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
@@ -296,11 +298,11 @@
 									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
 									<div class="item-image">
 										<img
-											src="//ohora.kr/web/product/extra/big/202207/e655b0f930d5a9cc4bb5de70ac6fc98f.jpg"
+											src="../resources/images/prd_image/마롱네일1jpg.jpg"
 											alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
 										<img
-											src="//ohora.kr/web/product/extra/big/202409/a385f5c1f9c70ce01aa81a7b3c345151.jpg"
+											src="../resources/images/prd_image/마롱네일1jpg.jpg"
 											alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
@@ -336,11 +338,11 @@
 									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
 									<div class="item-image">
 										<img
-											src="//ohora.kr/web/product/extra/big/202207/62cee7ec322a161b537ca90dc9edc11d.jpg"
+											src="../resources/images/prd_image/마롱네일1jpg.jpg"
 											alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
 										<img
-											src="//ohora.kr/web/product/extra/big/202409/0956a77a87070e938f7b25709831451d.jpg"
+											src="../resources/images/prd_image/마롱네일1jpg.jpg"
 											alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
@@ -376,11 +378,11 @@
 									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
 									<div class="item-image">
 										<img
-											src="//ohora.kr/web/product/extra/big/202309/a6369ca23708b5e2f94be913dc3fb4da.jpg"
+											src="../resources/images/prd_image/마롱네일1jpg.jpg"
 											alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
 										<img
-											src="//ohora.kr/web/product/extra/big/202309/60eff493e868c8501a893d32f31ff1fe.jpg"
+											src="../resources/images/prd_image/마롱네일1jpg.jpg"
 											alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
@@ -416,11 +418,11 @@
 									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
 									<div class="item-image">
 										<img
-											src="//ohora.kr/web/product/extra/big/202403/02d54a791e515bcfc808e71d9cfec839.jpg"
+											src="../resources/images/prd_image/마롱네일1jpg.jpg"
 											alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
 										<img
-											src="//ohora.kr/web/product/extra/big/202403/702940e7474a364512df56f041562e10.jpg"
+											src="../resources/images/prd_image/마롱네일1jpg.jpg"
 											alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
@@ -456,11 +458,11 @@
 									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
 									<div class="item-image">
 										<img
-											src="//ohora.kr/web/product/extra/big/202403/02d54a791e515bcfc808e71d9cfec839.jpg"
+											src="../resources/images/prd_image/마롱네일1jpg.jpg"
 											alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
 										<img
-											src="//ohora.kr/web/product/extra/big/202403/702940e7474a364512df56f041562e10.jpg"
+											src="../resources/images/prd_image/마롱네일1jpg.jpg"
 											alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
@@ -496,11 +498,11 @@
 									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
 									<div class="item-image">
 										<img
-											src="//ohora.kr/web/product/extra/big/202409/061a2f3456cd4bcee34989c76ab79799.jpg"
+											src="../resources/images/prd_image/마롱네일1jpg.jpg"
 											alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
 										<img
-											src="//ohora.kr/web/product/extra/big/202408/a29a3dd272caee66ecc96c091f4eb148.jpg"
+											src="../resources/images/prd_image/마롱네일1jpg.jpg"
 											alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
@@ -535,9 +537,9 @@
 									<a href="" class="item-viewlink"></a>
 									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
 									<div class="item-image">
-										<img src="" alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
-										<img src="" alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
 									<div class="item-info">
@@ -571,9 +573,9 @@
 									<a href="" class="item-viewlink"></a>
 									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
 									<div class="item-image">
-										<img src="" alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
-										<img src="" alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
 									<div class="item-info">
@@ -607,9 +609,9 @@
 									<a href="" class="item-viewlink"></a>
 									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
 									<div class="item-image">
-										<img src="" alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
-										<img src="" alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
 									<div class="item-info">
@@ -643,9 +645,9 @@
 									<a href="" class="item-viewlink"></a>
 									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
 									<div class="item-image">
-										<img src="" alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
-										<img src="" alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
 									<div class="item-info">
@@ -679,9 +681,9 @@
 									<a href="" class="item-viewlink"></a>
 									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
 									<div class="item-image">
-										<img src="" alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
-										<img src="" alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
 									<div class="item-info">
@@ -715,9 +717,9 @@
 									<a href="" class="item-viewlink"></a>
 									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
 									<div class="item-image">
-										<img src="" alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
-										<img src="" alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
 									<div class="item-info">
@@ -751,9 +753,9 @@
 									<a href="" class="item-viewlink"></a>
 									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
 									<div class="item-image">
-										<img src="" alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
-										<img src="" alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
 									<div class="item-info">
@@ -787,9 +789,9 @@
 									<a href="" class="item-viewlink"></a>
 									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
 									<div class="item-image">
-										<img src="" alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
-										<img src="" alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
 									<div class="item-info">
@@ -880,7 +882,7 @@
 		<form class="side-filter-main" action="" method="get">
 			<div id="searchArea" ; style="height: 919px; display: none;">
 				<h1 id="side-title">
-					내가 원하는 디자인 찾기 <span> <img src="../image/close_icon.png"
+					내가 원하는 디자인 찾기 <span> <img src="../resources/images/close_icon.png"
 						alt="" />
 					</span>
 				</h1>

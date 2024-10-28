@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Noto+Sans+KR:300,400,500,700&display=swap");
-/* 占쏙옙트 */
+
 button {
   background: transparent;
   border: 0;
@@ -217,7 +217,6 @@ a {
   font-size: 25px;
 }
 
-/*  */
 
 #cate_list ul {
   display: table;
@@ -272,12 +271,8 @@ a {
   overflow: clip;
 }
 
-/* 占쏙옙 占쏙옙  */
-
 #second-wrap-layout {
   padding: 0 0 85px;
-  /* 푸占싶울옙占쏙옙 占신몌옙 占쏙옙占쏙옙占쏙옙 */
-
   width: 1200px;
   margin: 0 auto;
 }
@@ -299,12 +294,11 @@ a {
   font-size: 14px;
   border: none;
   cursor: pointer;
-  background: url(./image/select_down_arrow.png) no-repeat right center;
+  background: url(../images/select_down_arrow.png) no-repeat right center;
   background-size: 7px auto;
   float: none;
   position: relative;
   display: inline-block;
-  /* float: left; */
 }
 
 .selected-type {
@@ -353,14 +347,13 @@ a {
   font-weight: bold;
   width: auto;
   height: auto;
-  background: url(./image/curation_arrow.png) no-repeat !important;
+  background: url(../images/curation_arrow.png) no-repeat !important;
   background-size: 8px auto !important;
   background-position: right calc(50% + 1px) !important;
 
   float: right;
 }
 
-/*  */
 
 #custom-filter-wrap {
   position: relative;
@@ -378,10 +371,6 @@ a {
 }
 
 .swiper-wrapper {
-  /* ul */
-  /* transform: translate3d(-395.77px, 0px, 0px); transition-duration: 0ms; */
-  /* 占쏙옙占쏙옙占싱듸옙 占쏙옙占쏙옙? */
-
   transform: translate3d(0px, 0px, 0px);
   transition-timing-function: ease-out;
   margin: 0 auto;
@@ -395,7 +384,6 @@ a {
 }
 
 .swiper-slide {
-  /* li */
   cursor: pointer;
   margin-right: 8px;
 
@@ -422,19 +410,6 @@ a {
   color: black;
 }
 
-/* 占쏙옙占시되억옙占쏙옙 占쏙옙 占쏙옙占쏙옙 
-.custom-option on_a {
-    pointer-events: none;
-    display: inline-block;
-    padding: 10px 23px;
-    white-space: nowrap;
-    background: #f5f5f5;
-    border-radius: 3px;
-    font-size: 14px;
-    color: #000;
-}
-*/
-
 .swiper-slide input {
   display: none;
 }
@@ -448,7 +423,7 @@ a {
   transform: none;
   margin: 0;
 
-  background-image: url(../image/swp_left_arrow_gr.png);
+  background-image: url(../images/swp_left_arrow_gr.png);
   bottom: auto;
   background-size: auto 25px !important;
   filter: invert(1);
@@ -468,7 +443,7 @@ a {
   transform: none;
   margin: 0;
 
-  background-image: url(../image/swp_right_arrow_gr.png);
+  background-image: url(../images/swp_right_arrow_gr.png);
   bottom: auto;
   background-size: auto 25px !important;
   filter: invert(1);
@@ -478,16 +453,6 @@ a {
   background-position: center;
   background-repeat: no-repeat;
 }
-
-/*
-.占쏙옙占싱삼옙 prev,next 占쏙옙 占쏙옙 占쏙옙占쏘서 占쏙옙활占쏙옙화占심띰옙 {
-    opacity: .35;
-    cursor: auto;
-    pointer-events: none;
-}
-*/
-
-/*  */
 
 #item-list-wrap {
   padding: 0;
@@ -531,7 +496,6 @@ a {
 }
 
 .item-wrap .item-container > dl > .item-viewlink {
-  /* item 占쏙옙占쏙옙 占쏙옙체 占쏙옙占쏙옙 a */
   position: absolute;
   display: block;
   top: 0;
@@ -543,7 +507,6 @@ a {
 }
 
 .item-wrap .item-container > dl > .item-image {
-  /* image占쏙옙 占쏙옙占싸댐옙 div */
   margin-bottom: 0px;
   position: relative;
 
@@ -556,7 +519,6 @@ a {
 }
 
 .item-wrap .item-container > dl > .item-image > img:first-of-type {
-  /* 占쏙옙占쏙옙占� 占싱뱄옙占쏙옙  */
   opacity: 1;
 
   display: block;
@@ -577,7 +539,6 @@ a {
 .item-wrap .item-container > dl > .item-image > img:last-of-type {
   opacity: 0;
 
-  /* hover占싹몌옙 占싱곤옙 1占쏙옙 占쌕꾸듸옙占쏙옙占싹곤옙 첫占싱뱄옙占쏙옙占쏙옙 0占쏙옙占쏙옙 占쌕꾸몌옙 占심듸옙 */
   display: block;
   position: absolute;
   top: 50%;
@@ -594,7 +555,6 @@ a {
 }
 
 .cart-in {
-  /* 占쌕뤄옙 占쏙옙袂占쏙옙占� 占쏙옙占� 占싱뱄옙占쏙옙占쏙옙 div */
   display: block;
 
   position: absolute;
@@ -605,7 +565,7 @@ a {
   width: 30px;
   height: 30px;
   border: 0;
-  background: url(./image/icon_cart_gray.png) no-repeat;
+  background: url(../images/icon_cart_gray.png) no-repeat;
   background-size: 100% auto;
   background-position: center;
   border-radius: 0;
@@ -658,7 +618,6 @@ a {
 }
 
 .price-container > .normal-price {
-  /* 占쏙옙占쏙옙 占쏙옙 占쌥억옙 */
   -webkit-box-ordinal-group: 4;
   order: 3;
   display: flex;
@@ -675,7 +634,6 @@ a {
 }
 
 .price-container > .sale-price {
-  /* 占실깍옙占쏙옙 占쏙옙占쏙옙 */
   order: 2;
 
   display: flex;
@@ -711,7 +669,6 @@ span.rvCount::before {
   margin-right: 3px;
 }
 
-/*  */
 
 #page-container {
   font-size: 0;
@@ -792,7 +749,6 @@ span.rvCount::before {
 }
 
 #page-container > ol > li > a.this {
-  /* 占쏙옙占시듸옙 占쏙옙占쏙옙占쏙옙 */
   color: #2c2c2c;
   font-weight: bold;
 
@@ -804,8 +760,6 @@ span.rvCount::before {
 }
 
 #page-container > ol > li > a {
-  /* 占쏙옙占쏙옙 占싫듸옙 占쏙옙占쏙옙占쏙옙 */
-
   color: #b8b8b8;
   font-size: 14px;
   padding: 15px 30px;
@@ -861,8 +815,6 @@ span.rvCount::before {
   font-family: "Gulim", "Noto Sans KR", sans-serif;
 }
 
-/* 占쏙옙占쏙옙占쏙옙 占쏙옙占쏙옙占쏙옙 */
-
 #third-wrap {
   display: block;
 
@@ -883,13 +835,7 @@ span.rvCount::before {
   overflow: hidden;
 }
 
-.side-filter-main {
-  /* form 占승깍옙 */
-  /* overflow: hidden; */
-}
-
 #third-wrap .side-filter-main #searchArea {
-  /* 占쏙옙체 占쏙옙占싸댐옙 padding */
   display: block;
 
   max-width: 530px;
@@ -903,35 +849,21 @@ span.rvCount::before {
 }
 
 #searchArea > h1 {
-  /* '占쏙옙占쏙옙 占쏙옙占싹댐옙 占쏙옙占쏙옙占쏙옙 찾占쏙옙' h1 */
   position: relative;
   font-size: 24px;
   line-height: 24px;
   font-weight: 700;
 
   margin: 0;
-
-  /* 
-    right: -530px;
-    transition: all 0.7s; */
 }
 
 #searchArea > h1 > span {
-  /* 占쌥깍옙 占쏙옙占쏙옙占쏙옙 */
   float: right;
   padding: 3px 0;
   cursor: pointer;
 }
 
-#side-filter-area > span > img {
-  /* 占쌥깍옙 占싱뱄옙占쏙옙 */
-}
-
-.side-filter {
-}
-
 .side-filter-title {
-  /* '카占쌓곤옙占쏙옙' '占쏙옙占싸억옙'  '占쏙옙占쏙옙占쏙옙' ... */
   padding: 45px 0 20px 0;
   font-size: 18px;
   line-height: 1;
@@ -969,12 +901,10 @@ span.rvCount::before {
   word-wrap: break-word;
 
   line-height: 1;
-  /* font-size: 20px; */
   list-style: none;
 }
 
 .side-check-type > ul > li:nth-child(4n):not(:first-child) {
-  /* 4n占쏙옙째 占쏙옙占쏙옙 占쏙옙占쏙옙占쏙옙 占쏙옙占쏙옙 占쏙옙占쌍쇽옙 占쏙옙占쌕울옙 占쌓곤옙 占쏙옙載∽옙占� */
   margin-right: 0;
 }
 
@@ -983,7 +913,6 @@ span.rvCount::before {
 }
 
 .side-check-type > ul > li > .side-type-check {
-  /* 체크占쌘쏙옙 (占싯삼옙占쏙옙占쏙옙) */
   width: 0;
   height: 0px;
   background: none;
@@ -1007,19 +936,16 @@ span.rvCount::before {
   line-height: 1;
   cursor: pointer;
   width: 100%;
-  /* height: 100%; */
   background: none;
   border: 1px solid #e6e6e6;
 }
 
-/* 占시뤄옙 */
 
 .side-check-type-color {
   padding: 0 20px;
 }
 
 .side-check-type-color .side-type-list-color {
-  /* ul */
   display: flex;
   -webkit-box-pack: start;
   -ms-flex-pack: start;
@@ -1101,8 +1027,6 @@ span.rvCount::before {
   text-align: center;
 }
 
-/* 占시뤄옙占쏙옙 占쏙옙占쏙옙 占쏙옙 */
-
 .side-check-type-color
   .side-type-list-color
   > li
@@ -1118,9 +1042,7 @@ span.rvCount::before {
   background: #73a3cc;
 }
 
-/* 占십깍옙화 / 占싯삼옙占싹깍옙 占쏙옙튼 */
 #side-filter-search {
-  /* 占쏙옙 占쏙옙튼 占쏙옙占싸댐옙 div */
   display: block;
   width: 100%;
   margin-top: 50px;
@@ -1144,7 +1066,7 @@ span.rvCount::before {
   height: 55px;
   margin-left: 1px;
   vertical-align: top;
-  background: url(./image/icon_reset.png) no-repeat center;
+  background: url(../images/icon_reset.png) no-repeat center;
   background-size: 15px auto;
 }
 
@@ -1157,7 +1079,6 @@ span.rvCount::before {
   line-height: 55px;
 }
 
-/* 占쏙옙占쏙옙占쏙옙占쏙옙 */
 .footer {
   background-color: #474747;
   padding: 20px;
@@ -1249,8 +1170,6 @@ span.rvCount::before {
   display: none;
   transition: 0.5s ease;
 }
-
-/* 占쏙옙占쏙옙 */
 
 img.header {
   width: 100%;

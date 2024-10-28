@@ -15,19 +15,19 @@
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|5|0|맑은 고딕"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value=".xans-board-search .boardSearch"/>
+		<item key="selection" value="label"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="label"/>
+			<item value="내가 원하는"/>
+			<item value="itembox10"/>
+			<item value="jpg"/>
+			<item value="png"/>
+			<item value="&quot;https://cdn.jsdelivr.net/npm/swiper@11/"/>
+			<item value="swiper"/>
 			<item value=".xans-board-search .boardSearch"/>
-			<item value=".xans-board-search p"/>
-			<item value=" */"/>
-			<item value="fieldset"/>
-			<item value="32%"/>
-			<item value=".SP_gallListTable_wrap li"/>
-			<item value=".SP_gallListTable_wrap li3"/>
-			<item value=")"/>
 		</list>
 		<list key="replacehistory">
 			<item value="&gt;"/>
