@@ -1,0 +1,25 @@
+package days20;
+
+/**
+ * @author jyoon
+ * @date 2024. 7. 26. - 오후 4:29:22
+ * @content 열거형
+ * @subject  IO              
+ *                  람다식과 스트림   
+ *
+ *					 
+ *
+ */
+
+public class Ex09 {
+
+	public static void main(String[] args) {
+		
+			
+		
+		
+		
+			
+	} // main
+	
+} // class

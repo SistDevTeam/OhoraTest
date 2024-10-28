@@ -1,0 +1,67 @@
+package days13;
+
+public class Person {
+
+	// field
+	private String name = "익명";
+	private int age=20;
+	private boolean gender=false;
+
+	// constructor
+	public Person() {}
+	public Person(String n, int a, boolean g) {
+		name = n;
+		age = a;
+		gender = g;
+	}
+
+	public Person(String n) {
+		name = n;
+	}
+
+	public Person(String n, int a) {
+		name = n;
+		age = a;
+	}
+
+	// method
+	public void dispPerson() {
+		System.out.printf("> 이름: %s, 나이: %d\n",name,age);
+	}
+
+	// getter(값을 얻어오는 것), setter(값 설정)
+
+
+	public void setAge(int _age) { 				// set만 만들고 get만 안만들면 쓰기 전용
+		if (_age>=0 && _age<=150) {				// 유효값만 받아오기 위한 조건문
+			age = _age;
+		} else {
+			throw new NullPointerException(); // 예외를 발생 시키는 코딩
+		}
+
+	}
+
+
+	public int getAge() { 								// get만 만들고 set만 안만들면 읽기 전용
+		return age;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public boolean isGender() {
+		return gender;
+	}
+
+	public void setGender(boolean gender) {
+		this.gender = gender;
+	}
+
+
+
+} // Person

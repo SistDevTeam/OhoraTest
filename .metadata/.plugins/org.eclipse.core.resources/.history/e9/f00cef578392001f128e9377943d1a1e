@@ -1,0 +1,89 @@
+package days05;
+
+import java.util.Scanner;
+
+/**
+ * @author jyoon
+ * @date 2024. 7. 5. - 오후 2:18:32
+ * @subject
+ * @content
+ *
+ */
+
+
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		int n,m;
+		System.out.println("두 정수 (n, m) 입력: ");
+		n = scanner.nextInt();
+		m = scanner.nextInt();
+
+		int sum =0;
+
+
+		/*1번 풀이
+		 * 
+
+
+		if (m>n) {
+			for (int i = n; i <= m; i++) {
+				System.out.printf("%d+",i);
+				sum+=i;
+			}
+		} else {
+			for (int i = m; i <= n; i++) {
+				System.out.printf("%d+",i);
+				sum+=i;
+		}
+
+
+		System.out.printf("=%d",sum);
+
+	}
+		 */
+
+		// 2번째 풀이
+		/*
+		if (n>m) {
+			int temp = n;
+			n = m;
+			m = temp;
+		}
+
+
+		for (int i = n; i <= m; i++) {
+			System.out.printf("%d+",i);
+			sum+=i;
+		}
+		 */
+		
+		// 3. 풀이
+		
+		int min = n> m ? m: n; // Math.min(n, m);
+		int max = Math.max(n, m);
+		for (int i = n; i <= m; i++) {
+			System.out.printf("%d+",i);
+			sum+=i;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

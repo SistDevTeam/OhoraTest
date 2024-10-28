@@ -1,0 +1,28 @@
+package days04;
+
+public class Ex04 {
+	
+	public static void main(String[] args) {
+		// 쉬프트(shift) 연산자 >> << >>>
+		// ㄴ 비트 연산자
+		// ㄴ 물건을 이동시키다. (옭기다)
+		
+		System.out.println(10);
+		System.out.println(Integer.toBinaryString(10));
+		// 00000000 00000000 00000000 00001010
+		System.out.println( 10>>2); // 2
+		// 0000000000 00000000 00000000 000010
+		// 첫번째 부호비트가 0이므로 0으로 채움
+		
+		System.out.println( 10>>>2); // 2 작대기 3개는 무조건 부호비트 0으로 채우겠다는 뜻
+		System.out.println( 10<<2); // 40 무조건 0으로 채움
+		//00000000 00000000 00000000 00001000
+		
+		
+		
+		
+		
+		
+	}
+
+}

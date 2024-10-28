@@ -1,0 +1,47 @@
+package days04;
+
+import java.util.Iterator;
+import java.util.Scanner;
+
+/**
+ * @author jyoon
+ * @date 2024. 7. 4. - 오후 5:11:03
+ * @subject 
+ * @content 
+ *
+ */
+
+public class Ex12 {
+
+	public static void main(String[] args) {
+
+		/*
+		 * [문제1] 국어점수를 입력받아서 수/우/미/양/가 출력(if문)
+		 * [문제2] 국어점수를 입력받아서 수/우/미/양/가 출력(switch문)
+		 * [문제3] 1~10까지의 홀수의 합 (for문)
+		 * [문제4] 1~10까지의 홀수의 합 (while문)
+		 * [문제5] 두 정수(n, m)을 입력 받아서 두 정수 사이의 합을 출력(for, while문)
+		 * */
+
+		Scanner scanner = new Scanner(System.in);
+		int n;
+		
+		
+		do {
+			System.out.print("정수(n) 입력 ? ");
+			n = scanner.nextInt();
+		} while (n<1); 
+
+		int sum =0;
+		for (int i = 1; i <=n; i++) {
+			if(i%2==1) {
+				sum+=i;
+				System.out.printf("%d+",i);
+
+			}
+
+		}
+		System.out.printf("=%d",sum);
+	}
+
+}

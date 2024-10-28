@@ -1,0 +1,28 @@
+package days04;
+
+public class Ex09 {
+
+	public static void main(String[] args) {
+
+
+		/*
+		// [break 문] 
+		for (int i = 1; i <=10; i++) {
+			if( i ==6 ) break; // 실행문이 1줄(행)이면 블럭 생략 가능, 옆에 코딩 가능
+			System.out.printf("%d+",i);
+		}
+		 */
+
+		int i = 1; // 1+2+3+4+5+ 가 나오도록
+
+		while (i<=10) {
+			if(i==6) break;
+			System.out.printf("%d+",i);
+			i++;	
+		}
+
+
+
+	}
+
+}

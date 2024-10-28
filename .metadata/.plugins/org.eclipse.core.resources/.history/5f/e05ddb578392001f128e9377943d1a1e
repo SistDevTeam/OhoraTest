@@ -1,0 +1,26 @@
+package days02;
+
+/**
+ * @author jyoon
+ * @date 2024. 7. 2. - 오후 2:15:51
+ * @subject
+ * @content 예제
+ *
+ */
+
+public class Ex03_03 {
+	
+	
+	public static void main(String[] args) {
+		// Object...args
+		// PrintStream 리턴자료형
+		System.out.printf("출력형식")
+		.printf("홍길동")
+		.printf("XXX")
+		.printf("OOO")
+		;
+	
+	}
+	
+
+}

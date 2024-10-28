@@ -1,0 +1,38 @@
+package days13;
+
+public class Ex03 {
+	
+	public static void main(String[] args) {
+
+		// [메서드 리턴자료형이 참조형 (클래스)인 경우]
+		// [메서드 매개변수      참조형 (클래스)인 경우
+		
+		Point p1 = new Point();
+		p1.x = 10;
+		p1.y = 20;
+		p1.dispPoint();
+		// 인스턴스의 주소 값
+		
+		
+		Point p2 = new Point(); // 메서드 등록은 매변 등록이 안됨
+		p2.x = 1;
+		p2.y = 2;
+		p2.dispPoint();
+		
+		//p1.plusPoint(p2);
+		
+		//p1.dispPoint();
+		
+		Point p3 = p1.plusPoint(p1, p2); // 29, 30번 라인과 같은 거임
+		p3.dispPoint();
+		
+		p1.plusPoint(p1, p2).dispPoint(); // 
+		p2.plusPoint(p1, p2).dispPoint(); // 결과는 위와 같다.
+		
+		
+		
+		
+		
+	} // main
+
+} // class

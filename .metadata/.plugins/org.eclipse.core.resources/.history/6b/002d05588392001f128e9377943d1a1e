@@ -1,0 +1,53 @@
+package days17;
+
+import java.util.Calendar;
+
+public class Ex09 {
+	
+	public static void main(String[] args) {
+		
+		// jdk 1.0 java.util.Date 클래스
+		// 						  ㄴ java.sql.Date
+
+		// jdk 1.1 java.util.Calendar 클래스
+		Calendar  c = Calendar.getInstance(); // 그레고니언이라는 자식 클래스를 업 캐스팅해서 넘겨줘서 객체 생성이 가능한 것 
+		// System.out.println(c.toString());
+		
+		// public static final int YEAR = 1;
+		
+		// 년 
+		System.out.println(Calendar.YEAR);
+		System.out.println(c.get(1));
+		System.out.println(c.get(Calendar.YEAR));
+		
+		// 월
+		System.out.println(c.get(Calendar.MONTH) + 1 );
+		
+		// 일
+		System.out.println(c.get(Calendar.DATE) );
+		System.out.println(c.get(Calendar.DAY_OF_MONTH) );
+		
+		// 시간
+		System.out.println(c.get(Calendar.HOUR)  );
+		
+		// 분
+		System.out.println(c.get(Calendar.MINUTE) );
+		
+		// 초
+		System.out.println(c.get(Calendar.SECOND) );
+		
+		// 밀초
+		System.out.println(c.get(Calendar.MILLISECOND)  );
+		
+		// 요일
+		// DATE 0
+		// 
+		System.out.println(c.get(Calendar.DAY_OF_WEEK)  );
+		
+		// 마지막날짜
+		System.out.println(c.get(Calendar.AM)  );
+		System.out.println(c.get(Calendar.AM_PM)  );
+		
+	} // main
+	
+} // class

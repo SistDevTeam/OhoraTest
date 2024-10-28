@@ -1,0 +1,17 @@
+package days13;
+
+public class Ego {
+	
+	public static void main(String[] args) {
+		
+		String n = "keNik";
+		String m = "kKnie";
+		
+		String regex = "\\d{5}";
+
+		System.out.printf("%b\n", n, m.matches(regex)); // 알파벳 개수가 동일 한지
+		System.out.println(n.equalsIgnoreCase(m)); // 알파벳이 동일 한지
+		
+	}
+	
+}

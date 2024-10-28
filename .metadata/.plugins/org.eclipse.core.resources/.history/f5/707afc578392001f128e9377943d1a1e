@@ -1,0 +1,75 @@
+package days13;
+
+/** Point2 클래스 사용
+ * @author jyoon
+ * @date 2024. 7. 17. - 오후 12:34:52
+ * @content [생성자(constructor)]
+ * @subject  	1. 일종의 메서드이다.                
+ *                  	2. 메서드명 == 클래스명
+ *					 	3. 리턴자료형 X
+ *						4. 역할 : 필드 초기화
+ *						5. 호출히기 : 인위적으로 호출 x
+ *										  객체 생성할 때 자동으로 호출
+ *										  new Tv();
+ *						6. 생성자도 오버로딩 o
+ *						7. 디폴트 생성자(default constructor) = 매개변수가 없는 생성자
+ *						8. 생성자는 상속되지 않는다.
+ *						9. 생성자는 접근지정자o, 기타제어자x
+ *						10. 컴파일러에 의해서 생성자가 1개도 없는 경우에 자동으로 디폴트 생성자를 생성한다.
+ *						
+ */
+
+public class Ex05 {
+	
+	
+	public Ex05() {
+		
+	}
+	
+	public Ex05(String name) {
+		
+	}
+	
+
+public static void main(String[] args) {
+	
+	Point2 [] points = { 
+									new Point2(10,20), 
+									new Point2(1,2) 
+								};
+	
+	
+	/*
+	int [] m =new int [2];
+	m[0] = 1;
+	m[1] =2;
+	
+	int [] m = {1,2};
+	*/
+	
+	
+	
+	/*
+	Point2 [] points = new Point2[2];
+	points[0] = new point2 (10,20);
+	points[1] = new point2 (1,2);
+	
+	
+	// 객체(클래스) 배열
+	Point2 [] points = {
+			new Point2(10,20),
+			new Point2(1,2)
+	};
+	*/	
+		
+	
+	
+	
+	} // main
+
+
+
+} // class
+
+
+

@@ -1,0 +1,43 @@
+package days02;
+
+/**
+ * @author jyoon
+ * @date 2024. 7. 2. - 오후 2:20:05
+ * @subject 2.11 변수 사용범위 부터 68p
+ * @content
+ *
+ */
+
+public class Ex04 {
+	// String name; 멤버변수
+	
+	
+	
+	// 메인 메서드의 매개변수인 String[] args도 지역안에서만 사용되는 지역변수이다.
+	public static void main(String[] args) {
+		 String name = "홍길동"; // 지역변수
+		
+		// 변수 범위 p68
+		// 문자열 타입(자료형) String
+		// 숫자(실수) float(4바이트), double(8바이트) 
+		// 숫자(정수) int(4바이트)
+		
+		//나이를 저장하는 age 변수 선언
+		// {} 범위(영역)을 나타내는 연산자
+		// [] 대괄호
+		// () 소괄호
+		{
+			int age; // Local variable age (지역변수 age)		
+			age = 20;
+			System.out.println(age);
+		}	
+			// age = 20;
+			
+			// System.out.printf("> age = %d\n",age);
+	
+		System.out.println(name);
+		
+	}
+
+	
+}

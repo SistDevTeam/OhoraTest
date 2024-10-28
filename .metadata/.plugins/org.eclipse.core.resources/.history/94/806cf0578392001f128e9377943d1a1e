@@ -1,0 +1,39 @@
+package days06;
+
+import java.util.Scanner;
+
+/**
+ * @author jyoon
+ * @date 2024. 7. 8. - 오전 10:44:13
+ * @subject
+ * @content
+ *
+ */
+
+public class Ex03_03 {
+	
+	public static void main(String[] args) {
+		
+		char one;	
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("한 문자를 입력하시오.");
+		String str0ne = scanner.next(); // 참이면 char에 저장됨
+	
+		if (str0ne.matches("[가-힣]")) {
+			 System.out.println("한글입니다.");
+			 } else if (str0ne.matches("[A-Z]")) {
+			 System.out.println("영어 대문자.");
+			 } 
+			 
+			
+
+		
+		
+		
+		
+		
+	} // main
+
+} // class
+
+

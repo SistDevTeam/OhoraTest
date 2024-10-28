@@ -1,0 +1,13 @@
+package days05;
+
+public class Ex10 {
+	
+	public static void main(String[] args) {
+	
+		// 10라인 출력하고 엔터치면 다음 페이지가 나올 수 있도록 (스크롤이 너무 많아서 위가 안보임)
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,75 @@
+package days15;
+
+/**
+ * @author jyoon
+ * @date 2024. 7. 19. - 오후 12:26:28
+ * @content [싱글톤 (singleton)]
+ * @subject                       
+ *                        
+ *
+ */
+
+public class Ex05 {
+
+	public static void main(String[] args) {
+		// 생성자 접근이 안되서 객체 생성이 안된다는 뜻.  				The constructor BoardDAO() is not visible
+		BoardDAO dao =  BoardDAO.getInstance();
+
+
+		System.out.println(dao.hashCode());
+		dao.insert();
+
+		dao =  BoardDAO.getInstance();
+		System.out.println(dao.hashCode());
+		dao.update();
+
+		dao =  BoardDAO.getInstance();
+		System.out.println(dao.hashCode());
+		dao.select();
+
+	} // main
+
+} // class
+
+// DB 연결 + CRUD
+// DAO == Data Access Object 데이터 접근 객체(CRUD 처리 작업에 쓰임)
+class BoardDAO {
+
+	private static BoardDAO boardDAO = null;
+
+	// 1.
+	private BoardDAO() {}
+
+	// 스레드의 동기화처리(잠금 LOCK 누군가가 쓰고 있을 때 못씀) = 메서드 앞에 싱크로 나이즈드 추가하면 됨
+	public synchronized static BoardDAO getInstance() { // synchronized 동기화 작업 
+		// return new BoardDAO();
+		if (boardDAO == null) {
+			boardDAO = new BoardDAO();
+		}
+		return boardDAO;
+	}
+
+	public void insert() {
+		System.out.println("DB 추가");
+	}
+
+	public void select() {
+		System.out.println("DB 선택");
+	}	
+
+	public void update() {
+		System.out.println("DB 수정");
+	}
+
+	public void delete() {
+		System.out.println("DB 삭제");
+	}
+
+
+
+
+
+
+}
+
+

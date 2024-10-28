@@ -1,0 +1,258 @@
+package days11;
+
+/**
+ * @author kenik
+ * @date 2024. 7. 15. - 오후 5:12:04
+ * @subject
+ * @content
+ *
+ */
+public class Ex06_02 {
+
+	public static void main(String[] args) {
+
+		int [][] m = new int[5][5];
+
+		//마방진
+		//magicSquare(m);
+		//fillM6(m);
+		fillM5(m);
+		//fillM4(m);
+		//fillM3(m);
+		//fillM2(m);
+		//fillM(m);
+
+		dispM(m);
+
+
+	} // main
+
+
+
+
+
+
+	/* 마방진   X	  X    X
+	[17][24][01][08][15] X
+	[23][05][07][14][16] X
+	[04][06][13][20][22]
+	[10][12][19][21][03] X
+	[11][18][25][02][09]
+	 */
+	private static void magicSquare(int[][] m) {
+		// 규칙 탐색
+		// 1. 0행 2열이 숫자 1부터 시작
+		// 2. 출력값이 5의 배수인지 O	행만 증가
+		//								    X	행 감소, 열 증가
+		//										ㄴ 행 x -> 가장 큰 행
+		//										ㄴ 열 x -> 가장 작은 열
+
+		int n = 1;
+		int row = 0, col = m[0].length/2;
+		while (n<=25) {
+			m[row][col] = n;
+			if (n%5==0) {
+				row++;
+			} else {
+				col++;
+				row--;
+				if(row == -1)  row = m.length-1;
+				else if(col == 5) col = 0;			
+
+			}
+
+			n++;
+		} // while
+
+
+
+	} // magicSquare
+
+
+
+
+
+
+	// 대각선
+	//	[01][02][04][07][11] 00
+	//	[03][05][08][12][16] 01 10
+	//	[06][09][13][17][20] 02 11 20
+	//	[10][14][18][21][23] 03 12 21 30
+	//	[15][19][22][24][25]
+	private static void fillM6(int[][] m) {
+		// TODO Auto-generated method stub
+
+	}
+
+
+
+
+
+
+
+	// [골뱅이]
+	/*
+	  [01][02][03][04][05]
+	  [16][17][18][19][06]
+	  [15][24][15][20][07]
+	  [14][23][22][21][08]
+	  [13][12][11][10][09]
+	 */
+
+	private static void fillM5(int[][] m) {
+
+	/*    0열  1열  2열  3열  4열
+		  [01][02][03][04][05] 0행 1회전 행고정, 열증가 (5번)
+		  [16][17][18][19][06] 1행 2회전 열고정, 행증가 (4번)
+		  [15][24][15][20][07] 2행 3회전 행고정, 열감소 (4번)
+		  [14][23][22][21][08] 3행 4회전 열고정, 행감소 (3번)
+		  [13][12][11][10][09] 4행 5회전 행고정, 열증가 (3번)
+		  										 6회전 열고정, 행증가 (2번)
+		  										 7회전 행고정, 열감소 (2번)
+		  										 8회전 열고정, 행감소 (1번)
+												 9회전 행고정, 열증가 (1번)
+
+반복횟수 = 5
+스위치변수 +1(증가) -1(감소)
+	
+1회전 행고정, 열증가/감소 (5번)
+반복횟수--;
+2회전 열고정, 행증가/감소 (4번)
+
+
+   */
+		
+	}
+
+
+
+
+
+
+	/* 지그재그
+	[01][02][03][04][05]
+	[10][09][08][07][06]
+	[11][12][13][14][15]
+	[20][19][18][17][16]
+	[21][22][23][24][25]
+	 */
+	private static void fillM4(int[][] m) {
+
+		int count = 1;
+		for (int i = 0; i < m.length; i++) { // 행의 수만큼 반복
+			if (i % 2 == 0) { // 짝수 행일 경우
+				for (int j = 0; j < m[i].length; j++) { // 왼쪽에서 오른쪽으로 채우기
+					m[i][j] = count++;
+				}
+
+			} else { // 홀수 행일 경우
+				for (int j = m[i].length - 1; j >= 0; j--) { // 오른쪽에서 왼쪽으로 채우기
+					m[i][j] = count++;
+				}
+			}
+		}
+	}
+
+
+
+
+
+
+
+	/*
+	[05][10][15][20][25]
+	[04][09][14][19][24]
+	[03][08][13][18][23]
+	[02][07][12][17][22]
+	[01][06][11][16][21]
+	 */
+	private static void fillM3(int[][] m) {
+		for (int i = 0; i < m.length; i++) { // 행갯수
+			for (int j = 0; j < m[i].length; j++) { // 열갯수
+				///      열갯수
+				m[i][j] = (5-i)+j*5;               
+			} // for j
+			System.out.println();
+		} // for i
+	}
+
+
+
+
+
+
+
+	/*
+	[25][24][23][22][21]
+	[20][19][18][17][16]
+	[15][14][13][12][11]
+	[10][09][08][07][06]
+	[05][04][03][02][01]
+	 */
+	private static void fillM2(int[][] m) {
+		/*
+		for (int i = 0; i < m.length; i++) { // 행갯수
+			for (int j = 0; j < m[i].length; j++) { // 열갯수
+				// 내 방법 m[i][j] = 25-(i*5+j); // 00 01 02 03 04, 10 11 12 13 14, 20 21 22 23 24.....
+				//1번 방법
+				m[i][j] = 25-(m[i].length * i + j +1)+1;	
+			} // for j
+			System.out.println();
+		} // for i
+		 */
+
+
+		// 2번 방법 ()
+		for (int i = 0; i < m.length; i++) { // 행갯수
+			for (int j = 0; j < m[i].length; j++) { // 열갯수
+				m[4-i][4-j] = m[i].length * i + j +1;	//1번 방법
+			} // for j
+			System.out.println();
+		} // for i
+
+
+
+	}
+
+
+
+
+
+	private static void fillM(int[][] m) {
+
+		for (int i = 0; i < m.length; i++) { // 행갯수
+			for (int j = 0; j < m[i].length; j++) { // 열갯수
+				///      열갯수
+				m[i][j] = m[i].length * i + j +1;
+			} // for j
+			System.out.println();
+		} // for i
+	}
+
+
+
+
+
+	private static void dispM(int[][] m) {
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+
+		for (int i = 0; i < m.length; i++) { // 행갯수
+			for (int j = 0; j < m[i].length; j++) { // 열갯수
+				System.out.printf("[%02d]", m[i][j]);
+			} // for j
+			System.out.println();
+		} // for i
+
+	}
+
+} // class
+
+
+
+
+
+
+

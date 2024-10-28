@@ -1,0 +1,70 @@
+package days13;
+
+public class Point2 {
+
+	// field
+	public int x;
+	public int y;
+
+	// constructor 생성자가 한개라도 명시적으로 선헌되어 있으면 매개변수가 없는 디폴트를 추가하지 않기 때문에 디폴르 생성자를 직접 추가해야 한다.
+	public Point2() {
+		
+	}
+	
+	public Point2(int a,int b) {  // 매개변수 2개인 생성자 추가됨 이 다음부턴 디폴트 생성자 바로 안생김
+		// 필드 초기화
+		y=a;
+		x=b;
+		
+	}
+	
+	// method
+	// p1.dispPoint();
+	// p2.dispPoint();
+	public void dispPoint() {
+		System.out.printf("> x=%d, y=%d\n",x,y);
+
+
+	} 
+
+	public int getX() {
+		return x;
+	}
+
+
+	public void setX(int x) {
+		this.x = x;
+	}
+
+
+	public int getY() {
+		return y;
+	}
+
+
+	public void setY(int y) {
+		this.y = y;
+	}
+
+
+	public void plusPoint(Point2 p) {
+		x = x + p.x;
+		y = y + p.y;
+
+	}
+
+	
+	public Point2 plusPoint(Point2 p1, Point2 p2) {
+		int x = p1.x + p2.x;
+		int y = p1.y + p2.y;
+		
+		// The constructor Point2() is undefined 매개변수가 없는 디폴트 생성자가 선언되어 있지 않다는 에러
+		Point2 p = new Point2();
+		p.x = x;
+		p.y = y;
+		return p;
+
+	}
+
+
+} // class

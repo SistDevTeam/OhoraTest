@@ -1,0 +1,46 @@
+package days02;
+
+/**
+ * @author jyoon
+ * @date 2024. 7. 2. - 오후 2:36:11
+ * @subject (암기) 두 기억공간의 값을 바꾸기
+ * @content 
+ *
+ */
+
+public class Ex04_02 {
+
+	public static void main(String[] args) {
+		// [10]  [20]
+		//   x      y
+		
+		/*
+		int x =10;
+		int y =20;
+		*/
+		
+		// 콤마연산자
+		int x = 10, y = 20;
+		
+		/*
+		 y = x;
+		 x = y;
+		 */
+		// 두 기억공간의 값을 바꾸기 -> 임시기억공간
+		
+		//나머지에는 쓸 필요 없으니까 지역변수로 씀
+		{
+			int temp; 
+			temp = x; //우측 x를 temp에 대입
+			x = y;  // x =20 우측 y를 x에 대입
+			y = temp; // y =10 우측 temp를 y에 대입    
+			
+			// x 10 -> temp 10, y20 -> x 20, temp10 -> y10
+			
+		}
+		
+		System.out.printf("교환 후 > x=%d, y=%d\n", x, y);
+
+	}
+
+}

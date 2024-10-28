@@ -1,0 +1,35 @@
+package days10;
+
+import java.util.Arrays;
+
+public class Prac01 {
+
+	public static void main(String[] args) {
+	
+		int [] m = {3,5,2,4,1};
+		bubbleSort(m);
+
+		
+		
+		
+	} // class
+
+	private static void bubbleSort(int[] m) {
+		
+		for (int i = 0; i < 4; i++) {
+			for (int j = 0; j <= 3-i; j++) {
+				System.out.printf("%d-%d ",j,j+1);
+				if (m[j] < m[j+1]) {
+					int temp = m[j];
+					m[j] = m[j+1];
+					m[j+1] = temp;
+				}
+				System.out.println(Arrays.toString(m));
+			}
+			System.out.println();
+		}
+		
+	}
+
+} // main
+

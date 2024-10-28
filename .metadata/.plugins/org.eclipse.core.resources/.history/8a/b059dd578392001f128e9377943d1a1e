@@ -1,0 +1,35 @@
+package days03;
+
+import java.util.Scanner;
+
+/**
+ * @author jyoon
+ * @date 2024. 7. 3. - 오후 3:06:04
+ * @subject
+ * @content
+ *
+ */
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+
+		String input = "1        fish 2 fish red fish blue fish";
+		Scanner s = new Scanner(input).useDelimiter("\\s*fish\\s*"); // 구분자로 사용됨
+		// input은 스캔할 대상이 들어간다.
+
+		//  \s 역슬래시 s는 스페이스를 뜻함 역슬래시 \\ 두개를 줘야 하나의 역슬래시를 표현함 \\s
+		// *는 공백이 안와도 좋고 여러개와도 좋다는 의미
+
+		System.out.println(s.nextInt());
+		System.out.println(s.nextInt());
+
+		System.out.println(s.next());
+		System.out.println(s.next());
+
+		s.close(); // 한번 닫으면 객체 다시 생성해야함 
+
+
+	}
+
+}

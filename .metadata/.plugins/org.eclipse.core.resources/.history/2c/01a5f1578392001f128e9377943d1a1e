@@ -1,0 +1,107 @@
+package days06;
+
+/**
+ * @author kenik
+ * @date 2024. 7. 8. - 오후 5:08:11
+ * @subject 별 찍기
+ * @content
+ *
+ */
+public class Ex09 {
+
+	public static void main(String[] args) {
+		// ****
+		// ****
+		// ****
+		// ****
+
+		/*
+		System.out.println("****");
+		System.out.println("****");
+		System.out.println("****");
+		System.out.println("****");
+		 */
+
+		/*
+		for (int i = 1; i <= 4 ; i++) {
+			 System.out.println("****");
+		}
+		 */
+
+		// i=1  j=1,2,3,4
+		// i=2  j=1,2,3,4
+		// i=3  j=1,2,3,4
+		// i=4  j=1,2,3,4
+		for (int i = 1; i <= 4 ; i++) {      // 행 갯수
+			// System.out.println("****");
+			for (int j = 4; j >= i ; j--) {  // 열(별) 갯수
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	} // main
+
+} // class
+
+/*
+
+
+ *
+ **
+ ***
+ ****
+
+ ****
+ ***
+ **
+ *
+
+___*
+__**
+_***
+ ****
+
+ ****
+_***
+__**
+___*
+
+ 이등변삼각형
+__*
+_***
+ *****
+
+ *
+_*
+__*
+___*
+____*
+
+____*
+___*
+__*
+_*
+ *
+
+ *___*
+_*_*
+__*
+_*_*
+ *___*
+
+마름모
+
+__*
+_***
+ *****
+_***
+__*
+
+모래시계
+ * */
+
+
+
+
+
+

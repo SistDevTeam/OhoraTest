@@ -1,0 +1,33 @@
+package days07;
+
+public class Ex05 {
+
+	public static void main(String[] args) {
+		// [정보처리기사 실기]
+		// 계차수열
+		// term 항 (1+2+4+7+11+16+22 항의 개수가 20개 까지의 합
+		//               1  2  3  4    5    6 계차(difference)
+
+		int term = 1;
+		int difference = 0;
+		int sum = 0;
+		for (int i = 1; i <= 20; i++) {
+			term += difference;
+			System.out.printf("%d+", term);
+			difference++;
+			sum +=term;
+		}
+		System.out.printf("=%d\n", sum);
+
+		   /* [1]
+	       // (n^2-n)/2+1
+	       for (int i = 1; i <= 20 ; i++) {
+	         term = (int) ((Math.pow(i, 2)-i)/2+1);
+	         System.out.printf("%d+", term);
+	        }
+		   */
+ 
+
+	}
+
+}

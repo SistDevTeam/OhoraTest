@@ -1,0 +1,138 @@
+package days21;
+
+import java.io.IOException;
+import java.io.RandomAccessFile;
+
+public class Ex12_02 {
+
+	public static void main(String[] args) throws IOException {
+
+		int [] score = {
+				// 번호 국    영   수
+				1, 100, 90, 90,    // 4*4
+				2, 70 , 90,100,
+				3, 100,100,100,
+				4, 70 , 60, 80,
+				5, 70 , 90,100
+		};
+
+		String name = ".\\src\\days21\\score.dat";
+		String mode = "rw";
+
+		try (RandomAccessFile raf = new RandomAccessFile(name, mode)) {
+			for (int i = 0; i < score.length; i++) {
+				long fp = raf.getFilePointer();
+				System.out.printf("현재 파일 포인터 : %d - [%d]\n", fp, score[i]);
+				raf.writeInt(score[i]);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		// 일시정지 + 엔터 계속.
+		System.out.println("> 엔터치면 진행한다.");
+		System.in.read(); 
+		System.in.skip( System.in.available() ); // 13,10 제거
+
+
+		try (RandomAccessFile raf = new RandomAccessFile(name, mode)) {
+			for (int i = 0; i < score.length; i++) {
+				long fp = raf.getFilePointer();
+				System.out.printf("현재 파일 포인터 : %d - [%d]\n", fp, score[i]);
+				raf.writeInt(score[i]);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		// 모든 학생의 번호,국,영,수 성적 정보를 출력..( score.dat )
+		int no , kor, eng, mat;
+		int tot;
+		double avg;
+
+		//
+
+		try (RandomAccessFile raf = new RandomAccessFile(name, mode)){
+			int 학생수 = score.length/4;
+			for (int i = 0; i < 학생수; i++) { // 학생수 5명 나온다.
+				no = raf.readInt(); // 1
+				kor = raf.readInt(); // kor
+				eng = raf.readInt(); // eng
+				mat = raf.readInt(); // mat
+				tot = kor + eng + mat;
+				avg = (double)tot/3;
+				System.out.printf("번호:%d, 국어:%d, 영어:%d, 수학:%d, 총점:%d, 평균:%.2f\n", 
+						no, kor, eng, mat, tot, avg);
+			} // 
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+		// 일시정지 + 엔터 계속.
+		System.out.println("> 엔터치면 진행한다.");
+		System.in.read(); 
+		System.in.skip( System.in.available() ); // 13,10 제거
+
+
+		
+		  // 문제: 다른 학생은 놔두고 3번학생의 수학성적에 직접 접근해서
+	      // ㄱ. 3번 학생의 수학점수(100-> 20) 점으로 수정.
+	      // ㄴ. 3번 학생만 성적 정보를 출력.
+	      // 번호:3, 국어:100, 영어:100, 수학:100, 총점:300, 평균:100.00
+		
+		  try (RandomAccessFile raf = new RandomAccessFile(name, mode)) {
+				
+			   // 번호 국 영 수의 정수는 4바이트이다.
+			  // 각 학생의 데이터는 4개의 정수 값 즉 16바이트이다.
+			  // 4*4 = 한 학생의 데이터 크기 16바이트
+			  //  4*4*2 = 2번 학생 데이터까지의 총 크기 32바이트
+			  // + 4 + 4 + 4 = 3번 학생 데이터의 번호, 국, 영, 수의 크기이다.
+			  // 따라서 수학 점수 위치는
+			  // 4*4*2+4+4+4이다.
+			  
+			  	// 4*4*2+4+4+4 수학 번호이다.
+			  	int pos = 4*4*2+4+4+4;
+			  
+			    raf.seek(pos); // 위치로 이동
+				raf.writeInt(20); // 20으로 교체
+				
+				pos = 4*4*2; 
+				raf.seek(pos);
+				
+				
+				no = raf.readInt(); // 1
+				kor = raf.readInt(); // kor
+				eng = raf.readInt(); // eng
+				mat = raf.readInt(); // mat
+				tot = kor + eng + mat;
+				avg = (double)tot/3;
+				System.out.printf("번호:%d, 국어:%d, 영어:%d, 수학:%d, 총점:%d, 평균:%.2f\n", 
+						no, kor, eng, mat, tot, avg);
+		
+				
+			} catch (Exception e) {
+			e.printStackTrace();
+			}	
+		    
+		
+		
+		
+	} // main
+
+} // class
+
+
+
+
+
+
+
+
+
+
+
+
+
+

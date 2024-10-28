@@ -1,0 +1,30 @@
+package days16;
+
+public class Ex07_02 {
+	
+	public static void main(String[] args) {
+		// test_String(); > String 처리 시간 : 3647562400ns
+		test_StringBuilder();
+		
+		
+		
+		
+		
+		
+	} // main
+
+	private static void test_StringBuilder() {
+		
+	}
+
+	private static void test_String() {
+		long start = System.nanoTime();
+		String s = "a";
+		for (int i = 0; i < 200000; i++) {
+			s+="a";
+		}
+		long end = System.nanoTime();
+		System.out.printf("> String 처리 시간 : %dns\n", (end-start));
+	}
+
+} // class

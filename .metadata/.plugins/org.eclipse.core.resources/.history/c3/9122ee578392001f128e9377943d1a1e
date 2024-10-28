@@ -1,0 +1,40 @@
+package days04;
+
+import java.util.Scanner;
+
+public class Prac04 {
+	
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+
+		int n, m;
+		int sum = 0;  
+
+		do {
+			System.out.print("정수(n) 입력 ? ");
+			n = scanner.nextInt(); 
+
+			System.out.print("정수(m) 입력 ? ");
+			m = scanner.nextInt();
+		} while (!(n>=1 && m>=1)); // 0보다 큰 정수 값만 입력 받기 위한 로직           
+		
+		int temp; 
+		
+		if(n>m) { // 자리바꿈 로직: temp 임시 기억공간 사용 
+			temp = n;
+			n = m;
+			m = temp;
+		}
+		
+		for (int i = n+1; i < m; i++) { // 합 로직: 입력 값 제외하고 사이 값만 고려
+            sum += i;							 
+        }
+		
+		
+     System.out.printf("입력된 정수 %d과 %d 사이의 값의 합 = %d", n, m, sum); 
+     
+	}
+	
+}
+

@@ -1,0 +1,56 @@
+package days06;
+
+import java.io.IOException;
+
+/**
+ * @author jyoon
+ * @date 2024. 7. 8. - 오전 9:32:27
+ * @subject 복습문제 5일차 해설
+ * @content
+ *
+ */
+
+public class Ex01 {
+
+	public static void main(String[] args) throws IOException {
+
+		// 한 문자를 입력 받아서 출력
+		// BufferedReader, Scanner 클래스 "A" -> charAt() -> 'A'
+		// system.in
+
+		char one;
+
+		System.out.print("> 한 문자 입력 ? ");
+		// int nextByte = System.in.read(); 
+		// System.out.println(nextByte); // 'A' 65
+		one = (char) System.in.read(); // 키보드를 누를때 읽힘
+		System.out.println(one);
+
+		/*
+		System.in.read(); // 13
+		System.in.read(); // 10
+		*/
+		
+		System.in.skip(System.in.available()); // 위와 동일한 코드 
+		
+		// 복사 + 붙이기
+		System.out.print("> 한 문자 입력 ? "); // 두번째에 입력이 안되는 원인이 무엇인지
+		// int nextByte = System.in.read(); 
+		// System.out.println(nextByte);
+		one = (char) System.in.read(); 
+		System.out.println(one);
+
+		//스트림
+		//  ---------------------------------------------
+		//  'A' (Enter =   '\r'   '\n') 문자가 3개 있음 
+		//  ---------------------------------------------
+		//  ---------------------------------------------
+		//  '\r'   '\n'
+		//  ---------------------------------------------
+
+
+
+	}
+
+
+}

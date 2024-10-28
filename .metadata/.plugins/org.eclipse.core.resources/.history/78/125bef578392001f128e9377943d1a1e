@@ -1,0 +1,29 @@
+package days05;
+
+/**
+ * @author jyoon
+ * @date 2024. 7. 5. - 오후 4:51:47
+ * @subject
+ * @content
+ *
+ */
+
+public class Ex09_02 {
+	
+	public static void main(String[] args) {
+
+		// char [] -> String 변환
+		// for문
+		// String.chatAt()
+		
+		String todo = "Auto-generated method stub";
+		
+		//  String -> char[] 변환
+		char [] todoCharArr = todo.toCharArray();
+		// char [] -> String 변환
+		//String target = String.valueOf(toCharArr);
+		
+		//System.out.println(target);
+	}
+	
+}

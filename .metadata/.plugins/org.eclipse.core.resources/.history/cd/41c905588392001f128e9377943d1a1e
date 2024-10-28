@@ -1,0 +1,59 @@
+package days18;
+
+import java.text.DecimalFormat;
+import java.text.ParseException;
+
+/**
+ * @author jyoon
+ * @date 2024. 7. 24. - 오전 10:37:28
+ * @content 	형식화(format) 클래스
+ * @subject   1. SimpleDateFormat                 
+ *                   ***2. Decimal Format    
+ *					  3. Choice Format
+ *					  4. Message Format
+ *
+ */
+
+public class Ex02_02 {
+
+	public static void main(String[] args) throws ParseException {
+		// Decimal Format    
+		int money = 3276500; // 3,276,500
+
+		/* 1. 기본으로 콤마 찍기
+			String smoney = String.format("%,d", money);
+			System.out.println(smoney);
+		 */
+
+
+
+		/* 2. DecimalFormat으로 형식화 한 버전
+		// String pattern = "#,###.00";  // 소수점 유
+		// String pattern = "#,###";  // 소수점 무
+		String pattern = "\u00A4#,###.00"; // 통화 기호를 붙이겠다는 뜻
+		DecimalFormat df = new DecimalFormat(pattern);
+		String smoney = df.format(money);
+		System.out.println(smoney);
+		 */
+
+
+
+		String s = "3,123.23";
+
+		/*1 강사님 코드 복사
+		s.replace(",", "");
+		System.out.println(s);
+		double d = Double.parseDouble(s);
+		System.out.println(d);
+		 */
+		
+		// 2. 데시멀 포멧
+		String pattern = "#,###.00";
+		DecimalFormat df = new DecimalFormat(pattern);
+		double d = (double) df.parse(s);
+		System.out.println(d);
+
+
+	} // main
+
+} // class

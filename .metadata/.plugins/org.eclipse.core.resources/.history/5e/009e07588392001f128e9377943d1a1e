@@ -1,0 +1,54 @@
+package days19;
+
+import java.util.ListIterator;
+import java.util.Vector;
+
+/**
+ * @author jyoon
+ * @date 2024. 7. 25. - 오전 11:10:59
+ * @content 컬렉션 클래스
+ * @subject  List 				Set 				Map                 
+ *            1) ArrayList       			
+ *			   2) [Vector 컬렉션 클래스]
+ *					배열리스트와의 차이점: 멀티 스레드 안전(동기화 처리 0)
+ *
+ *				StringBuffer 멀스안전o, 동기화o
+ *				StringBuilder 멀스안전x, 동기화x
+ */
+
+public class Ex02_02 {
+	
+	public static void main(String[] args) {
+		
+		Vector vt = new Vector();
+		vt.add("김재민");
+		vt.add("전재윤");
+		vt.add("김선우");
+		vt.add("최사랑");
+		vt.add("김재민");
+		vt.add(null);
+		System.out.println(vt);
+	
+		// 출력할 때 Iterator 써야함 (단 이터레이터는 단방향이다. 뒤로 못 돌아감)
+		
+		System.out.println("=".repeat(30));
+		ListIterator ir = vt.listIterator(); // 리스트 이터레이터 = 양방향
+		while (ir.hasNext()) {
+			String name = (String) ir.next();
+			System.out.println(name);
+		}
+		
+		System.out.println("-".repeat(30));
+		while (ir.hasPrevious()) {
+			String name = (String) ir.previous();
+			System.out.println(name);
+		}
+		
+		
+		
+		
+		
+		
+	} // main
+
+} // class

@@ -1,0 +1,169 @@
+package days15;
+
+
+// 				  ~able : 움직일 수 있는
+interface Movable {
+	int COLOR = 1; // 상수 public static final 생략 // 프로그램 시작과 동시에 메모리에 올라가서 저장된 상수이다.
+	void move(int x, int y); // 앞에 public abstract 생략
+
+
+
+
+}
+
+
+
+abstract class Unit {
+	int currentHP; // 현재 유닛의 체력
+	int x; // 현재 유닛의 (x좌표)
+	int y; // 현재 유닛의 (y좌표)
+}
+
+
+
+interface Attackable {
+	void attack(Unit unit);
+}
+
+
+
+// 인터페이스 끼리 다중 상속이 가능 (extends)
+interface Fightable extends Movable, Attackable{
+
+}
+
+
+
+// 하늘 유닛
+class AirUnit extends Unit{
+
+}
+
+
+
+// 땅 유닛
+class GroundUnit extends Unit {
+
+}
+
+
+
+// 수송선
+class DropShip extends AirUnit implements Fightable{
+
+	@Override
+	public void move(int x, int y) {
+
+
+	}
+
+	@Override
+	public void attack(Unit unit) {
+
+
+	}
+	
+	// Fighter f1 = new
+	// f1.attack(Tank);
+
+}
+
+
+
+// 군인
+//class Fighter implements Movable, Attackable { 
+class Fighter extends GroundUnit implements Fightable {
+
+	@Override
+	public void attack(Unit unit) {
+		// 걷기, 뛰어서...
+
+	}
+
+	@Override
+	public void move(int x, int y) {
+		// 총, 칼
+
+	}
+
+}
+
+// 탱크
+class Tank extends GroundUnit implements Fightable, Repairable{
+
+	@Override
+	public void move(int x, int y) {
+		// 탱크 이동.
+
+	}
+
+	@Override
+	public void attack(Unit unit) {
+		// 포 공격 
+
+	}
+
+}
+
+
+// 수리 가능한지 아닌지만 구별하는 용도로
+interface Repairable {
+
+}
+
+
+
+// 공격, 수리, 건축
+// 수리 가능 : 탱크, SCV
+// 수리 불가능 : Fighter
+class SCV extends GroundUnit implements  Fightable, Repairable{
+
+	@Override
+	public void move(int x, int y) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void attack(Unit unit) {
+		// TODO Auto-generated method stub
+
+	}
+
+
+
+	// 수리하는 메서드 추가
+	void repair(Repairable unit) { // 인터페이스 매개변수 다형성 
+		if (unit instanceof Tank) {
+			// 탱크 수리하는 코딩.
+		} else if (unit instanceof SCV) {
+			// SCV 수리하는 코딩.
+		}
+
+	}
+
+}
+
+// 해상
+class Marine extends Unit implements Fightable {
+
+	@Override
+	public void move(int x, int y) {
+		
+		
+	}
+
+	@Override
+	public void attack(Unit unit) {
+		
+		
+	}
+	
+}
+
+
+
+
+
+
+

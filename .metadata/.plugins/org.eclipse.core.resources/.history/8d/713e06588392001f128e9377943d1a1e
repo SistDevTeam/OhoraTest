@@ -1,0 +1,60 @@
+package days18;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.temporal.ChronoField;
+import java.time.temporal.ChronoUnit;
+
+public class Ex03_04 {
+	
+	public static void main(String[] args) {
+		// String 불변
+//		String a = "xyz";
+//		String b = a.replace('y', '와');
+//		System.out.println(a); // 출력 xyz로 안바뀜
+//		System.out.println(b); / 출력 x와z로 바뀜
+		
+		// java.time 핵심클래스 불변 (받는 변수를 통해 바꾸어야 함)
+		LocalDate ld = LocalDate.now();
+		System.out.println(ld); // 출력: 2024-07-24
+		
+		ld = ld.withYear(2020); // 	받는 변수 필요함
+		System.out.println(ld); // 출력: 2020-07-24
+		
+		ld = ld.with(ChronoField.YEAR, 2024);
+		System.out.println(ld); // 출력: 2024-07-24
+		// 월 12 수정
+		
+		ld = ld.withMonth(5);
+		ld = ld.with(ChronoField.MONTH_OF_YEAR, 12);
+		System.out.println(ld); // 출력: 2024-12-24
+		
+		// 5달 빼기 minusXXX(), plusXXX(), minus(), plus()
+		ld =ld.minusMonths(5);
+		System.out.println(ld); // 출력: 2024-07-24
+		ld =ld.plusMonths(5);
+		System.out.println(ld); // 출력: 2024-12-24
+		
+		// truncatedTo() 절삭하다, 끝을 잘라내다.
+		LocalTime lt = LocalTime.now();
+		System.out.println(lt); // 출력: 14:13:37.209005300
+		
+		// 시간 보다 작은 단위를 모두 절삭.
+		// lt = lt.truncatedTo(ChronoUnit.HOURS);
+		lt = lt.truncatedTo(ChronoUnit.MINUTES); // 절삭할 단위
+		System.out.println(lt); // 출력: 14:15
+		
+		LocalDateTime dt = LocalDateTime.now();
+		System.out.println(dt); // 출력: 2024-07-24T14:16:27.768384600
+		
+		dt = dt.truncatedTo(ChronoUnit.DAYS);
+		System.out.println(dt); // 출력: 2024-07-24T00:00
+		
+		
+		
+		
+		
+	}
+
+}

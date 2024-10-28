@@ -1,0 +1,35 @@
+package days22;
+
+import java.io.File;
+
+public class Ex02_02 {
+
+	public static void main(String[] args) {
+
+		String pathname = ".\\src\\days21";
+		// [문제 풀이 1] days21 폴더 안에서 자바파일( .java)만 조회
+		File file = new File(pathname);
+		File [] list = file.listFiles();
+
+		int no=1;
+
+		for (int i = 0; i < list.length; i++) {
+			File f = list[i];
+
+			if(f.isFile()) {
+				String fileName = f.getName();
+				// matches(".*\\.java$") 앞에는 어떤 문자가 와도 상관 없다. 
+				// 정규표현식 \\. 은 진짜 역슬레시 점에 자바로 끝나는걸 찾는 다는 것
+
+				if(fileName.endsWith(".java") ) {
+					System.out.printf("%d. %s\n", no++, fileName);
+				}
+
+			}
+		}
+
+
+
+	} // main
+
+} // class

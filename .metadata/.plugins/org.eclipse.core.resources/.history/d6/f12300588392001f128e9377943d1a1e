@@ -1,0 +1,93 @@
+package days15;
+
+/**
+ * @author jyoon
+ * @date 2024. 7. 19. - 오후 2:31:18
+ * @content 
+ * @subject                       
+ *                        
+ *
+ */
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+
+		/*
+		 * [final 키워드 정리]
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 */
+
+		// final + 변수 앞에 == 상수
+		final double PI = 3.141592; // 지역변수
+
+		final class FinalTest {
+			//						매개변수
+			void test(final int n) {
+			}
+
+
+
+
+		} // main
+
+	} // class
+
+	class P {
+		
+		// 필드
+		final int MAX_VALUE =1; // 명시적 초기화
+		final int MIN_VALUE;
+		
+		P (int minValue) { // 생성자 초기화
+			MIN_VALUE = minValue;
+		}
+
+		final int disp() {
+			final int age =100;
+			//
+			return 0;
+		}
+
+	}
+
+
+	class C extends P {
+
+		C(int minValue) { // 자식개체도 꼭 부모의 개체를 통해 초기화되어야 한다.
+			super(minValue);
+			// TODO Auto-generated constructor stub
+			
+		} 
+
+		// 부모의 것을 상속 받아서 오버라이딩 한 것
+		/*
+		@Override // 더이상 오버라이딩 할 수 없는 마지막 메서드이다. 
+		// final 메서드는 자식클래스에서 재정의 할 수 없다.
+		int disp() {
+			//
+			return 100;
+		}
+		 */
+	}
+}
+
+
+
+
+// 1. final + class 선언: 최종(마지막) 클래스 			   파이널 키워드가 클래스 선언 앞에 붙는 경우
+final class FinalTest {
+
+	void test(final int n) { // 지역변수 괄호안에서 쓰이는
+
+	}
+
+
+
+}
+
+

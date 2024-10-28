@@ -1,0 +1,32 @@
+1. [static 키워드]에 대해서 설명하세요.
+
+    class Save
+       private static double rate; // 이자율
+       
+    
+    Save.rate X
+    public [static] getter,setter
+    
+    static Math.abs(), max()   
+
+2. [생성자(Constructor)]에 대해서 설명하세요.
+
+3. [this 키워드]에 대해서 설명하세요.
+  1) 정의
+  2) this의 3가지 용도
+  
+4. 필드(멤버변수)를 초기화 하는 방법에 대해서 설명하세요
+4-2. 필드 초기화 우선 처리 순위에 대해서 설명하세요
+
+5. 접근 지정자 설명
+  1) 클래스 앞
+  2) 멤버 앞
+ 
+6. [취업 문제] ego(자아)
+  String n = "keNik";   
+  String m= "kKnie";   
+  
+  위의 두 문자열 n, m 이 알파벳과 알파벳갯수가 똑같은지 비교하는 코딩 
+  결과는 같을 경우 true/ 다를 경우 false 로 출력.
+  조건) 대소문자는 구분하지 않는다.    
+  

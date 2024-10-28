@@ -1,0 +1,23 @@
+package days17;
+
+import java.util.Calendar;
+
+public class Ex09_02 {
+	
+	public static void main(String[] args) {
+		
+		// 개강일로 부터 오늘(현재)까지 d h m s ms... 출력 
+		// (전부 Calender로)
+		// 하나는 개강일 하나는 오늘날짜 받아오기
+		
+		Calendar today = Calendar.getInstance();
+		System.out.println();
+		
+		Calendar startDay = Calendar.getInstance();
+		
+		
+		
+		
+	} // main
+
+} // class

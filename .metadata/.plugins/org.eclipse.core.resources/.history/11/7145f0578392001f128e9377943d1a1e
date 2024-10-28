@@ -1,0 +1,38 @@
+package days06;
+
+import java.util.Scanner;
+
+public class Ex03_02 {
+
+	public static void main(String[] args) {
+
+		// 통으로 익혀두기 
+		// if ( one == '#' || one == '@' || one == '$' || one == '!' ) {}
+
+		// 정규 표현식(regexp) 유효성 검사. regular expression
+		// boolean String.matches (String regexp);
+
+		char one;
+		String str0ne;
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("한 문자를 입력하시오.");
+		str0ne = scanner.next(); // 참이면 char에 저장됨
+
+		//String regex = "[#$%@!&]";
+		//String regex = "[0123456789]";
+		//String regex = "[0-9]";  //       
+		//String regex = "[\d]";
+		//String regex = "[A-Z]";
+		//String regex = "[A-Za-z]";
+		//String regex = "[가-힣]";
+		String regex = "[aeiouAEIOU]";
+		System.out.println( str0ne.matches(regex) );
+
+
+
+
+
+
+	}
+
+}

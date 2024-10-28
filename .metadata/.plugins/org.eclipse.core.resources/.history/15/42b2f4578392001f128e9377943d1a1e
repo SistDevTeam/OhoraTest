@@ -1,0 +1,44 @@
+package days08;
+
+/**
+ * @author jyoon
+ * @date 2024. 7. 10. - 오후 5:07:54
+ * @subject 
+ * @content 메서드 호출
+ *				   매개변수 + 메서드 호출 방법
+ *					1) call By Name (매개변수가 없이 메소드 이름만으로 호출)
+ *					2) call By Value 
+ *					3) call By Reference 
+ *
+ *					X 4) call By Pointer (자바는 없음)
+ *
+ */
+
+public class Ex05 {
+	
+	public static void main(String[] args) {
+			
+		// 메서드 호출
+		// drawLine(); // 1) call By Name
+
+		// 2) call By Value
+		int a = 10;
+		System.out.println(hap(a, 20));
+		
+	} // main	
+
+	
+	// 메서드 선언 부분
+	// 							  int a= 10;
+	public static int hap (int a, int b) {
+		return a+b;
+	}
+	public static void drawLine() {
+		System.out.println("------------------");
+	}
+	
+	
+	
+	
+	
+} // class

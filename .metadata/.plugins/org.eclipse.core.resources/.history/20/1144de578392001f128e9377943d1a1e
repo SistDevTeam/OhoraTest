@@ -1,0 +1,100 @@
+package days03;
+
+import java.util.Scanner;
+
+/**
+ * @author jyoon
+ * @date 2024. 7. 3. - 오후 4:30:20
+ * @subject 대입연산자
+ * @content 
+ *
+ */
+
+public class Ex05_05 {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+	    /*
+		
+		int apple =1;
+		double pieUnit = 0.1;
+		int number = 7;
+		
+		double result = apple - number*pieUnit;
+		
+		System.out.println("사과 1개에서 남은 양: " + result);
+		
+
+		/* 대입연산자 =
+		int x = 100;
+		int y = x;
+		*/
+		
+		// 부호 연산자
+		// +3 -3
+		// int x = +3 +4; // 앞은 부호 연산자 뒤는 덧셈 연산자
+		
+		// -3*-1 
+		// [증감연산자] Ex05_06
+		// [쉬프트연산자]
+		// [복합대입연산자]
+		// [삼항연산자 == 조건연산자]
+		// [instanceof 비교연산자] 지금 못다룸 X
+		
+		
+		
+		
+		// & > ^ > |  > &&  > || (논리연산자 우선순위)
+		// 3 + 4 + 5 + 7 (오른쪽 처리)
+		// int x = 10;
+		// int y =10;
+		// int z =10;
+		
+		// int x = 10, y = 10, z = 10;
+		// int x, y, z;
+		// <-------
+		// x=y=z=10;
+		
+		
+		
+		
+		
+		// (암기)
+		// 두 문자열을 비교할 떄는  ==      != 비교 연산자를 사용하지 말라
+		//                           equals()  !equals()
+		String n1 = "홍길동", n2;
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("> n2 입력 ?");
+		n2 = scanner.next();
+		
+		System.out.println(n1 == n2);
+		System.out.println(n1 != n2);
+		
+		System.out.println(n1.equals(n2)); 
+		System.out.println(!n1.equals(n2)); // 소문자만
+		// 문자를 참과 거짓으로 판단하기 위해서는 이퀄스를 써야함
+
+		System.out.println(n1.equalsIgnoreCase(n2)); // 대소문자 구분 X
+		// 영어 기준 대소문자 구분하지 않고 하려면
+		
+		
+		/*
+		// 0000 0011
+		System.out.println(  3  );
+		System.out.println( Integer.toBinaryString(3) );
+		String binStr = Integer.toBinaryString(3);
+		System.out.printf("%08d\n", Integer.parseInt( binStr )  ); // "11" -> 11 형변환
+
+		//int no = 15;
+		//System.out.printf("%08d\n", no);
+		*/
+
+		
+	}
+
+}

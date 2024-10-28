@@ -1,0 +1,27 @@
+package days05;
+
+import java.util.Scanner;
+
+public class FreeCode {
+	
+	public static void main(String[] args) {
+		
+	
+	
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("팀원들을 입력하세요 ?");
+		
+		String name = scanner.nextLine(); // 스트링은 넥스트 라인
+		String regex = "\\s*,*\\s";
+		String [] team = name.split(regex);
+		
+		for (int i = 0; i < team.length; i++) {
+			System.out.printf("%d. 팀원 : %s\\n\", i+1,  team[i]");
+		}
+		
+
+		
+	}
+	
+
+}

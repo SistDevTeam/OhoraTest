@@ -1,0 +1,41 @@
+package days19;
+
+import java.util.Stack;
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		/*
+		
+		[스택(Stack) 구조와 큐 (Queue)
+		LIFO  push()			pop()  		  empty()			search()
+				peek()
+		
+		
+		
+		
+		*/
+		
+		Stack s = new Stack();
+		s.push("박준용");
+		s.push("김준석");
+		s.push("김재민");
+		s.push("전재윤");
+		
+		// s.iterator() x
+//		System.out.println(s.pop());
+//		System.out.println(s.peek()); // 삭제x 보여주기만 search와 비슷
+//		System.out.println(s.size());
+		
+//		System.out.println(s.search("홍길동"));
+//		System.out.println(s.indexOf("김재민"));
+		
+		while (!s.empty()) {
+			System.out.println(s.pop());
+		}
+		
+		
+		
+	} // main
+	
+} // class

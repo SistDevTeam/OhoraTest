@@ -1,0 +1,30 @@
+package days02;
+
+/**
+ * @author jyoon
+ * @date 2024. 7. 2. - 오전 9:51:14
+ * @subject 자바 수업 2일차
+ * @content 1일차 복습 문제 풀이
+ *                1) 258p package 문 설명
+ *
+ */
+
+public class Ex01 { // 시작 개체
+
+	//  main() 메서드 3가지 항목
+	// 1) 기능 ? 프로그램의 시작, 종료
+	// java.exe
+	// 2) 매개변수 ?  String[] args
+	// 3) 리턴값 (void라서 생략된 상태)
+	
+	public static void main(String[] args) {
+		
+		System.out.println("전재윤");
+		System.out.println("이창익");
+		System.out.println("아무개");
+		
+		
+	
+	}
+	
+}

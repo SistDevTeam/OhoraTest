@@ -1,0 +1,51 @@
+package days03;
+
+/**
+ * @author jyoon
+ * @date 2024. 7. 3. - 오후 5:27:46
+ * @subject
+ * @content
+ *
+ */
+
+public class Ex05_07 {
+	
+	public static void main(String[] args) {
+		
+		// ++ 앞/뒤
+		
+		// ++
+		int x = 10;
+		//int y = ++x; // x =11, y =11
+		int y = x++;
+		
+		System.out.printf("x=%d, y=%d\n", x, y);
+		
+		int m = 100;
+		System.out.println(m++);
+		System.out.println(++m);
+		
+		
+		/*
+		 * 
+		 * int n =10;
+		 * 
+		 * 5증가
+		 * n += 5;
+		 * n=n+5;
+		 * 
+		 * 10감소
+		 * n -= 10;
+		 * n=n-10;
+		 * 
+		 */
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

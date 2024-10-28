@@ -1,0 +1,67 @@
+package days15;
+
+/**
+ * @author jyoon
+ * @date 2024. 7. 19. - 오전 11:08:26
+ * @content 
+ * @subject                       
+ *                        
+ *
+ */
+
+public class Ex02 {
+	
+	public static void main(String[] args) {
+		
+		// [추상(abstract) 메서드]
+		//  ㄴ 몸체(body)가 없는 메서드
+		
+		// [추상(abstract) 클래스]
+		//  ㄴ 공통적인 멤버를 가진 클래스를 설계할 때 추상클래스로 많이 만든다.
+		//  ㄴ 객체를 생성할 수 없다.
+		//		 new Parent();
+		// 만약에 추상메서드가 하나라도 있으면 추상클래스이다.
+		// 업캐스팅 가능
+		
+		Parent p = new Child();
+		
+		p.dispA();
+		
+	} // main
+
+} // class
+
+abstract class Parent {
+	// 필드
+	// 생성자
+	// 추상메서드
+	abstract void dispA();
+	abstract void dispB();
+	abstract void dispC();
+	// 메서드
+}
+
+
+
+class Child extends Parent{
+
+	@Override
+	void dispA() {
+	}
+
+	@Override
+	void dispB() {	
+	}
+
+// dispC 같이 몸체를 구현 안한 추상메서드가 있으면 추상클래스로 선언하는게 맞음
+	@Override
+	void dispC() {	
+	}
+	
+	
+	
+	
+	
+}
+
+

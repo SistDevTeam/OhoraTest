@@ -1,0 +1,26 @@
+package days09;
+
+public class Ex04_02 {
+	
+	public static void main(String[] args) {
+		int n = 10; // 8진수 출력 10을 8 진수로~
+		
+		// 문제: 012를 출력하시오.
+		
+		int share, reminder;
+		
+		String octal = "";
+		
+		while (n != 0) { 
+			share = n/8; // 몫 
+			reminder= n%8; // 나머지 
+			//System.out.printf("%d",reminder);
+			octal = reminder + octal; // "12"
+			n = share;
+		}
+		octal = "0"+octal;
+		System.out.println(octal);
+		
+	} // main
+
+} // class

@@ -1,0 +1,52 @@
+package days02;
+
+	/**
+	 * @author jyoon
+	 * @date 2024. 7. 2. - 오전 11:03:31
+	 * @subject 변수와 [상수]
+	 * @content
+	 *
+	 */
+
+public class Ex02_02 {
+	
+	public static void main(String[] args) {
+		
+		// 수학과 관련된 코딩.
+		//자바 문자열 타입 : String
+		// 자바에서 실수 타입: float, double(이제 수업에서는 다 더블로 잡는다고 하심)
+		// 실수자료형 pi = 3.141592;
+		
+		// 자바 상수 선언 (한번 초기화 하고 나면 다른 수로 할당할 수 없다.)
+		// String firstName;
+		// final String FIRST_NAME;            변수선언: maxValue, 상수선언 MAX_VALUE
+		
+		// final 키워드를 통해 상수 선언 가능!
+		final double PI = 3.141592; //상수는 반드시 대문자를 써야한다!!
+		
+		//Alt + Shift + A
+		System.out.println(PI+100);
+		System.out.println(PI+100);
+		System.out.println(PI+100);
+		System.out.println(PI+100);
+		System.out.println(PI+100);
+		System.out.println(PI+100);
+		                      
+		//pi = 3.141592; 한번 초기화후에 값이 안바뀌는 상수로 선언하는게 좋음 (final로 상수 초기화 되어 오류 뜸)
+		
+		System.out.println(PI+100);
+		System.out.println(PI+100);
+		System.out.println(PI+100);
+		System.out.println(PI+100);
+		System.out.println(PI+100);
+		System.out.println(PI+100);
+		
+	} //main
+
+} //class
+
+
+
+
+
+

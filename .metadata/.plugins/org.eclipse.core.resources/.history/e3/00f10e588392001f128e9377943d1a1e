@@ -1,0 +1,72 @@
+package days22;
+
+import java.io.File;
+import java.io.IOException;
+
+public class Ex02_05 { // https://needjarvis.tistory.com/742
+								   // 람다와 스트림 코딩 이해~
+
+	public static void main(String[] args) throws IOException {
+
+		/*
+		 days22
+		 	 ㄴ	temp
+		 	 		ㄴ a.txt 파일
+		 	 		ㄴ b.txt 파일
+
+		 	 		ㄴ subtemp 폴더
+		 	 				ㄴ c.txt 파일
+		 */
+
+		// [폴더 생성 및 파일 생성]
+
+		//		String parent = ".\\src\\days22\\temp\subtemp";
+		//		String pathname = ".\\src\\days22\\temp\\subtemp";
+		//		File f = new File(pathname);
+		//		f.mkdirs();
+		//		//
+		//		File atxt = new File(".\\src\\days22\\temp\\a.txt");
+		//		atxt.createNewFile();
+		//		File btxt = new File(".\\src\\days22\\temp\\b.txt");
+		//		btxt.createNewFile();
+		//		File ctxt = new File(".\\src\\days22\\temp\\subtemp\\c.txt");
+		//		ctxt.createNewFile();
+
+		String pathname = ".\\src\\days22\\temp";
+		File f = new File(pathname);
+
+		if( f.exists() ) {
+			// System.out.println(f.delete()); // 왜 삭제가 안될까? 
+			// delete() 메서드는 하위 디렉토리 + 그 안에 파일이 없어야 삭제할 수 있다.
+			// 따라서 최하위 폴더부터 제거해 나가는 [재귀 함수]가 필요하다.
+			
+			scanDelete(f);
+	          f.delete();
+	          System.out.println(f.getName()+" 폴더 삭제");
+						
+		}
+
+		System.out.println(" end ");
+
+	} // main
+
+	
+	
+	public static void scanDelete(File f) {
+	      File[] files = f.listFiles();
+
+	      for (File file : files) {
+	         if (file.isFile()) {
+	            file.delete();
+	            System.out.println(file.getName()+" 파일 삭제");
+	         } else {
+	            scanDelete(file.getAbsoluteFile());
+	            file.delete();
+	            System.out.println(file.getName()+" 폴더 삭제");
+	         }
+	      }
+	   }
+	
+
+	
+} // class

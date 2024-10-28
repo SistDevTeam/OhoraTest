@@ -1,0 +1,67 @@
+package days12;
+
+/**
+ * @author jyoon
+ * @date 2024. 7. 16. - 오후 2:26:12
+ * @content [접근지정자] 설명
+ * @subject 	1) 클래스 선언      
+ *             				ㄱ public - 패키지 내부, 외부(같은 패키지 아니여도) 어디서든 상속;
+
+ *             				ㄴ	안붙이는 것 package( default ) 패키지 내부에서만 상속과 참조가 가능하다.
+ *             				
+ *             
+ *             				비활성화 (선택X)
+ *             				- 독립적인 클래스를 선언할 떄는 사용할 수 없는 접근지정자이다.
+ *          			    - (중첩 클래스 안에서 사용할 수 있는 접근지정자이다.)
+ *        				    ㄷ protected
+ *        						-패키지라는 접근지정자의 용도 + 패키지 외부에서 상속만 가능하다.
+ *             				ㄹ	private	
+ *             					- 같은 파일 내에서만 상속, 참조 가능하다.
+ *             					
+ *                 		2) 멤버들(필드, 메서드) 선언      
+ *									 ㄱ. public
+ *									  ㄴ protected
+ *									  ㄷ package
+ *									  ㄹ private
+ *						
+ *						[기타제어자]
+ *						1) 클래스 앞에...
+ * 						ㄱ. abstract - 추상 클래스
+ *						ㄴ. final - 최종 클래스(상속)
+ *						ㄷ.  static 비활성화
+ *
+ *
+ */
+
+
+
+public class Ex05 { // 클래스 선언부
+
+	public static void main(String[] args) {
+
+
+
+
+
+
+
+	} // main
+
+} // class
+
+
+class Member{
+	
+	protected class Address {
+		
+	}
+}
+
+
+
+
+
+
+
+
+
