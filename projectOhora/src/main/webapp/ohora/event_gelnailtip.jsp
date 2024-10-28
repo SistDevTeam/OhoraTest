@@ -6,198 +6,42 @@
 <head>
 <meta charset="UTF-8">
 <title>ohora 오호라 공식몰</title>
-<link rel="shortcut icon" type="image/x-icon" href="http://localhost/ohora/resources/ohora.ico">
+<link rel="shortcut icon" type="image/x-icon" href="../resources/images/favicon.ico">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link rel="stylesheet" href="../resources/cdn-main/event.css">
+<meta name="google" content="notranslate">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<div id="wrap" style="padding-top: 156px !important;">
 		<div id="container">
 			<div id="contents">
-<style>
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-@font-face {
-	font-family: 'baskerville-medium';
-	src: url('/web/mobile/frontapp/Baskerville-Medium.ttf') format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
-
-.eventDetail img {
-	display: block;
-	margin: 0 auto;
-}
-
-#click_btn {
-	width: 1000px;
-	display: block;
-	margin: 0 auto;
-}
-
-#click_btn img {
-	width: calc(100%/ 3);
-	display: inline-block;
-}
-
-#product_btn {
-	width: 1000px;
-	display: block;
-	margin: 0 auto;
-}
-
-#product_btn img {
-	width: calc(100%/ 2);
-	display: inline-block;
-}
-
-.videowrapper3 {
-	position: relative;
-	width: 1000px;
-	padding-bottom: 75%;
-	display: block;
-	margin: 0 auto;
-}
-
-.videowrapper3 iframe {
-	width: 100%;
-	height: 100% !important;
-	position: absolute;
-	display: block;
-}
-
-.warmer_promotion {
-	width: 1000px;
-	margin: 0 auto;
-}
-
-.warmer_tab {
-	display: flex;
-}
-
-.warmer_tab li {
-	width: 25%;
-	position: relative;
-}
-
-.warmer_tab li img:nth-of-type(2) {
-	position: absolute;
-	left: 0;
-	top: 0;
-	display: none !important;
-}
-
-.warmer_tab li.warmer_active img:nth-of-type(2) {
-	display: block !important;
-}
-
-.warmer_img {
-	width: 1000px;
-	z-index: 10;
-	position: relative;
-}
-
-.warmer_img img:nth-of-type(2), .warmer_img img:nth-of-type(3),
-	.warmer_img img:nth-of-type(4) {
-	position: absolute;
-	left: 0;
-	top: 0;
-	display: none !important;
-}
-
-.warmer_img img.warmer_active {
-	display: block !important;
-}
-
-.event30_video {
-	position: relative;
-}
-
-.videowrapper4 {
-	position: absolute;
-	right: 0;
-	top: 9.5%;
-	width: 84% !important;
-	padding-bottom: 75%;
-	display: block;
-	margin: 0 auto;
-}
-
-.videowrapper4 iframe {
-	width: 100%;
-	height: 100% !important;
-	position: absolute;
-	display: block;
-}
-
-#floating {
-    position: fixed;
-    bottom: 70px;
-    right: 55px;
-    z-index: 1000;
-    cursor: pointer;
-}
-
-#floating .go_top {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url(/ohora/resources/arrow_top.png) no-repeat center center;
-    background-size: contain;
-}
-
-#floating .go_top:before {
-    content: '';
-    width: 10px;
-    height: 10px;
-    border-top: 2px solid white;
-    border-right: 2px solid white;
-    transform: rotate(-45deg);
-    margin-top: 4px;
-}
-span, a {
-    font-family: inherit;
-    color: inherit;
-    font-size: inherit;
-}
-</style>
-
 <div class="wrap"
 	style="font-size: 0; width: 1000px; display: block; margin: 0 auto;">
 	<div class="image">
-		<img src="/ohora/resources/image/gelnailtip/LP.jpg" alt="">
-		<img src="/ohora/resources/image/gelnailtip/젤네일팁_3안_LP_02.jpg" alt="">
+		<img src="/projectOhora/resources/images/event_gelnailtip_image/LP.jpg" alt="">
+		<img src="/projectOhora/resources/images/event_gelnailtip_image/젤네일팁_3안_LP_02.jpg" alt="">
 		<center>
-			<img src="/ohora/resources/image/gelnailtip/글레이즈 프렌치 클린본 (1)_저용량.gif" alt="">
+			<img src="/projectOhora/resources/images/event_gelnailtip_image/글레이즈 프렌치 클린본 (1)_저용량.gif" alt="">
 		</center>
-		<img src="/ohora/resources/image/gelnailtip/3_LP_04.jpg" alt="">
-		<img src="/ohora/resources/image/gelnailtip/3_LP_05_f.jpg" alt="">
+		<img src="/projectOhora/resources/images/event_gelnailtip_image/3_LP_04.jpg" alt="">
+		<img src="/projectOhora/resources/images/event_gelnailtip_image/3_LP_05_f.jpg" alt="">
 		<!-- 상품페이지 -->
 		<a href="/product/detail.html?product_no=1908"> 
-		<img src="/ohora/resources/image/gelnailtip/3_LP_06.jpg" alt="">
-		<img src="/ohora/resources/image/gelnailtip/3_LP_07.jpg" alt="">
-		<img src="/ohora/resources/image/gelnailtip/3_LP_08_f.jpg" alt=""></a>
+		<img src="/projectOhora/resources/images/event_gelnailtip_image/3_LP_06.jpg" alt="">
+		<img src="/projectOhora/resources/images/event_gelnailtip_image/3_LP_07.jpg" alt="">
+		<img src="/projectOhora/resources/images/event_gelnailtip_image/3_LP_08_f.jpg" alt=""></a>
 		<!-- 상품페이지 -->
 		<a href="/product/detail.html?product_no=1908">
-		<img src="/ohora/resources/image/gelnailtip/3_LP_09.jpg" alt=""></a> 
-		<img src="/ohora/resources/image/gelnailtip/젤네일팁_3안_LP_10_기간수정.jpg" alt="">
-		<img src="/ohora/resources/image/gelnailtip/3_LP_11.jpg" alt="">
-		<img src="/ohora/resources/image/gelnailtip/3_LP_12.jpg" alt="">
-		<img src="/ohora/resources/image/gelnailtip/3_LP_13.jpg" alt="">
+		<img src="/projectOhora/resources/images/event_gelnailtip_image/3_LP_09.jpg" alt=""></a> 
+		<img src="/projectOhora/resources/images/event_gelnailtip_image/젤네일팁_3안_LP_10_기간수정.jpg" alt="">
+		<img src="/projectOhora/resources/images/event_gelnailtip_image/3_LP_11.jpg" alt="">
+		<img src="/projectOhora/resources/images/event_gelnailtip_image/3_LP_12.jpg" alt="">
+		<img src="/projectOhora/resources/images/event_gelnailtip_image/3_LP_13.jpg" alt="">
 		<center>
-			<img src="/ohora/resources/image/트윙클레인 컷편집_보정_2 (1).gif" alt="">
+			<img src="/projectOhora/resources/images/event_gelnailtip_image/트윙클레인 컷편집_보정_2 (1).gif" alt="">
 		</center>
-		<img src="/ohora/resources/image/gelnailtip/3_LP_15.jpg" alt="">
+		<img src="/projectOhora/resources/images/event_gelnailtip_image/3_LP_15.jpg" alt="">
 		<div class="wrap" style="font-size: 0; width: 1000px; display: block; margin: 0 auto;">
 			<!--슬라이드 이미지 -->
 			<div id="ivBanner_654"></div>
@@ -205,7 +49,7 @@ span, a {
 		</div>
 		<!-- 상품페이지 -->
 		<a href="/product/detail.html?product_no=1908">
-		<img src="/ohora/resources/image/gelnailtip/3_LP_17.jpg" alt="">
+		<img src="/projectOhora/resources/images/event_gelnailtip_image/3_LP_17.jpg" alt="">
 		</a>
 		<div style="width: 550px; position: fixed; bottom: 0; right: 170px; z-index: 10; height: 45px; text-align: center;">
 			<a href="/product/detail.html?product_no=1908" style="display: block; background-color: #000; color: #fff; line-height: 45px; font-size: 18px;">젤네일팁

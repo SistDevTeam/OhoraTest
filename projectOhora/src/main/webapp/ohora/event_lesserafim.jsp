@@ -6,81 +6,36 @@
 <head>
 <meta charset="UTF-8">
 <title>ohora 오호라 공식몰</title>
-<link rel="shortcut icon" type="image/x-icon" href="http://localhost/ohora/resources/ohora.ico">
+<link rel="shortcut icon" type="image/x-icon" href="../resources/images/favicon.ico">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link rel="stylesheet" href="../resources/cdn-main/event.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-.event-wrap img {
-    display: block;
-    margin: 0 auto;
-}
-img {
-    max-width: 100%;
-    vertical-align: top;
-    overflow-clip-margin: content-box;
-    overflow: clip;
-}
-#floating {
-    position: fixed;
-    bottom: 70px;
-    right: 55px;
-    z-index: 1000;
-    cursor: pointer;
-}
-
-#floating .go_top {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url(/ohora/resources/arrow_top.png) no-repeat center center;
-    background-size: contain;
-}
-
-#floating .go_top:before {
-    content: '';
-    width: 10px;
-    height: 10px;
-    border-top: 2px solid white;
-    border-right: 2px solid white;
-    transform: rotate(-45deg);
-    margin-top: 4px;
-}
-span, a {
-    font-family: inherit;
-    color: inherit;
-    font-size: inherit;
-}
-
-</style>
+<meta name="google" content="notranslate">
 </head>
 <body>
-
 <div class="wrap">
     <div class="eventDetail">
         <div class="title-block">
         </div>
         <div class="event-wrap">
             <p style="text-align: center;">
-            <img src="/ohora/resources/image/lesserafim/LE-SSERAFIM-X-ohora_event_01.jpg" alt="">
-            <img src="/ohora/resources/image/lesserafim/LE-SSERAFIM-X-ohora_event_02.jpg" alt="">
-            <img src="/ohora/resources/image/lesserafim/LE-SSERAFIM-X-ohora_event_03.jpg" alt="">
+            <img src="/projectOhora/resources/images/event_lesserafim_image/LE-SSERAFIM-X-ohora_event_01.jpg" alt="">
+            <img src="/projectOhora/resources/images/event_lesserafim_image/LE-SSERAFIM-X-ohora_event_02.jpg" alt="">
+            <img src="/projectOhora/resources/images/event_lesserafim_image/LE-SSERAFIM-X-ohora_event_03.jpg" alt="">
             </p>
             <div style="position:relative; width:1000px; margin:0 auto;">
             <iframe src="https://www.youtube.com/embed/hxVv7BJYjlc" width="1024px;" height="576px;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture;" allowfullscreen=""></iframe>
             </div>
-                <img src="/ohora/resources/image/lesserafim/LE-SSERAFIM-X-ohora_event_05.jpg" alt="">
+                <img src="/projectOhora/resources/images/event_lesserafim_image/LE-SSERAFIM-X-ohora_event_05.jpg" alt="">
                 <div style="position:relative; width:1000px; margin:0 auto;">
             <iframe src="https://www.youtube.com/embed/UBURTj20HXI" width="1024px;" height="576px;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture;" allowfullscreen=""></iframe>
             </div>
-                <img src="/ohora/resources/image/lesserafim/LE-SSERAFIM-X-ohora_event_07.jpg" alt="">
-                <img src="/ohora/resources/image/lesserafim/LE-SSERAFIM-X-ohora_event_08.jpg" alt="">
+                <img src="/projectOhora/resources/images/event_lesserafim_image/LE-SSERAFIM-X-ohora_event_07.jpg" alt="">
+                <img src="/projectOhora/resources/images/event_lesserafim_image/LE-SSERAFIM-X-ohora_event_08.jpg" alt="">
                 
                 <!-- 콜라보레이션 제품 페이지. 접근불가 페이지임. -->
                 <a href="/product/detail.html?product_no=1891&amp;cate_no=607">
-                <img src="/ohora/resources/image/lesserafim/LE-SSERAFIM-X-ohora_event_09.jpg">
+                <img src="/projectOhora/resources/images/event_lesserafim_image/LE-SSERAFIM-X-ohora_event_09.jpg">
                 </a>
                 
                 <!-- go_top 버튼 -->

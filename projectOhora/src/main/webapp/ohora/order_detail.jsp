@@ -6,12 +6,12 @@
 <head>
 <meta charset="UTF-8">
 <title>ohora 오호라 공식몰</title>
-<link rel="shortcut icon" type="image/x-icon" href="http://localhost/ohora/resources/ohora.ico">
+<link rel="shortcut icon" type="image/x-icon" href="../resources/images/favicon.ico">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<link rel="stylesheet" href="http://localhost/ohora/resources/detail.css">
+<link rel="stylesheet" href="../resources/cdn-main/order_detail.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
+<body>d
 	<div id="container">
 		<div id="contents">
 			<div id="SP_mypage_wrap" class="order_detail_page">
@@ -55,7 +55,7 @@
 											</tr>
 											<tr>
 												<th scope="row">주문자</th>
-												<td><span>최사랑</span></td>
+												<td><span>고러브</span></td>
 											</tr>
 											<tr>
 												<th scope="row">주문처리상태</th>
