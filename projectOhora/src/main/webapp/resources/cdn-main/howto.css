@@ -54,7 +54,6 @@ div {
     padding: 5px 0;
     text-align: center;
     font-size: 30px;
-    /* text-transform: lowercase; */
 }
 
 h2 {
@@ -289,9 +288,6 @@ input[type="hidden" i] {
     border: initial;
 }
 
-input:not([type="file" i], [type="image" i], [type="checkbox" i], [type="radio" i]) {
-}
-
 input {
     text-rendering: auto;
     color: fieldtext;
@@ -460,9 +456,6 @@ input:not([type="image" i], [type="range" i], [type="checkbox" i], [type="radio"
 input[type="text" i] {
     padding-block: 1px;
     padding-inline: 2px;
-}
-
-input:not([type="file" i], [type="image" i], [type="checkbox" i], [type="radio" i]) {
 }
 
 input {
