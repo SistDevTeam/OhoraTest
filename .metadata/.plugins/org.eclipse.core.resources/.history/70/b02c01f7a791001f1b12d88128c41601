@@ -1,6 +1,0 @@
-package days07.mvc.command;
-
-public enum DeleteHandler implements CommandHandler{
-	
-
-}

@@ -39,13 +39,13 @@
 									<ul>
 										<li class="xans-record-"><a
 											href="#" class="imgLink"><img
-												src="../image/howto_image/1.jpg"
+												src="../resources/images/howto_image/1.jpg"
 												onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
 												alt=""></a>
 											<div class="description">
 												<p class="subject">
 													<img
-														src="../image/howto_image/ico_fixed_post.png"
+														src="../resources/images/howto_image/ico_fixed_post.png"
 														alt="" class="ec-common-rwd-image"> <a
 														href="/article/how-to/13/61145/"> 세미큐어젤 부착편 </a>
 												</p>
@@ -54,13 +54,13 @@
 											
 										<li class="xans-record-"><a
 											href="#" class="imgLink"><img
-												src="../image/howto_image/2.jpg"
+												src="../resources/images/howto_image/2.jpg"
 												onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
 												alt=""></a>
 											<div class="description">
 												<p class="subject">
 													<img
-														src="../image/howto_image/ico_fixed_post.png"
+														src="../resources/images/howto_image/ico_fixed_post.png"
 														alt="" class="ec-common-rwd-image"> <a
 														href="/article/how-to/13/61145/"> 세미큐어젤 부착편 </a>
 												</p>
@@ -69,13 +69,13 @@
 											
 										<li class="xans-record-"><a
 											href="#" class="imgLink"><img
-												src="../image/howto_image/3.jpg"
+												src="../resources/images/howto_image/3.jpg"
 												onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
 												alt=""></a>
 											<div class="description">
 												<p class="subject">
 													<img
-														src="../image/howto_image/ico_fixed_post.png"
+														src="../resources/images/howto_image/ico_fixed_post.png"
 														alt="" class="ec-common-rwd-image"> <a
 														href="/article/how-to/13/61145/"> 세미큐어젤 부착편 </a>
 												</p>
@@ -84,13 +84,13 @@
 											
 										<li class="xans-record-"><a
 											href="#" class="imgLink"><img
-												src="../image/howto_image/4.jpg"
+												src="../resources/images/howto_image/4.jpg"
 												onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
 												alt=""></a>
 											<div class="description">
 												<p class="subject">
 													<img
-														src="../image/howto_image/ico_fixed_post.png"
+														src="../resources/images/howto_image/ico_fixed_post.png"
 														alt="" class="ec-common-rwd-image"> <a
 														href="/article/how-to/13/61145/"> 세미큐어젤 부착편 </a>
 												</p>
@@ -99,13 +99,13 @@
 											
 										<li class="xans-record-"><a
 											href="#" class="imgLink"><img
-												src="../image/howto_image/5.jpg"
+												src="../resources/images/howto_image/5.jpg"
 												onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
 												alt=""></a>
 											<div class="description">
 												<p class="subject">
 													<img
-														src="../image/howto_image/ico_fixed_post.png"
+														src="../resources/images/howto_image/ico_fixed_post.png"
 														alt="" class="ec-common-rwd-image"> <a
 														href="/article/how-to/13/61145/"> 세미큐어젤 부착편 </a>
 												</p>
@@ -114,13 +114,13 @@
 											
 										<li class="xans-record-"><a
 											href="#" class="imgLink"><img
-												src="../image/howto_image/6.jpg"
+												src="../resources/images/howto_image/6.jpg"
 												onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
 												alt=""></a>
 											<div class="description">
 												<p class="subject">
 													<img
-														src="../image/howto_image/ico_fixed_post.png"
+														src="../resources/images/howto_image/ico_fixed_post.png"
 														alt="" class="ec-common-rwd-image"> <a
 														href="/article/how-to/13/61145/"> 세미큐어젤 부착편 </a>
 												</p>
@@ -129,13 +129,13 @@
 											
 										<li class="xans-record-"><a
 											href="#" class="imgLink"><img
-												src="../image/howto_image/7.jpg"
+												src="../resources/images/howto_image/7.jpg"
 												onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
 												alt=""></a>
 											<div class="description">
 												<p class="subject">
 													<img
-														src="../image/howto_image/ico_fixed_post.png"
+														src="../resources/images/howto_image/ico_fixed_post.png"
 														alt="" class="ec-common-rwd-image"> <a
 														href="/article/how-to/13/61145/"> 세미큐어젤 부착편 </a>
 												</p>
@@ -144,13 +144,13 @@
 											
 										<li class="xans-record-"><a
 											href="#" class="imgLink"><img
-												src="../image/howto_image/8.jpg"
+												src="../resources/images/howto_image/8.jpg"
 												onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
 												alt=""></a>
 											<div class="description">
 												<p class="subject">
 													<img
-														src="../image/howto_image/ico_fixed_post.png"
+														src="../resources/images/howto_image/ico_fixed_post.png"
 														alt="" class="ec-common-rwd-image"> <a
 														href="/article/how-to/13/61145/"> 세미큐어젤 부착편 </a>
 												</p>
@@ -159,13 +159,13 @@
 											
 										<li class="xans-record-"><a
 											href="#" class="imgLink"><img
-												src="../image/howto_image/9.jpg"
+												src="../resources/images/howto_image/9.jpg"
 												onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
 												alt=""></a>
 											<div class="description">
 												<p class="subject">
 													<img
-														src="../image/howto_image/ico_fixed_post.png"
+														src="../resources/images/howto_image/ico_fixed_post.png"
 														alt="" class="ec-common-rwd-image"> <a
 														href="/article/how-to/13/61145/"> 세미큐어젤 부착편 </a>
 												</p>
@@ -174,13 +174,13 @@
 											
 										<li class="xans-record-"><a
 											href="#" class="imgLink"><img
-												src="../image/howto_image/10.jpg"
+												src="../resources/images/howto_image/10.jpg"
 												onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
 												alt=""></a>
 											<div class="description">
 												<p class="subject">
 													<img
-														src="../image/howto_image/ico_fixed_post.png"
+														src="../resources/images/howto_image/ico_fixed_post.png"
 														alt="" class="ec-common-rwd-image"> <a
 														href="/article/how-to/13/61145/"> 세미큐어젤 부착편 </a>
 												</p>

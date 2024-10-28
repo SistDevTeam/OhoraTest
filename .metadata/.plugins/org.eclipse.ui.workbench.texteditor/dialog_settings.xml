@@ -15,14 +15,19 @@
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|5|0|맑은 고딕"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="&gt;"/>
+		<item key="selection" value=".xans-board-search .boardSearch"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value=".xans-board-search .boardSearch"/>
+			<item value=".xans-board-search p"/>
+			<item value=" */"/>
+			<item value="fieldset"/>
+			<item value="32%"/>
+			<item value=".SP_gallListTable_wrap li"/>
+			<item value=".SP_gallListTable_wrap li3"/>
 			<item value=")"/>
-			<item value="emno"/>
-			<item value="td"/>
 		</list>
 		<list key="replacehistory">
 			<item value="&gt;"/>
