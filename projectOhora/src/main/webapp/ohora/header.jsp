@@ -11,9 +11,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="google" content="notranslate">
 <link rel="stylesheet" href="../resources/cdn-main/header.css">
-
-
-
 <script src="http://localhost/jspPro/resources/cdn-main/example.js"></script>
   <link
       rel="stylesheet"
@@ -27,6 +24,7 @@
     vertical-align: text-bottom;
  }  
 </style>
+  
 </head>
  <body>
     <div class="SP_topBanner" style="display: block">
@@ -136,13 +134,7 @@
         </div>
       </div>
     </div>
-    
-    
-
-    
-
-
-    <!-- 슬라이더 초기화 코드 -->
+  <!-- 슬라이더 초기화 코드 -->
     <script>
       $(document).ready(function () {
         $(".slide_banner_top").slick({
@@ -158,5 +150,6 @@
         });
       });
     </script>
+
   </body>
 </html>
