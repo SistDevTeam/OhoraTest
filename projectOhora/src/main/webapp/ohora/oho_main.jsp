@@ -22,6 +22,8 @@
 <%@include file="header.jsp" %>
 </head>
 <body>
+
+<%@include file="header.jsp" %>
    
     <div class="main_container">
         <!-- 메인 배너 (메인 이미지 - 스와이프) 영역 -->
@@ -1053,6 +1055,10 @@
     });
   </script>
 <script src="../resources/js/oho_main.js"></script>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5aa13e48fe017347e95da6bf0f0e93b468041889
 <%@include file="footer.jsp" %>
 </body>
 

@@ -21,6 +21,7 @@
 <body>
    
     <!-- 아래 필수 -->
+    <div style="margin-top: 12%"></div>
     <div class="footer">
       <div class="chat">
         <div class="top_left">
@@ -38,25 +39,25 @@
         </div>
         <div class="top_right">
           <a href="https://www.instagram.com/ohora_official/" target="_blank">
-            <img src="../image/1.png" />
+            <img src="https://www.ohora.kr/web/upload/common/ft_insta.png" />
           </a>
           <a href="https://www.facebook.com/ohora.official" target="_blank">
-            <img src="../image/2.png" />
+            <img src="https://www.ohora.kr/web/upload/common/ft_facebook.png" />
           </a>
           <a href="https://pf.kakao.com/_axjYfj" target="_blank">
-            <img src="../image/3.png" />
+            <img src="https://www.ohora.kr/web/upload/common/ft_kakao.png" />
           </a>
           <a
             href="https://www.youtube.com/channel/UCV72a2QWRpEZjZYkWjXHZWQ"
             target="_blank"
           >
-            <img src="../image/4.png" />
+            <img src="https://www.ohora.kr/web/upload/common/ft_youtube.png" />
           </a>
           <a
             href="https://post.naver.com/my.nhn?memberNo=47439708"
             target="_blank"
           >
-            <img src="../image/5.png" />
+            <img src="https://www.ohora.kr/web/upload/common/ft_naver.png" />
           </a>
         </div>
       </div>
