@@ -980,3 +980,15 @@
 10월 28, 2024 18:31:07.361     at O.presentUI (devtools://devtools/bundled/devtools-frontend/front_end/panels/emulation/emulation.js:1:58454)
 10월 28, 2024 18:31:07.361     at #I (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17314)
 10월 28, 2024 18:31:07.361     at #x (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17109)", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+
+10월 29, 2024 15:26:54.812 NEW SESSION
+10월 29, 2024 15:26:54.812 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 29, 2024 15:26:55.24 [19492:21180:1029/152655.023:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 29, 2024 15:27:15.921 [19492:21180:1029/152715.921:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 29, 2024 15:28:01.820 [19492:21180:1029/152801.819:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 29, 2024 15:29:25.588 [19492:21180:1029/152925.587:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 29, 2024 15:33:00.339 [19492:21180:1029/153300.339:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 29, 2024 15:38:30.69 [19492:21180:1029/153830.069:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 29, 2024 15:46:28.770 [19492:21000:1029/154628.767:ERROR:CONSOLE(1)] "Request Storage.getStorageKeyForFrame failed. {"code":-32602,"message":"Frame tree node for given frame not found"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+10월 29, 2024 15:46:28.770 [19492:21000:1029/154628.770:ERROR:CONSOLE(1)] "Request Storage.getStorageKeyForFrame failed. {"code":-32602,"message":"Frame tree node for given frame not found"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+10월 29, 2024 15:46:28.770 [19492:21000:1029/154628.770:ERROR:CONSOLE(1)] "Request Storage.getStorageKeyForFrame failed. {"code":-32602,"message":"Frame tree node for given frame not found"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
