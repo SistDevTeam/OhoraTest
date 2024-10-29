@@ -1,4 +1,5 @@
 INDEX VERSION 1.131
+<<<<<<< HEAD
 C:\Users\Victor\Desktop\OhoraTest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\518857624.index
 \projectOhora\src\main\java
 C:\Users\User\Desktop\OhoraTest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\794413346.index
@@ -10,4 +11,11 @@ C:\Users\User\Desktop\OhoraTest\.metadata\.plugins\org.eclipse.jst.jsp.core\jsps
 C:\Users\Victor\Desktop\OhoraTest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\794413346.index
 \projectOhora\src\main\java
 C:\Users\Victor\Desktop\OhoraTest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1614610330.index
+=======
+C:\Class\Workspace\oho_test\OhoraTest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1614610330.index
+\projectOhora\src\main\java
+C:\Class\Workspace\oho_test\OhoraTest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\518857624.index
+\projectOhora\src\main\java
+C:\Class\Workspace\oho_test\OhoraTest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\794413346.index
+>>>>>>> e081e1cac6dee13e3d5c9469e8bb2ae6d47d970e
 \projectOhora\src\main\java

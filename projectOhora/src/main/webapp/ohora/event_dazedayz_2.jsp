@@ -13,6 +13,10 @@
 <meta name="google" content="notranslate">
 </head>
 <body>
+<<<<<<< HEAD
+=======
+<%@include file="header.jsp" %>
+>>>>>>> e081e1cac6dee13e3d5c9469e8bb2ae6d47d970e
 <div class="wrap">
     <div class="eventDetail">
         <div class="title-block">
@@ -60,6 +64,6 @@
             </div>
             </div>
         </div>
-
+<%@include file="footer.jsp" %>
 </body>
 </html>

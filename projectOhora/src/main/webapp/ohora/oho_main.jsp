@@ -19,6 +19,7 @@
     vertical-align: text-bottom;
  }  
 </style>
+<%@include file="header.jsp" %>
 </head>
 <body>
 
@@ -1054,7 +1055,14 @@
     });
   </script>
 <script src="../resources/js/oho_main.js"></script>
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5aa13e48fe017347e95da6bf0f0e93b468041889
+>>>>>>> e081e1cac6dee13e3d5c9469e8bb2ae6d47d970e
 <%@include file="footer.jsp" %>
 </body>
 

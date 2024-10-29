@@ -32,7 +32,7 @@
          <c:forEach items="${ list }" var="dvo">
            <tr>
              <td>${ dvo.deptno }</td>
-             <td>${ dvo.dname }</a></td>
+             <td>${ dvo.dname }</td>
              <td>${ dvo.loc }</td>
            </tr>
          </c:forEach>

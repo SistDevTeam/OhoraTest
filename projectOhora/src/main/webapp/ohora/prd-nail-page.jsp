@@ -18,9 +18,13 @@
  span.material-symbols-outlined{
     vertical-align: text-bottom;
  }  
+ 
 </style>
 </head>
 <body>
+
+<%@include file="header.jsp" %>
+
 	<div id="first-wrap">
 		<div id="cate-layout">
 			<div id="cate-wrap">
@@ -205,6 +209,29 @@
 						},
 					});
 				</script>
+				
+               <script>
+	               document.querySelectorAll('.swiper-slide a').forEach(link => {
+	            	    link.style.pointerEvents = 'auto'; // 초기화 시 활성화
+	
+	            	    link.addEventListener('click', function(event) {
+	            	        event.preventDefault();
+	
+	            	        // 체크박스 토글
+	            	        const checkbox = link.querySelector('input[type="checkbox"]');
+	            	        checkbox.checked = !checkbox.checked; // 체크박스 상태 토글
+	
+	            	        // 색상 토글
+	            	        if (link.style.backgroundColor === 'black') {
+	            	            link.style.backgroundColor = '';
+	            	            link.style.color = '';
+	            	        } else {
+	            	            link.style.backgroundColor = 'black';
+	            	            link.style.color = 'white';
+	            	        }
+	            	    });
+	            	});
+               </script>
 
 			</div>
 
@@ -219,11 +246,9 @@
 									<a href="" class="item-viewlink"></a>
 									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
 									<div class="item-image">
-										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800"
-											height="800" />
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
-										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800"
-											height="800" />
+										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
 									<div class="item-info">
@@ -257,13 +282,9 @@
 									<a href="" class="item-viewlink"></a>
 									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
 									<div class="item-image">
-										<img
-											src="../resources/images/prd_image/마롱네일1jpg.jpg"
-											alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
-										<img
-											src="../resources/images/prd_image/마롱네일1jpg.jpg"
-											alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
 									<div class="item-info">
@@ -297,13 +318,9 @@
 									<a href="" class="item-viewlink"></a>
 									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
 									<div class="item-image">
-										<img
-											src="../resources/images/prd_image/마롱네일1jpg.jpg"
-											alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
-										<img
-											src="../resources/images/prd_image/마롱네일1jpg.jpg"
-											alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
 									<div class="item-info">
@@ -337,13 +354,9 @@
 									<a href="" class="item-viewlink"></a>
 									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
 									<div class="item-image">
-										<img
-											src="../resources/images/prd_image/마롱네일1jpg.jpg"
-											alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
-										<img
-											src="../resources/images/prd_image/마롱네일1jpg.jpg"
-											alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
 									<div class="item-info">
@@ -377,13 +390,9 @@
 									<a href="" class="item-viewlink"></a>
 									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
 									<div class="item-image">
-										<img
-											src="../resources/images/prd_image/마롱네일1jpg.jpg"
-											alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
-										<img
-											src="../resources/images/prd_image/마롱네일1jpg.jpg"
-											alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
 									<div class="item-info">
@@ -417,13 +426,9 @@
 									<a href="" class="item-viewlink"></a>
 									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
 									<div class="item-image">
-										<img
-											src="../resources/images/prd_image/마롱네일1jpg.jpg"
-											alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
-										<img
-											src="../resources/images/prd_image/마롱네일1jpg.jpg"
-											alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
 									<div class="item-info">
@@ -457,13 +462,10 @@
 									<a href="" class="item-viewlink"></a>
 									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
 									<div class="item-image">
-										<img
-											src="../resources/images/prd_image/마롱네일1jpg.jpg"
-											alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
-										<img
-											src="../resources/images/prd_image/마롱네일1jpg.jpg"
-											alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
+										<!--썸네일 이미지2 *호버-->
 										<!--썸네일 이미지2 *호버-->
 									</div>
 									<div class="item-info">
@@ -497,13 +499,9 @@
 									<a href="" class="item-viewlink"></a>
 									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
 									<div class="item-image">
-										<img
-											src="../resources/images/prd_image/마롱네일1jpg.jpg"
-											alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
-										<img
-											src="../resources/images/prd_image/마롱네일1jpg.jpg"
-											alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
 									<div class="item-info">
@@ -539,7 +537,7 @@
 									<div class="item-image">
 										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
-										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
 									<div class="item-info">
@@ -575,7 +573,7 @@
 									<div class="item-image">
 										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
-										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
 									<div class="item-info">
@@ -611,7 +609,7 @@
 									<div class="item-image">
 										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
-										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
 									<div class="item-info">
@@ -647,7 +645,7 @@
 									<div class="item-image">
 										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
-										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
 									<div class="item-info">
@@ -683,7 +681,7 @@
 									<div class="item-image">
 										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
-										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
 									<div class="item-info">
@@ -719,7 +717,7 @@
 									<div class="item-image">
 										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
-										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
 									<div class="item-info">
@@ -755,7 +753,7 @@
 									<div class="item-image">
 										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
-										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
 									<div class="item-info">
@@ -791,7 +789,7 @@
 									<div class="item-image">
 										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지1-->
-										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
+										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
 										<!--썸네일 이미지2 *호버-->
 									</div>
 									<div class="item-info">
@@ -931,9 +929,6 @@
 							<li class="side-type"><input type="checkbox"
 								class="side-type-check" id="side-check-라인업" /> <label
 								for="side-check-라인업">풀컬러</label></li>
-							<li class="side-type"><input type="checkbox"
-								class="side-type-check" id="side-check-라인업" /> <label
-								for="side-check-라인업">파츠</label></li>
 							<li class="side-type"><input type="checkbox"
 								class="side-type-check" id="side-check-라인업" /> <label
 								for="side-check-라인업">파츠</label></li>
@@ -1101,8 +1096,31 @@
 					<button type="button" id="side-search">검색하기</button>
 				</div>
 			</div>
+			
+			<script>
+				document.querySelectorAll('.side-type').forEach(item => {
+				    item.addEventListener('click', function(event) {
+				        event.preventDefault(); // 클릭 이벤트의 기본 동작 방지
+				        
+				        const checkbox = this.querySelector('.side-type-check');
+				        checkbox.checked = !checkbox.checked; // 체크박스의 상태를 토글
+				        if (checkbox.checked) {
+				            // 체크되었을 때 라벨에 스타일 추가
+				            this.querySelector('label').style.border = '1px solid black';
+				            this.querySelector('label').style.backgroundColor = ''; // 배경색 변경
+				        } else {
+				            // 체크 해제되었을 때 라벨 스타일 원래대로
+				            this.querySelector('label').style.border = '1px solid #E6E6E6';
+				            this.querySelector('label').style.backgroundColor = ''; // 배경색 초기화
+				        }
+				    });
+				});
+
+			</script>
+			
 		</form>
 		<!--나만의 디자인 찾기-->
 	</div>
+	<%@include file="footer.jsp" %>
 </body>
 </html>

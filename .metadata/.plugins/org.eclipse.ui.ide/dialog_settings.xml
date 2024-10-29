@@ -28,8 +28,12 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+<<<<<<< HEAD
 			<item value="C:\Users\Victor\Desktop\OhoraTest"/>
 			<item value="C:\Users\User\Desktop\OhoraTest"/>
+=======
+			<item value="C:\Class\Workspace\OhoraTest"/>
+>>>>>>> e081e1cac6dee13e3d5c9469e8bb2ae6d47d970e
 			<item value="C:\Class\Workspace\OhoraTest\projectOhora"/>
 		</list>
 	</section>

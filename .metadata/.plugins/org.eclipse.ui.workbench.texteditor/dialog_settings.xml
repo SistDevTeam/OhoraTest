@@ -15,13 +15,18 @@
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|5|0|맑은 고딕"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+<<<<<<< HEAD
 		<item key="selection" value=""/>
+=======
+		<item key="selection" value="swip"/>
+>>>>>>> e081e1cac6dee13e3d5c9469e8bb2ae6d47d970e
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<item key="wrap" value="true"/>
 		<item key="incremental" value="false"/>
 		<list key="findhistory">
+<<<<<<< HEAD
 			<item value="collapse"/>
 			<item value="coll"/>
 			<item value="co"/>
@@ -35,6 +40,14 @@
 			<item value="asset"/>
 			<item value="totalPrice"/>
 			<item value="sytle"/>
+=======
+			<item value="side-type"/>
+			<item value="item-image"/>
+			<item value="side-check-"/>
+			<item value="시럽"/>
+			<item value="코랄핑크"/>
+			<item value=".side-check-type-color .side-type-list-color &gt; li &gt; label::before"/>
+>>>>>>> e081e1cac6dee13e3d5c9469e8bb2ae6d47d970e
 			<item value="label"/>
 			<item value="내가 원하는"/>
 		</list>

@@ -981,6 +981,140 @@
 10월 28, 2024 18:31:07.361     at #I (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17314)
 10월 28, 2024 18:31:07.361     at #x (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17109)", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+10월 29, 2024 14:50:32.713 NEW SESSION
+10월 29, 2024 14:50:32.713 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 29, 2024 14:50:32.774 [2516:4020:1029/145032.774:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 29, 2024 14:50:38.847 [2516:5388:1029/145038.847:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch    at new He (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:98356)
+10월 29, 2024 14:50:38.847     at devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:191793
+10월 29, 2024 14:50:38.847     at new oi (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:192189)
+10월 29, 2024 14:50:38.848     at oi.instance (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:192311)
+10월 29, 2024 14:50:38.848     at O.presentUI (devtools://devtools/bundled/devtools-frontend/front_end/panels/emulation/emulation.js:1:58454)
+10월 29, 2024 14:50:38.848     at #I (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17314)
+10월 29, 2024 14:50:38.848     at #x (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17109)", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 29, 2024 14:50:57.621 [2516:4020:1029/145057.621:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 29, 2024 14:51:02.710 [2516:5388:1029/145102.710:ERROR:CONSOLE(1)] "Unknown VE context: -ms-flex-pack    at a (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:64099)
+10월 29, 2024 14:51:02.711     at e.Me (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:81107)
+10월 29, 2024 14:51:02.711     at devtools://devtools/bundled/devtools-frontend/front_end/ui/components/render_coordinator/render_coordinator.js:1:150", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 29, 2024 14:51:02.711 [2516:5388:1029/145102.710:ERROR:CONSOLE(1)] "Unknown VE context: -ms-flex-wrap    at a (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:64099)
+10월 29, 2024 14:51:02.711     at e.Me (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:81107)
+10월 29, 2024 14:51:02.711     at devtools://devtools/bundled/devtools-frontend/front_end/ui/components/render_coordinator/render_coordinator.js:1:150", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 29, 2024 14:51:41.652 [2516:4020:1029/145141.652:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 29, 2024 14:53:39.844 [2516:4020:1029/145339.838:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 29, 2024 14:56:33.408 [2516:4020:1029/145633.408:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 29, 2024 15:02:15.765 [2516:5388:1029/150215.765:ERROR:CONSOLE(1)] "Failed getting cookie attribute: Version", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+10월 29, 2024 15:02:20.999 [2516:5388:1029/150220.999:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch    at new He (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:98356)
+10월 29, 2024 15:02:20.999     at devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:191793
+10월 29, 2024 15:02:20.999     at new oi (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:192189)
+10월 29, 2024 15:02:20.999     at oi.instance (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:192311)
+10월 29, 2024 15:02:20.999     at O.presentUI (devtools://devtools/bundled/devtools-frontend/front_end/panels/emulation/emulation.js:1:58454)
+10월 29, 2024 15:02:20.999     at #I (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17314)
+10월 29, 2024 15:02:20.999     at #x (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17109)", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 29, 2024 15:03:47.201 [2516:4020:1029/150347.200:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 29, 2024 15:08:15.310 [2516:5388:1029/150815.310:ERROR:CONSOLE(1)] "Unknown VE context: -ms-flex-pack    at a (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:64099)
+10월 29, 2024 15:08:15.310     at e.Me (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:81107)
+10월 29, 2024 15:08:15.311     at devtools://devtools/bundled/devtools-frontend/front_end/ui/components/render_coordinator/render_coordinator.js:1:150", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 29, 2024 15:08:15.311 [2516:5388:1029/150815.310:ERROR:CONSOLE(1)] "Unknown VE context: -ms-flex-wrap    at a (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:64099)
+10월 29, 2024 15:08:15.311     at e.Me (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:81107)
+10월 29, 2024 15:08:15.311     at devtools://devtools/bundled/devtools-frontend/front_end/ui/components/render_coordinator/render_coordinator.js:1:150", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 29, 2024 15:13:10.636 [2516:5388:1029/151310.635:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch    at new He (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:98356)
+10월 29, 2024 15:13:10.636     at devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:191793
+10월 29, 2024 15:13:10.636     at new oi (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:192189)
+10월 29, 2024 15:13:10.636     at oi.instance (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:192311)
+10월 29, 2024 15:13:10.636     at O.presentUI (devtools://devtools/bundled/devtools-frontend/front_end/panels/emulation/emulation.js:1:58454)
+10월 29, 2024 15:13:10.636     at #I (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17314)
+10월 29, 2024 15:13:10.637     at #x (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17109)", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 29, 2024 15:13:19.41 [2516:5388:1029/151319.041:ERROR:CONSOLE(1)] "Unknown VE context: -ms-flex-pack    at a (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:64099)
+10월 29, 2024 15:13:19.42     at e.Me (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:81107)
+10월 29, 2024 15:13:19.42     at devtools://devtools/bundled/devtools-frontend/front_end/ui/components/render_coordinator/render_coordinator.js:1:150", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 29, 2024 15:13:19.42 [2516:5388:1029/151319.041:ERROR:CONSOLE(1)] "Unknown VE context: -ms-flex-wrap    at a (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:64099)
+10월 29, 2024 15:13:19.42     at e.Me (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:81107)
+10월 29, 2024 15:13:19.42     at devtools://devtools/bundled/devtools-frontend/front_end/ui/components/render_coordinator/render_coordinator.js:1:150", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 29, 2024 15:20:02.199 [2516:5388:1029/152002.198:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch    at new He (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:98356)
+10월 29, 2024 15:20:02.199     at devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:191793
+10월 29, 2024 15:20:02.199     at new oi (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:192189)
+10월 29, 2024 15:20:02.199     at oi.instance (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:192311)
+10월 29, 2024 15:20:02.199     at O.presentUI (devtools://devtools/bundled/devtools-frontend/front_end/panels/emulation/emulation.js:1:58454)
+10월 29, 2024 15:20:02.200     at #I (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17314)
+10월 29, 2024 15:20:02.200     at #x (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17109)", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 29, 2024 15:25:01.747 [2516:5388:1029/152501.747:ERROR:interface_endpoint_client.cc(725)] Message 1 rejected by interface blink.mojom.WidgetHost
+10월 29, 2024 15:25:01.748 [2516:5388:1029/152501.747:ERROR:interface_endpoint_client.cc(725)] Message 1 rejected by interface blink.mojom.WidgetHost
+10월 29, 2024 15:29:43.834 [2516:5388:1029/152943.834:ERROR:CONSOLE(1)] "Unknown VE context: -ms-flex-pack    at a (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:64099)
+10월 29, 2024 15:29:43.834     at e.Me (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:81107)
+10월 29, 2024 15:29:43.834     at devtools://devtools/bundled/devtools-frontend/front_end/ui/components/render_coordinator/render_coordinator.js:1:150", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 29, 2024 15:29:43.834 [2516:5388:1029/152943.834:ERROR:CONSOLE(1)] "Unknown VE context: -ms-flex-wrap    at a (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:64099)
+10월 29, 2024 15:29:43.834     at e.Me (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:81107)
+10월 29, 2024 15:29:43.834     at devtools://devtools/bundled/devtools-frontend/front_end/ui/components/render_coordinator/render_coordinator.js:1:150", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 29, 2024 15:46:14.860 [2516:5388:1029/154614.860:ERROR:CONSOLE(1)] "Failed getting cookie attribute: Version", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+10월 29, 2024 15:46:25.977 [2516:5388:1029/154625.977:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch    at new He (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:98356)
+10월 29, 2024 15:46:25.978     at devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:191793
+10월 29, 2024 15:46:25.978     at new oi (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:192189)
+10월 29, 2024 15:46:25.978     at oi.instance (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:192311)
+10월 29, 2024 15:46:25.978     at O.presentUI (devtools://devtools/bundled/devtools-frontend/front_end/panels/emulation/emulation.js:1:58454)
+10월 29, 2024 15:46:25.978     at #I (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17314)
+10월 29, 2024 15:46:25.978     at #x (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17109)", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 29, 2024 15:46:34.556 [2516:5388:1029/154634.556:ERROR:CONSOLE(1)] "Unknown VE context: -ms-flex-pack    at a (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:64099)
+10월 29, 2024 15:46:34.557     at e.Me (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:81107)
+10월 29, 2024 15:46:34.557     at devtools://devtools/bundled/devtools-frontend/front_end/ui/components/render_coordinator/render_coordinator.js:1:150", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 29, 2024 15:46:34.557 [2516:5388:1029/154634.556:ERROR:CONSOLE(1)] "Unknown VE context: -ms-flex-wrap    at a (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:64099)
+10월 29, 2024 15:46:34.557     at e.Me (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:81107)
+10월 29, 2024 15:46:34.557     at devtools://devtools/bundled/devtools-frontend/front_end/ui/components/render_coordinator/render_coordinator.js:1:150", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 29, 2024 15:47:51.923 [2516:5388:1029/154751.923:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch    at new He (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:98356)
+10월 29, 2024 15:47:51.923     at devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:191793
+10월 29, 2024 15:47:51.923     at new oi (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:192189)
+10월 29, 2024 15:47:51.923     at oi.instance (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:192311)
+10월 29, 2024 15:47:51.923     at O.presentUI (devtools://devtools/bundled/devtools-frontend/front_end/panels/emulation/emulation.js:1:58454)
+10월 29, 2024 15:47:51.923     at #I (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17314)
+10월 29, 2024 15:47:51.923     at #x (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17109)", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 29, 2024 15:51:11.469 [2516:5388:1029/155111.469:ERROR:CONSOLE(1)] "Unknown VE context: -ms-flex-pack    at a (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:64099)
+10월 29, 2024 15:51:11.470     at e.Me (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:81107)
+10월 29, 2024 15:51:11.470     at devtools://devtools/bundled/devtools-frontend/front_end/ui/components/render_coordinator/render_coordinator.js:1:150", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 29, 2024 15:51:11.470 [2516:5388:1029/155111.469:ERROR:CONSOLE(1)] "Unknown VE context: -ms-flex-wrap    at a (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:64099)
+10월 29, 2024 15:51:11.470     at e.Me (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:81107)
+10월 29, 2024 15:51:11.470     at devtools://devtools/bundled/devtools-frontend/front_end/ui/components/render_coordinator/render_coordinator.js:1:150", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 29, 2024 15:51:57.364 [2516:5388:1029/155157.356:ERROR:CONSOLE(1)] "Failed getting cookie attribute: Version", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+10월 29, 2024 15:52:18.878 [2516:5388:1029/155218.878:ERROR:CONSOLE(1)] "Failed getting cookie attribute: Version", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+10월 29, 2024 16:06:15.969 [2516:5388:1029/160615.969:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch    at new He (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:98356)
+10월 29, 2024 16:06:15.970     at devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:191793
+10월 29, 2024 16:06:15.970     at new oi (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:192189)
+10월 29, 2024 16:06:15.970     at oi.instance (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:192311)
+10월 29, 2024 16:06:15.970     at O.presentUI (devtools://devtools/bundled/devtools-frontend/front_end/panels/emulation/emulation.js:1:58454)
+10월 29, 2024 16:06:15.970     at #I (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17314)
+10월 29, 2024 16:06:15.970     at #x (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17109)", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 29, 2024 16:06:50.440 [2516:5388:1029/160650.440:ERROR:CONSOLE(1)] "Unknown VE context: -o-object-fit    at a (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:64099)
+10월 29, 2024 16:06:50.441     at e.Me (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:81107)
+10월 29, 2024 16:06:50.442     at devtools://devtools/bundled/devtools-frontend/front_end/ui/components/render_coordinator/render_coordinator.js:1:150", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 29, 2024 16:17:06.381 [2516:5388:1029/161706.381:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch    at new He (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:98356)
+10월 29, 2024 16:17:06.381     at devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:191793
+10월 29, 2024 16:17:06.381     at new oi (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:192189)
+10월 29, 2024 16:17:06.381     at oi.instance (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:192311)
+10월 29, 2024 16:17:06.381     at O.presentUI (devtools://devtools/bundled/devtools-frontend/front_end/panels/emulation/emulation.js:1:58454)
+10월 29, 2024 16:17:06.382     at #I (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17314)
+10월 29, 2024 16:17:06.382     at #x (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17109)", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 29, 2024 16:21:00.804 [2516:5388:1029/162100.804:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch    at new He (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:98356)
+10월 29, 2024 16:21:00.805     at devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:191793
+10월 29, 2024 16:21:00.805     at new oi (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:192189)
+10월 29, 2024 16:21:00.805     at oi.instance (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:192311)
+10월 29, 2024 16:21:00.805     at O.presentUI (devtools://devtools/bundled/devtools-frontend/front_end/panels/emulation/emulation.js:1:58454)
+10월 29, 2024 16:21:00.806     at #I (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17314)
+10월 29, 2024 16:21:00.806     at #x (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17109)", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 29, 2024 16:25:56.919 [2516:5388:1029/162556.919:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch    at new He (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:98356)
+10월 29, 2024 16:25:56.920     at devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:191793
+10월 29, 2024 16:25:56.920     at new oi (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:192189)
+10월 29, 2024 16:25:56.920     at oi.instance (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:192311)
+10월 29, 2024 16:25:56.920     at O.presentUI (devtools://devtools/bundled/devtools-frontend/front_end/panels/emulation/emulation.js:1:58454)
+10월 29, 2024 16:25:56.920     at #I (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17314)
+10월 29, 2024 16:25:56.920     at #x (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17109)", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 29, 2024 16:27:22.202 [2516:5388:1029/162722.201:ERROR:CONSOLE(1)] "Unknown VE context: -ms-flex-pack    at a (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:64099)
+10월 29, 2024 16:27:22.202     at e.Me (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:81107)
+10월 29, 2024 16:27:22.202     at devtools://devtools/bundled/devtools-frontend/front_end/ui/components/render_coordinator/render_coordinator.js:1:150", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 29, 2024 16:27:22.202 [2516:5388:1029/162722.201:ERROR:CONSOLE(1)] "Unknown VE context: -ms-flex-wrap    at a (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:64099)
+10월 29, 2024 16:27:22.202     at e.Me (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:81107)
+10월 29, 2024 16:27:22.203     at devtools://devtools/bundled/devtools-frontend/front_end/ui/components/render_coordinator/render_coordinator.js:1:150", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+=======
+>>>>>>> e081e1cac6dee13e3d5c9469e8bb2ae6d47d970e
 10월 29, 2024 15:26:54.812 NEW SESSION
 10월 29, 2024 15:26:54.812 Created TensorFlow Lite XNNPACK delegate for CPU.
 10월 29, 2024 15:26:55.24 [19492:21180:1029/152655.023:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
@@ -992,6 +1126,7 @@
 10월 29, 2024 15:46:28.770 [19492:21000:1029/154628.767:ERROR:CONSOLE(1)] "Request Storage.getStorageKeyForFrame failed. {"code":-32602,"message":"Frame tree node for given frame not found"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
 10월 29, 2024 15:46:28.770 [19492:21000:1029/154628.770:ERROR:CONSOLE(1)] "Request Storage.getStorageKeyForFrame failed. {"code":-32602,"message":"Frame tree node for given frame not found"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
 10월 29, 2024 15:46:28.770 [19492:21000:1029/154628.770:ERROR:CONSOLE(1)] "Request Storage.getStorageKeyForFrame failed. {"code":-32602,"message":"Frame tree node for given frame not found"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+<<<<<<< HEAD
 
 10월 29, 2024 19:56:39.143 NEW SESSION
 10월 29, 2024 19:56:39.143 Created TensorFlow Lite XNNPACK delegate for CPU.
@@ -1054,3 +1189,6 @@
 10월 29, 2024 22:24:14.241     at O.presentUI (devtools://devtools/bundled/devtools-frontend/front_end/panels/emulation/emulation.js:1:58454)
 10월 29, 2024 22:24:14.241     at #I (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17314)
 10월 29, 2024 22:24:14.242     at #x (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17109)", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+=======
+>>>>>>> 5aa13e48fe017347e95da6bf0f0e93b468041889
+>>>>>>> e081e1cac6dee13e3d5c9469e8bb2ae6d47d970e
