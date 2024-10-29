@@ -20,6 +20,7 @@
 </head>
 <body>
   <%@include file="header.jsp" %>
+  <!-- 위 필수 -->
 
     <!-- 콘텐츠 -->
 
