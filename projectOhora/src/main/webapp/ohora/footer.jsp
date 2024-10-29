@@ -21,6 +21,7 @@
 <body>
    
     <!-- 아래 필수 -->
+    <div style="margin-top: 12%"></div>
     <div class="footer">
       <div class="chat">
         <div class="top_left">
