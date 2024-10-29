@@ -12,6 +12,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+
+<%@include file="header.jsp" %>
 <div class="wrap">
     <div class="eventDetail">
         <div class="title-block">
@@ -77,6 +79,6 @@
                 </div>
             </div>
         </div>
-
+<%@include file="footer.jsp" %>
 </body>
 </html>

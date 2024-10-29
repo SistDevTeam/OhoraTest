@@ -128,4 +128,40 @@
       </div>
     </div>
   </body>
+  <script>
+  let sw = true;
+  
+  let a = document.querySelector("#a");
+  let aa = document.querySelector("#aa");
+  a.onclick = function(){
+     if(sw){
+        aa.style.display = "block";
+     }else if(!sw){
+        aa.style.display = "none";
+     }
+     sw = !sw;
+  }
+  
+  let b = document.querySelector("#b");
+  let bb = document.querySelector("#bb");
+  b.onclick = function(){
+     if(sw){
+        bb.style.display = "block";
+     }else if(!sw){
+        bb.style.display = "none";
+     }
+     sw = !sw;
+  }
+  
+  let c = document.querySelector("#c");
+  let cc = document.querySelector("#cc");
+  c.onclick = function(){
+     if(sw){
+        cc.style.display = "block";
+     }else if(!sw){
+        cc.style.display = "none";
+     }
+     sw = !sw;
+  }
+</script>
 </html>

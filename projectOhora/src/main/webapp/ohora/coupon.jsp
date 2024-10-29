@@ -19,6 +19,7 @@
 </style>
 </head>
 <body>
+<%@include file="header.jsp" %>
 <div id="SP_mypage_wrap">
 	<div class="SP_subSection">
 		<h2 class="SP_subTitle Nunito_Sans_font"><span class="eng_font">MY COUPON</span></h2>
@@ -218,6 +219,8 @@
 		</div>
 </div>
 </div>
+
+<%@include file="footer.jsp" %>
 </body>
 
 </html>

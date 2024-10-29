@@ -13,6 +13,7 @@
 <meta name="google" content="notranslate">
 </head>
 <body>
+<%@include file="header.jsp" %>
 <div class="wrap">
     <div class="eventDetail">
         <div class="title-block">
@@ -60,6 +61,6 @@
             </div>
             </div>
         </div>
-
+<%@include file="footer.jsp" %>
 </body>
 </html>

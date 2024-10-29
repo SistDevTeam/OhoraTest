@@ -22,6 +22,9 @@
 </style>
 </head>
 <body>
+
+<%@include file="header.jsp" %>
+
 	<div id="first-wrap">
 		<div id="cate-layout">
 			<div id="cate-wrap">
@@ -1118,5 +1121,6 @@
 		</form>
 		<!--나만의 디자인 찾기-->
 	</div>
+	<%@include file="footer.jsp" %>
 </body>
 </html>
