@@ -18,7 +18,9 @@
  }  
 </style>
 </head>
+
 <body>
+<%@include file="header.jsp" %>
     <div id="wrap" style="padding-top: 157px !important">
       <div id="container">
         <div id="contents">

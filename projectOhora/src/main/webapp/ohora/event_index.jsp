@@ -12,6 +12,7 @@
 <meta name="google" content="notranslate">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+<%@include file="header.jsp" %>
 <body>
 	<div id="wrap" style="padding-top: 156px !important;">
 		<div id="container">
@@ -215,4 +216,6 @@
     });
 	</script>
 </body>
+
+<%@include file="footer.jsp" %>
 </html>

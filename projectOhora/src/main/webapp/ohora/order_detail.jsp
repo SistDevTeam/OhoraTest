@@ -11,7 +11,8 @@
 <link rel="stylesheet" href="../resources/cdn-main/order_detail.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>d
+<%@include file="header.jsp" %>
+<body>
 	<div id="container">
 		<div id="contents">
 			<div id="SP_mypage_wrap" class="order_detail_page">
@@ -762,6 +763,7 @@
 	</div>
 
 </body>
+<%@include file="footer.jsp" %>
 </html>
 
 

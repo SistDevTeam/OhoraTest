@@ -19,6 +19,7 @@
  }  
 </style>
 </head>
+<%@include file="header.jsp" %>
  <body>
     <div id="wrap">
       <div class="layout-fix">
@@ -236,4 +237,5 @@
       </div>
     </div>
   </body>
+  <%@include file="footer.jsp" %>
 </html>

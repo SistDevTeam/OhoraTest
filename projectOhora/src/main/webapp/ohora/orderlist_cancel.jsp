@@ -18,6 +18,7 @@
  }  
 </style>
 </head>
+<%@include file="header.jsp" %>
  <body>
     <img
       src="https://www.ohora.kr/optimize/images/pc/common/PC_header_kakao_0526.webp"
@@ -449,4 +450,5 @@
     </script>
     <!-- 메인 전체 컨테이너 -->
   </body>
+  <%@include file="footer.jsp" %>
 </html>

@@ -45,14 +45,38 @@
                 <div class="member-radius ">
 
                     <div class="radius-box" id="radiusBox">
-                        <canvas id="doughnut1" width="170" height="170"></canvas><canvas id="member1" width="170" height="170" class="line"></canvas>
+                       <canvas id="doughnut1" width="170" height="170" ></canvas>
+                                        
+                                        <!-- 원 그리는 스크립트 -->
+                                        <script>
+                                            // 1. canvas 엘리먼트 취득
+                                            const canvas = document.getElementById('doughnut1');
+                                            
+                                            // 2. 2d모드의 그리기 객체 취득
+                                            const ctx = canvas.getContext("2d");
+                                
+                                            // 3. path 그리기 시작 설정
+                                            ctx.beginPath();
+                                
+                                            // 4. 외곽선
+                                            ctx.lineWidth = 1.5; // 선 굵기 설정 (5픽셀)
+                                            ctx.strokeStyle = "gray"; // 외곽선 색상 설정
+                                
+                                            // 5. 원 모양 설정
+                                            // 중심 (85, 85), 반지름 85, 시작 각도 0, 끝 각도 2*Math.PI (완전한 원)
+                                            ctx.arc(85, 85, 80, 0, 2 * Math.PI);
+                                
+                                            // 6. 내부 채우기 및 외곽선 그리기
+
+                                            ctx.stroke();
+                                        </script>
 </div>
                 </div>
                 <!-- //progress -->
 				
                 
 				<div class="SP_infoMegBox_wrap">
-					<p class="ment"><strong><span><span class="xans-member-var-name">이시훈</span></span></strong>님 반갑습니다.</p>
+					<p class="ment" style="margin-bottom: 12px"><strong><span><span class="xans-member-var-name">이시훈</span></span></strong>님 반갑습니다.</p>
 					<p class="grade">회원님의 등급은 <!--img src="" alt="" class="myshop_benefit_group_icon_tag" / --><strong class="group">[<span class="groupName" id="groupName"><span class="xans-member-var-group_name">Friend</span><span class="myshop_benefit_ship_free_message"></span></span>]</strong>입니다. </p>
 					<p class="gradeValue  gradeGuide" id="sGradeAutoDisplayArea">다음 등급까지 <span id="changePrd" class="price  sAutoGradeDisplay"><span class="xans-member-var-sGradeIncreasePrice">150,000</span>원</span> 남았습니다.</p>
                     <p class="order_total_ 현재까지주문금액"><span class="xans-member-var-sPeriodOrderPrice">0</span></p>

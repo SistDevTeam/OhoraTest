@@ -18,6 +18,7 @@
  }  
 </style>
 </head>
+<%@include file="header.jsp" %>
 <body>
     <img
       src="https://www.ohora.kr/optimize/images/pc/common/PC_header_lamp2.webp"
@@ -4182,4 +4183,5 @@
       </div>
     </div>
   </body>
+  <%@include file="footer.jsp" %>
 </html>

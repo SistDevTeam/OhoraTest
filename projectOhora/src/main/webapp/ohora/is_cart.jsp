@@ -18,6 +18,7 @@
  }  
 </style>
 </head>
+<%@include file="header.jsp" %>
 <body>
 
 <div id="wrap" style="padding-top: 156px !important;">
@@ -716,4 +717,5 @@ $mode = basket
         </div>
 
 </body>
+<%@include file="footer.jsp" %>
 </html>

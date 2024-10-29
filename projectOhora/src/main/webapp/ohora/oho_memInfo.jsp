@@ -18,6 +18,7 @@
  }  
 </style>
 </head>
+<%@include file="header.jsp" %>
 <body>
     <div id="container">
         <div id="contents">
@@ -400,6 +401,6 @@
         }).open();
     }
 </script>
-
+<%@include file="footer.jsp" %>
 <script src="../resources/js/oho_memInfo.js"></script>
 </html>

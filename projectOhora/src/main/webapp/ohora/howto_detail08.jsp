@@ -17,6 +17,7 @@
 }
 </style>
 </head>
+<%@include file="header.jsp" %>
 <body>
 
 	<div id="container">
@@ -284,4 +285,5 @@
 
 
 </body>
+<%@include file="footer.jsp" %>
 </html>

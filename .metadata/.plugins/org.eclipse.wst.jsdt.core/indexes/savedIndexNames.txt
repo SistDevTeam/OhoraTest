@@ -1,14 +1,6 @@
-<<<<<<< HEAD
-INDEX VERSION 1.4+C:\Users\Victor\Desktop\OhoraTest\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-4156433435.index
-1614610330.index
-155666343.index
-3706536993.index
-3589450989.index
+INDEX VERSION 1.4+C:\Class\Workspace\ohoCOPY\real\OhoraTest\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1739134065.index
 83990442.index
-4250534312.index
-=======
-INDEX VERSION 1.4+C:\Class\Workspace\oho_test\OhoraTest\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-83990442.index
-1614610330.index
->>>>>>> e081e1cac6dee13e3d5c9469e8bb2ae6d47d970e
+3440119267.index
+2331760033.index
+377547279.index

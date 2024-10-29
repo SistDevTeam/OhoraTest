@@ -18,6 +18,7 @@
  }  
 </style>
 </head>
+<%@include file="header.jsp" %>
 <body>
 
     <div id="main-container">
@@ -45,7 +46,7 @@
                                 <div class="member-radius">
                                     <div class="radius-box" id="radiusBox">
                                         <canvas id="doughnut1" width="170" height="170" ></canvas>
-                                        <canvas id="member1" width="170" height="170" class="line"></canvas>
+                                       
                                         <!-- 원 그리는 스크립트 -->
                                         <script>
                                             // 1. canvas 엘리먼트 취득
@@ -335,4 +336,5 @@
     <!-- 메인 컨테이너 -->
 
 </body>
+<%@include file="footer.jsp" %>
 </html>
