@@ -536,7 +536,7 @@ a {
   vertical-align: top;
 }
 
-.item-wrap .item-container > dl > .item-image > img:last-of-type {
+.item-wrap .item-container > dl > .item-image > img:last-of-type{
   opacity: 0;
 
   display: block;
@@ -553,6 +553,15 @@ a {
   max-width: 100%;
   vertical-align: top;
 }
+
+.item-wrap .item-container:hover > dl > .item-image > img:first-of-type {
+  opacity: 0;
+}
+
+.item-wrap .item-container:hover > dl > .item-image > img:last-of-type {
+  opacity: 1;
+}
+
 
 .cart-in {
   display: block;
@@ -886,6 +895,7 @@ span.rvCount::before {
   background: #fff;
 }
 
+
 .side-check-type > ul > li {
   display: inline-block;
   width: calc(25% - 9px);
@@ -939,7 +949,6 @@ span.rvCount::before {
   background: none;
   border: 1px solid #e6e6e6;
 }
-
 
 .side-check-type-color {
   padding: 0 20px;
@@ -1027,19 +1036,143 @@ span.rvCount::before {
   text-align: center;
 }
 
+/* 체크 이미지 표시 */
 .side-check-type-color
   .side-type-list-color
   > li
-  > input[value$="占쌘띰옙占쏙옙크"]
-  + label::before {
-  background: #e4a0a6;
+  > input[type="checkbox"]:checked+label::after {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 16px;
+	height: 12px;
+	content: "";
+	background: url('../images/prd_image/checking.png') no-repeat;
+	background-size: 100% auto;
+	background-position: center;
 }
+
 .side-check-type-color
   .side-type-list-color
   > li
-  > input[value$="占쏙옙占쏙옙占쏙옙遣占�"]
-  + label::before {
-  background: #73a3cc;
+  > input[value$='코랄핑크']+label::before
+	{
+	background: #E4A0A6;
+}
+
+.side-check-type-color
+  .side-type-list-color
+  > li
+  > input[value$='블루네이비']+label::before
+	{
+	background: #73A3CC;
+}
+
+.side-check-type-color
+  .side-type-list-color
+  > li
+  > input[value$='누드베이지']+label::before
+	{
+	background: #F0DDBF;
+}
+
+.side-check-type-color
+  .side-type-list-color
+  > li
+  > input[value$='레드버건디']+label::before
+	{
+	background: #90101A;
+}
+
+.side-check-type-color
+  .side-type-list-color
+  > li
+  > input[value$='화이트']+label::before
+	{
+	background: #fff;
+	border: 1px solid #e6e6e6;
+}
+
+.side-check-type-color
+  .side-type-list-color
+  > li
+  > input[value$='골드']+label::before
+	{
+	background: #D4B56A;
+}
+
+.side-check-type-color
+  .side-type-list-color
+  > li
+  > input[value$='그린']+label::before
+	{
+	background: #B3D465;
+}
+
+.side-check-type-color
+  .side-type-list-color
+  > li
+  > input[value$='옐로우']+label::before
+	{
+	background: #F7C94E;
+}
+
+.side-check-type-color
+  .side-type-list-color
+  > li
+  > input[value$='누드베이지']+label::before
+	{
+	background: #F0DDBF;
+}
+
+.side-check-type-color
+  .side-type-list-color
+  > li
+  > input[value$='퍼플']+label::before
+	{
+	background: #8957A1;
+}
+
+.side-check-type-color
+  .side-type-list-color
+  > li
+  > input[value$='블랙']+label::before
+	{
+	background: #000;
+}
+
+.side-check-type-color
+  .side-type-list-color
+  > li
+  > input[value$='브라운']+label::before
+	{
+	background: #8A705A;
+}
+
+.side-check-type-color
+  .side-type-list-color
+  > li
+  > input[value$='실버그레이']+label::before
+	{
+	background: #C6C6C6;
+}
+
+.side-check-type-color
+  .side-type-list-color
+  > li
+  > input[value$='네온']+label::before
+	{
+	background: #DEF33D;
+}
+
+.side-check-type-color
+  .side-type-list-color
+  > li
+  > input[value$='오렌지']+label::before
+	{
+	background: #FEA36D;
 }
 
 #side-filter-search {

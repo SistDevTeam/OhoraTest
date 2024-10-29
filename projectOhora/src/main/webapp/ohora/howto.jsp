@@ -18,6 +18,7 @@
  }  
 </style>
 </head>
+<%@include file="header.jsp" %>
 <body>
 <style>
     .xans-board-buttonlist-8 .SP_cm_btn.SP_btn_gray_bd {display:inline-block !important; }
@@ -237,6 +238,7 @@
 			</div>
 		</div>
 	</div>
-
+<%@include file="footer.jsp" %>
 </body>
+
 </html>
