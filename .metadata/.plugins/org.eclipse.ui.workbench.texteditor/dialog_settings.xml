@@ -15,23 +15,39 @@
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|5|0|맑은 고딕"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="label"/>
+		<item key="selection" value=""/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
+		<item key="wrap" value="true"/>
+		<item key="incremental" value="false"/>
 		<list key="findhistory">
+			<item value="collapse"/>
+			<item value="coll"/>
+			<item value="co"/>
+			<item value="tr"/>
+			<item value="type2"/>
+			<item value="함께"/>
+			<item value="CDATA"/>
+			<item value="a31f"/>
+			<item value="review6"/>
+			<item value="assets6"/>
+			<item value="asset"/>
+			<item value="totalPrice"/>
+			<item value="sytle"/>
 			<item value="label"/>
 			<item value="내가 원하는"/>
-			<item value="itembox10"/>
-			<item value="jpg"/>
-			<item value="png"/>
-			<item value="&quot;https://cdn.jsdelivr.net/npm/swiper@11/"/>
-			<item value="swiper"/>
-			<item value=".xans-board-search .boardSearch"/>
 		</list>
 		<list key="replacehistory">
 			<item value="&gt;"/>
 			<item value="th"/>
 		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1789"/>
+		<item key="DIALOG_Y_ORIGIN" value="338"/>
+		<item key="DIALOG_WIDTH" value="393"/>
+		<item key="DIALOG_HEIGHT" value="523"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 </section>

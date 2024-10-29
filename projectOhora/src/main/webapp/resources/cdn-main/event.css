@@ -1,4 +1,5 @@
-@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Noto+Sans+KR:300,400,500,700&display=swap");
+
 body {
 	overflow-x: hidden;
 }
@@ -3583,8 +3584,6 @@ img {
     opacity: 0;
 }
 
-.SP_menuCategory li {
-}
 
 .xans-order-basketpackage td .box.shipping .shippingArea {
     display: flex;
@@ -5734,10 +5733,6 @@ h1,h3 {
     padding: 10px 10px 12px;
 }
 
-.ec-base-layer .ec-base-table.typeBorder tfoot td {
-    padding: 10px 10px 12px;
-}
-
 .xans-layout-multishopshipping {
     display: none;
 }
@@ -5788,6 +5783,16 @@ h1,h3 {
 
 .main_bottom_banner div a {
     aspect-ratio: 300/61;
+}
+.event-wrap img {
+    display: block;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+    vertical-align: top;
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
 
 .mainBanner .mainBanner_slide img {
@@ -5843,4 +5848,378 @@ style attribute {
 html {
     font-family: 'Noto Sans KR', sans-serif;
     overflow-x: hidden;
+}
+/* 이미지 기본 상태 */
+.eventPage .event-list .contents-box .image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0.7; /* 30% 투명도 */
+    transition: opacity 0.3s ease; /* 부드러운 전환 효과 */
+}
+
+/* contents-box에 호버했을 때 이미지 상태 변경 */
+.eventPage .event-list .contents-box:hover .image img {
+    opacity: 1; /* 완전 불투명 */
+}
+
+/* 또는 a 태그에 호버했을 때 이미지 상태 변경 */
+.eventPage .event-list .contents-box a:hover .image img {
+    opacity: 1; /* 완전 불투명 */
+}
+
+
+/* contents-box와 이미지 컨테이너 설정 */
+.eventPage .event-list .contents-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.eventPage .event-list .contents-box a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 이미지 컨테이너 스타일 */
+.eventPage .event-list .contents-box .image {
+    width: 100%;
+    position: relative;
+}
+
+/* 이미지 호버 상태 */
+.eventPage .event-list .contents-box .image img:hover {
+    opacity: 1; /* 완전 불투명 */
+}
+
+/* 텍스트 블록을 이미지 위에 겹치게 배치 */
+.eventPage .event-list .contents-box .text-block {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 40%; 
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.5s ease; /* 부드러운 투명도 전환 효과 */
+}
+
+/* 텍스트 스타일링 */
+.eventPage .event-list .contents-box .text-block .date {
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 14px;
+}
+
+.eventPage .event-list .contents-box .text-block h3 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.eventPage .event-list .contents-box .text-block .desc {
+    margin: 0;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* hover 텍스트 스타일링 */
+.eventPage .event-list .contents-box .text-block .date {
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 14px;
+}
+
+.eventPage .event-list .contents-box .text-block h3 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    color: black;
+}
+
+.eventPage .event-list .contents-box .text-block .desc {
+    margin: 0;
+    color: black;
+    line-height: 1.5;
+}
+
+/* go_top 버튼 */
+#floating {
+    position: fixed;
+    bottom: 70px;
+    right: 55px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+#floating .go_top {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("/projectOhora/resources/images/arrow_top.png") no-repeat center center;
+    background-size: contain;
+}
+
+span, a {
+    font-family: inherit;
+    color: inherit;
+    font-size: inherit;
+}
+
+/* 반응형 디자인을 위한 미디어 쿼리 */
+@media (max-width: 768px) {
+    .eventPage .event-list .contents-box .text-block {
+        width: 100%;
+        position: relative;
+        background: rgba(255, 255, 255, 0.7);
+    }
+}
+/* 초기 모든 event-list 숨기기 */
+.event-list {
+    display: none;
+}
+
+/* show 클래스가 있는 event-list 보이기 */
+.event-list.show {
+    display: block;
+}
+
+/* contents-box의 기본 스타일 */
+.eventPage .event-list .contents-box {
+    position: relative;
+    margin-bottom: 20px;
+    top: 50px;
+    opacity: 0;
+    transition: all .4s;
+}
+
+/* show 클래스가 있는 event-list 내부의 contents-box 스타일 */
+.event-list.show .contents-box {
+    display: block !important; /* 인라인 스타일을 덮어쓰기 위해 !important 사용 */
+    top: 0;
+    opacity: 1;
+}
+
+/* MORE 버튼 스타일링 */
+.eventPage .view {
+    text-decoration: none;
+    width: 250px;
+    display: block;
+    margin: 50px auto;
+    height: 45px;
+    line-height: 45px;
+    background: black;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+/* contents-box 내부의 a 태그를 flex container로 만듭니다 */
+.eventPage .event-list .contents-box a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 텍스트 블록 스타일링 */
+.eventPage .event-list .contents-box .text-block {
+    flex: 1; /* 남은 공간을 모두 차지 */
+    padding-left: 30px; /* 이미지와의 간격 */
+}
+
+/* 텍스트 블록 내부 요소들의 스타일 */
+.eventPage .event-list .contents-box .text-block .date {
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.eventPage .event-list .contents-box .text-block h3 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+}
+
+.eventPage .event-list .contents-box .text-block .desc {
+    margin: 0;
+    color: #333;
+    line-height: 1.5;
+}
+@media (max-width: 768px) {
+    .eventPage .event-list .contents-box a {
+        flex-direction: column;
+    }
+    
+    .eventPage .event-list .contents-box .image {
+        width: 100%;
+    }
+    
+    .eventPage .event-list .contents-box .text-block {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+}
+.eventPage h2 {
+    text-align: center;
+    margin-bottom: 70px;
+}
+.eventPage h2 {
+    text-transform: lowercase;
+}
+.titleCommon {
+    font-size: 29px;
+    line-height: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 45px;
+}
+.titleCommon, .titleCommon * {
+    font-family: 'Noto Sans KR', sans-serif !important;
+}
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@font-face {
+	font-family: 'baskerville-medium';
+	src: url('/web/mobile/frontapp/Baskerville-Medium.ttf') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.eventDetail img {
+	display: block;
+	margin: 0 auto;
+}
+
+#click_btn {
+	width: 1000px;
+	display: block;
+	margin: 0 auto;
+}
+
+#click_btn img {
+	width: calc(100%/ 3);
+	display: inline-block;
+}
+
+#product_btn {
+	width: 1000px;
+	display: block;
+	margin: 0 auto;
+}
+
+#product_btn img {
+	width: calc(100%/ 2);
+	display: inline-block;
+}
+
+.videowrapper3 {
+	position: relative;
+	width: 1000px;
+	padding-bottom: 75%;
+	display: block;
+	margin: 0 auto;
+}
+
+.videowrapper3 iframe {
+	width: 100%;
+	height: 100% !important;
+	position: absolute;
+	display: block;
+}
+
+.warmer_promotion {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.warmer_tab {
+	display: flex;
+}
+
+.warmer_tab li {
+	width: 25%;
+	position: relative;
+}
+
+.warmer_tab li img:nth-of-type(2) {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none !important;
+}
+
+.warmer_tab li.warmer_active img:nth-of-type(2) {
+	display: block !important;
+}
+
+.warmer_img {
+	width: 1000px;
+	z-index: 10;
+	position: relative;
+}
+
+.warmer_img img:nth-of-type(2), .warmer_img img:nth-of-type(3),
+	.warmer_img img:nth-of-type(4) {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none !important;
+}
+
+.warmer_img img.warmer_active {
+	display: block !important;
+}
+
+.event30_video {
+	position: relative;
+}
+
+.videowrapper4 {
+	position: absolute;
+	right: 0;
+	top: 9.5%;
+	width: 84% !important;
+	padding-bottom: 75%;
+	display: block;
+	margin: 0 auto;
+}
+
+.videowrapper4 iframe {
+	width: 100%;
+	height: 100% !important;
+	position: absolute;
+	display: block;
+}
+.event-wrap img {
+    display: block;
+    margin: 0 auto;
+}
+body, html, :lang(ko) {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+img {
+    max-width: 100%;
+    vertical-align: top;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+style attribute {
+    text-align: center;
+}
+a {
+    color: #000;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
 }
