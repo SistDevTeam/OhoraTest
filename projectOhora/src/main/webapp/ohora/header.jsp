@@ -26,20 +26,48 @@
 </style>
   
 </head>
- <body>
-    <div class="SP_topBanner" style="display: block">
+<div class="SP_topBanner" style="display: block">
       <div class="SP_layoutMin">
         <div class="SP_topBn_inr"></div>
-        <!-- 상단띠 배너 -->
-        <div class="slide_banner_top" id="sltop_ban">
-          <a href="/event/event6.html">
-            <img
-              src="https://ohora.kr/optimize/images/pc/common/PC_header_lamp2.webp"
-              alt="배너 이미지"
-            />
-          </a>
+
+        <div class="xans-element- xans-layout xans-layout-statelogoff">
+          <div
+            class="slide_banner_top slick-initialized slick-slider"
+            id="sltop_ban"
+          >
+            <div class="slick-list draggable">
+              <div
+                class="slick-track"
+                style="
+                  opacity: 1;
+                  width: 1200px;
+                  transform: translate3d(0px, 0px, 0px);
+                "
+              >
+                <div
+                  class="slick-slide slick-current slick-active"
+                  data-slick-index="0"
+                  aria-hidden="false"
+                  style="width: 1200px"
+                  tabindex="0"
+                >
+                  <a
+                    href="/event/event6.html"
+                    tabindex="0"
+                    style="display: block"
+                    ><img
+                      src="https://ohora.kr/optimize/images/pc/common/PC_header_lamp2.webp"
+                      style="width: 100%; display: block"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
+
+    <!-- 회원 -->
     </div>
 
     <div id="fix_position" class="modify ham_modify">
