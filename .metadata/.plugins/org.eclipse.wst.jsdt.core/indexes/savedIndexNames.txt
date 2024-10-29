@@ -1,13 +1,7 @@
-<<<<<<< HEAD
 INDEX VERSION 1.4+C:\Class\Workspace\OhoraTest\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-2938420661.index
 2019510800.index
 1614610330.index
 2412108039.index
-847321838.index
 83990442.index
+847321838.index
 2102944129.index
-=======
-INDEX VERSION 1.4+C:\Class\Workspace\oho_test\OhoraTest\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-1614610330.index
->>>>>>> 5aa13e48fe017347e95da6bf0f0e93b468041889

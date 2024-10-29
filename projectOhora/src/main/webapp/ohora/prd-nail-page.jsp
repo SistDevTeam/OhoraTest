@@ -18,6 +18,7 @@
  span.material-symbols-outlined{
     vertical-align: text-bottom;
  }  
+ /*  */
 </style>
 </head>
 <body>
