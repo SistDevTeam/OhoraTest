@@ -18,7 +18,6 @@
  }  
 </style>
 </head>
-<%@include file="header.jsp" %>
 <body>
 <style>
     .xans-board-buttonlist-8 .SP_cm_btn.SP_btn_gray_bd {display:inline-block !important; }
@@ -39,7 +38,7 @@
 									class="xans-element- xans-board xans-board-fixed-8 xans-board-fixed xans-board-8 SP_gallListTable_wrap">
 									<ul>
 										<li class="xans-record-"><a
-											href="#" class="imgLink"><img
+											href="/projectOhora/ohora/howto_detail10.jsp" class="imgLink"><img
 												src="../resources/images/howto_image/1.jpg"
 												onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
 												alt=""></a>
@@ -54,7 +53,7 @@
 											</div></li>
 											
 										<li class="xans-record-"><a
-											href="#" class="imgLink"><img
+											href="/projectOhora/ohora/howto_detail09.jsp" class="imgLink"><img
 												src="../resources/images/howto_image/2.jpg"
 												onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
 												alt=""></a>
@@ -69,7 +68,7 @@
 											</div></li>
 											
 										<li class="xans-record-"><a
-											href="#" class="imgLink"><img
+											href="/projectOhora/ohora/howto_detail08.jsp" class="imgLink"><img
 												src="../resources/images/howto_image/3.jpg"
 												onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
 												alt=""></a>
@@ -84,7 +83,7 @@
 											</div></li>
 											
 										<li class="xans-record-"><a
-											href="#" class="imgLink"><img
+											href="/projectOhora/ohora/howto_detail07.jsp" class="imgLink"><img
 												src="../resources/images/howto_image/4.jpg"
 												onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
 												alt=""></a>
@@ -99,7 +98,7 @@
 											</div></li>
 											
 										<li class="xans-record-"><a
-											href="#" class="imgLink"><img
+											href="/projectOhora/ohora/howto_detail06.jsp" class="imgLink"><img
 												src="../resources/images/howto_image/5.jpg"
 												onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
 												alt=""></a>
@@ -114,7 +113,7 @@
 											</div></li>
 											
 										<li class="xans-record-"><a
-											href="#" class="imgLink"><img
+											href="/projectOhora/ohora/howto_detail05.jsp" class="imgLink"><img
 												src="../resources/images/howto_image/6.jpg"
 												onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
 												alt=""></a>
@@ -129,7 +128,7 @@
 											</div></li>
 											
 										<li class="xans-record-"><a
-											href="#" class="imgLink"><img
+											href="/projectOhora/ohora/howto_detail04.jsp" class="imgLink"><img
 												src="../resources/images/howto_image/7.jpg"
 												onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
 												alt=""></a>
@@ -144,7 +143,7 @@
 											</div></li>
 											
 										<li class="xans-record-"><a
-											href="#" class="imgLink"><img
+											href="/projectOhora/ohora/howto_detail03.jsp" class="imgLink"><img
 												src="../resources/images/howto_image/8.jpg"
 												onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
 												alt=""></a>
@@ -159,7 +158,7 @@
 											</div></li>
 											
 										<li class="xans-record-"><a
-											href="#" class="imgLink"><img
+											href="/projectOhora/ohora/howto_detail02.jsp" class="imgLink"><img
 												src="../resources/images/howto_image/9.jpg"
 												onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
 												alt=""></a>
@@ -174,7 +173,7 @@
 											</div></li>	
 											
 										<li class="xans-record-"><a
-											href="#" class="imgLink"><img
+											href="/projectOhora/ohora/howto_detail01.jsp" class="imgLink"><img
 												src="../resources/images/howto_image/10.jpg"
 												onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
 												alt=""></a>
@@ -238,7 +237,6 @@
 			</div>
 		</div>
 	</div>
-<%@include file="footer.jsp" %>
-</body>
 
+</body>
 </html>
