@@ -6055,10 +6055,7 @@ span, a {
     .eventPage .event-list .contents-box a {
         flex-direction: column;
     }
-    
-    .eventPage .event-list .contents-box .image {
-        width: 100%;
-    }
+
     
     .eventPage .event-list .contents-box .text-block {
         padding-left: 0;
@@ -6093,6 +6090,12 @@ a:hover {
 	src: url('/web/mobile/frontapp/Baskerville-Medium.ttf') format('woff');
 	font-weight: normal;
 	font-style: normal;
+}
+
+.SP_tableSt01_isThAndTd.type2 td .detail {
+    height: auto;
+    padding: 40px 10px;
+    line-height: 1.5;
 }
 
 .eventDetail img {
