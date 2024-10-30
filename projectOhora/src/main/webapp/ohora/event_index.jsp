@@ -179,24 +179,31 @@
 	</div>
 	<script>
 	$(document).ready(function () {
-        let itemsToShow = 4;
-        const totalItems = $(".event-list").length;
+	    let itemsToShow = 4;
+	    const totalItems = $(".event-list").length;
+	    
+	    // 초기 상태: 모든 event-list 숨기기
+	    $(".event-list").hide();
+	    // 첫 4개만 보이기
+	    $(".event-list:lt(" + itemsToShow + ")").show();
+	    $(".event-list:lt(" + itemsToShow + ") .contents-box").addClass("active");
+	    
+	    // MORE 버튼 클릭 이벤트
+	    $(".view").click(function (e) {
+	        e.preventDefault();
+	        itemsToShow += 4;
+	        
+	        // 추가 항목 표시
+	        $(".event-list:lt(" + itemsToShow + ")").show();
+	        $(".event-list:lt(" + itemsToShow + ") .contents-box").addClass("active");
+	        
+	        // 모든 항목이 표시되면 MORE 버튼 숨기기
+	        if (itemsToShow >= totalItems) {
+	            $(this).hide();
+	        }
+	    });
+	});
 
-        // 초기 설정: 첫 4개의 항목에만 'show' 클래스를 추가하여 표시
-        $(".event-list:lt(" + itemsToShow + ")").addClass("show");
-
-        // MORE 버튼 클릭 시 추가로 항목 표시
-        $(".view").click(function (e) {
-            e.preventDefault();
-            itemsToShow += 4;
-            $(".event-list:lt(" + itemsToShow + ")").addClass("show");
-
-            // 모든 항목이 표시되면 MORE 버튼 숨기기
-            if (itemsToShow >= totalItems) {
-                $(this).hide();
-            }
-        });
-    });
 	
 	// go_top 버튼 스크립트
     $(document).ready(function() {
