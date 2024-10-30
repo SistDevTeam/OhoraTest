@@ -79,4 +79,7 @@
 	<section name="JavaEditorCodeMiningConfigurationBlock">
 		<item key="expanded0" value="true"/>
 	</section>
+	<section name="ClasspathContainerSelectionPage">
+		<item key="index" value="7"/>
+	</section>
 </section>
