@@ -139,7 +139,7 @@
                         <span class="save"></span>
                         <span class="ssl"
                           ><img
-                            src="../ohora_html/login_1.png"
+                            src="https://www.ohora.kr/web/upload/common/save_login.png"
                             alt="보안접속"
                           /><em>보안접속</em></span
                         >
@@ -269,5 +269,4 @@
       </div>
     </div>
   </body>
-  <%@include file="footer.jsp" %>
 </html>

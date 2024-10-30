@@ -143,7 +143,7 @@ ul {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    /* padding-inline-start: 40px; */
+    padding-inline-start: 0px !important;
     unicode-bidi: isolate;
 }
 
@@ -200,7 +200,8 @@ a {
 }
 
 a:-webkit-any-link {
-    color: -webkit-link;
+	/* color: black !important; */
+    /* color: -webkit-link; */
     cursor: pointer;
     /* text-decoration: underline; */
 }
@@ -497,7 +498,7 @@ input {
 }
 
 .SP_cm_btn.SP_btn_black_bg, .SP_cm_btn.SP_btn_blue_bg {
-    color: #fff;
+    color: #fff !important;
     background: #111;
 }
 
@@ -535,7 +536,7 @@ input {
     vertical-align: middle;
     width: 7px;
     height: 13px;
-    background: url(../ohora_html/FAQ_page_prev_btn.svg) no-repeat;
+    background: url(https://www.ohora.kr/smartpc/_img/icon/page_prev_btn.svg) no-repeat;
 }
 
 .SP_page_num_list {
@@ -605,7 +606,7 @@ ol {
     vertical-align: middle;
     width: 7px;
     height: 13px;
-    background: url(../ohora_html/FAQ_page_next_btn.svg) no-repeat;
+    background: url(https://www.ohora.kr/smartpc/_img/icon/page_next_btn.svg) no-repeat;
 }
 
 /* 추가함 */

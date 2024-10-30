@@ -286,7 +286,7 @@ a:-webkit-any-link {
     display: inline-block;
     width: 9px;
     height: 13px;
-    background: url(../ohora_html/coupon_arrow_more_wh.png) no-repeat center center;
+    background: url(https://www.ohora.kr/smartpc/_img/icon/arrow_more_wh.png) no-repeat center center;
     object-fit: contain;
     background-size: 90%;
     position: absolute;
@@ -769,7 +769,7 @@ td {
     margin-right: 30px;
     width: 14px;
     height: 13px;
-    background: url(../ohora_html/coupon_page_prevAll_btn.svg) no-repeat;
+    background: url(https://www.ohora.kr/smartpc/_img/icon/page_prevAll_btn.svg) no-repeat;
 }
 
 .SP_pg_prev_btn {
@@ -777,7 +777,7 @@ td {
     vertical-align: middle;
     width: 7px;
     height: 13px;
-    background: url(../ohora_html/coupon_page_prev_btn.svg) no-repeat;
+    background: url(https://www.ohora.kr/smartpc/_img/icon/page_prev_btn.svg) no-repeat;
 }
 
 .SP_page_num_list {
@@ -847,7 +847,7 @@ ol {
     vertical-align: middle;
     width: 7px;
     height: 13px;
-    background: url(../ohora_html/coupon_page_next_btn.svg) no-repeat;
+    background: url(https://www.ohora.kr/smartpc/_img/icon/page_next_btn.svg) no-repeat;
 }
 
 .SP_pg_nextAll_btn {
@@ -856,7 +856,7 @@ ol {
     margin-left: 30px;
     width: 14px;
     height: 13px;
-    background: url(../ohora_html/coupon_page_nextAll_btn.svg) no-repeat;
+    background: url(https://www.ohora.kr/smartpc/_img/icon/page_nextAll_btn.svg) no-repeat;
 }
 
 .SP_pageGuideText_wrap {
@@ -896,6 +896,7 @@ ol {
 .SP_pageGuideTxt_cont.bottom {
     padding: 0;
     border: none;
+	margin-inline-start: 0px !important;
 }
 
 .SP_pageGuideTxt_cont {

@@ -1,6 +1,0 @@
-INDEX VERSION 1.4+C:\Users\User\Desktop\けいしけいしけいしけしい\OhoraTest\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-906091969.index
-2235102074.index
-2095768942.index
-83990442.index
-2980299770.index

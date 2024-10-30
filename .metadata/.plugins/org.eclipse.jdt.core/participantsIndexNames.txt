@@ -1,7 +1,0 @@
-INDEX VERSION 1.131
-C:\Users\User\Desktop\けいしけいしけいしけしい\OhoraTest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1614610330.index
-\projectOhora\src\main\java
-C:\Users\User\Desktop\けいしけいしけいしけしい\OhoraTest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\518857624.index
-\projectOhora\src\main\java
-C:\Users\User\Desktop\けいしけいしけいしけしい\OhoraTest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\794413346.index
-\projectOhora\src\main\java
