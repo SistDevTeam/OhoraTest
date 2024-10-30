@@ -1,5 +1,6 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ page trimDirectiveWhitespaces="true" %>
 <!DOCTYPE html>
 <html>
@@ -239,583 +240,57 @@
 				<div id="item-list">
 					<ul id="item-list-ul">
 						<!--상품 하나마다 li 하나씩 복붙-->
-
-						<li id="itembox1" class="item-wrap">
+						
+						<c:choose>
+					       <c:when test="${ empty list }">
+					         <li>No Data</li>
+					       </c:when>
+					       <c:otherwise>
+					         <c:forEach items="${ list }" var="pdt" varStatus="status">
+					         
+					         
+					           <li id="itembox${ status.index + 1 }" class="item-wrap">
 							<div class="item-container">
 								<dl>
 									<a href="" class="item-viewlink"></a>
-									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
 									<div class="item-image">
 										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지1-->
 										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지2 *호버-->
 									</div>
 									<div class="item-info">
 										<dd class="name-container">
-											<p class="item-name">N 마롱 네일</p>
+											<p class="item-name">${pdt.pdt_name}</p>
 										</dd>
 										<dd class="price-container">
-											<p class="dcRate">10%</p>
-											<p class="sale-price">13,320</p>
-											<p class="normal-price">14,800</p>
+											<c:choose>
+										       <c:when test="${pdt.pdt_discount_rate != 0}">
+												<p class="dcRate">${pdt.pdt_discount_rate}%</p>
+												<p class="sale-price"><fmt:formatNumber value="${pdt.pdt_discount_amount}" type="number" pattern="#,##0" /> </p>
+												<p class="normal-price"><fmt:formatNumber value="${pdt.pdt_amount}" type="number" pattern="#,##0" /></p>
+										       </c:when>
+										       <c:otherwise>
+												<p class="dcRate"></p>
+												<p class="sale-price"><fmt:formatNumber value="${pdt.pdt_amount}" type="number" pattern="#,##0" /> </p>
+												<p class="normal-price"></p>
+											       </c:otherwise>
+											     </c:choose>
 										</dd>
 										<div class="review-container">
-											<!--썸네일 바로 밑 리뷰수, 장바구니 버튼-->
 											<p class="rvCount-wrap">
-												<span class="rvCount">20</span>
-												<!--어떻게 받아와야됨-->
+												<span class="rvCount">${pdt.pdt_review_count}</span>
 											</p>
 										</div>
 										<div class="cart-in">
 											<img src="../image/btn_list_cart.gif" alt="" onclick="" />
-											<!--카트 아이콘 (클릭이벤트 - 매개변수로 제품정보 들어감)-->
 										</div>
 									</div>
 								</dl>
 							</div>
 						</li>
+					         </c:forEach>
+					       </c:otherwise>
+					     </c:choose>
 
-						<li id="itembox2" class="item-wrap">
-							<div class="item-container">
-								<dl>
-									<a href="" class="item-viewlink"></a>
-									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
-									<div class="item-image">
-										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지1-->
-										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지2 *호버-->
-									</div>
-									<div class="item-info">
-										<dd class="name-container">
-											<p class="item-name">N 마롱 네일</p>
-										</dd>
-										<dd class="price-container">
-											<p class="dcRate"></p>
-											<p class="sale-price">14,800</p>
-											<p class="normal-price"></p>
-										</dd>
-										<div class="review-container">
-											<!--썸네일 바로 밑 리뷰수, 장바구니 버튼-->
-											<p class="rvCount-wrap">
-												<span class="rvCount">20</span>
-												<!--어떻게 받아와야됨-->
-											</p>
-										</div>
-										<div class="cart-in">
-											<img src="" alt="" />
-											<!--카트 아이콘 (클릭이벤트)-->
-										</div>
-									</div>
-								</dl>
-							</div>
-						</li>
-
-						<li id="itembox3" class="item-wrap">
-							<div class="item-container">
-								<dl>
-									<a href="" class="item-viewlink"></a>
-									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
-									<div class="item-image">
-										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지1-->
-										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지2 *호버-->
-									</div>
-									<div class="item-info">
-										<dd class="name-container">
-											<p class="item-name">N 마롱 네일</p>
-										</dd>
-										<dd class="price-container">
-											<p class="dcRate"></p>
-											<p class="sale-price">14,800</p>
-											<p class="normal-price"></p>
-										</dd>
-										<div class="review-container">
-											<!--썸네일 바로 밑 리뷰수, 장바구니 버튼-->
-											<p class="rvCount-wrap">
-												<span class="rvCount">20</span>
-												<!--어떻게 받아와야됨-->
-											</p>
-										</div>
-										<div class="cart-in">
-											<img src="" alt="" />
-											<!--카트 아이콘 (클릭이벤트)-->
-										</div>
-									</div>
-								</dl>
-							</div>
-						</li>
-
-						<li id="itembox4" class="item-wrap">
-							<div class="item-container">
-								<dl>
-									<a href="" class="item-viewlink"></a>
-									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
-									<div class="item-image">
-										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지1-->
-										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지2 *호버-->
-									</div>
-									<div class="item-info">
-										<dd class="name-container">
-											<p class="item-name">N 마롱 네일</p>
-										</dd>
-										<dd class="price-container">
-											<p class="dcRate"></p>
-											<p class="sale-price">14,800</p>
-											<p class="normal-price"></p>
-										</dd>
-										<div class="review-container">
-											<!--썸네일 바로 밑 리뷰수, 장바구니 버튼-->
-											<p class="rvCount-wrap">
-												<span class="rvCount">20</span>
-												<!--어떻게 받아와야됨-->
-											</p>
-										</div>
-										<div class="cart-in">
-											<img src="" alt="" />
-											<!--카트 아이콘 (클릭이벤트)-->
-										</div>
-									</div>
-								</dl>
-							</div>
-						</li>
-
-						<li id="itembox5" class="item-wrap">
-							<div class="item-container">
-								<dl>
-									<a href="" class="item-viewlink"></a>
-									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
-									<div class="item-image">
-										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지1-->
-										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지2 *호버-->
-									</div>
-									<div class="item-info">
-										<dd class="name-container">
-											<p class="item-name">N 마롱 네일</p>
-										</dd>
-										<dd class="price-container">
-											<p class="dcRate"></p>
-											<p class="sale-price">14,800</p>
-											<p class="normal-price"></p>
-										</dd>
-										<div class="review-container">
-											<!--썸네일 바로 밑 리뷰수, 장바구니 버튼-->
-											<p class="rvCount-wrap">
-												<span class="rvCount">20</span>
-												<!--어떻게 받아와야됨-->
-											</p>
-										</div>
-										<div class="cart-in">
-											<img src="" alt="" />
-											<!--카트 아이콘 (클릭이벤트)-->
-										</div>
-									</div>
-								</dl>
-							</div>
-						</li>
-
-						<li id="itembox6" class="item-wrap">
-							<div class="item-container">
-								<dl>
-									<a href="" class="item-viewlink"></a>
-									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
-									<div class="item-image">
-										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지1-->
-										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지2 *호버-->
-									</div>
-									<div class="item-info">
-										<dd class="name-container">
-											<p class="item-name">N 마롱 네일</p>
-										</dd>
-										<dd class="price-container">
-											<p class="dcRate"></p>
-											<p class="sale-price">14,800</p>
-											<p class="normal-price"></p>
-										</dd>
-										<div class="review-container">
-											<!--썸네일 바로 밑 리뷰수, 장바구니 버튼-->
-											<p class="rvCount-wrap">
-												<span class="rvCount">20</span>
-												<!--어떻게 받아와야됨-->
-											</p>
-										</div>
-										<div class="cart-in">
-											<img src="" alt="" />
-											<!--카트 아이콘 (클릭이벤트)-->
-										</div>
-									</div>
-								</dl>
-							</div>
-						</li>
-
-						<li id="itembox7" class="item-wrap">
-							<div class="item-container">
-								<dl>
-									<a href="" class="item-viewlink"></a>
-									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
-									<div class="item-image">
-										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지1-->
-										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지2 *호버-->
-										<!--썸네일 이미지2 *호버-->
-									</div>
-									<div class="item-info">
-										<dd class="name-container">
-											<p class="item-name">N 마롱 네일</p>
-										</dd>
-										<dd class="price-container">
-											<p class="dcRate"></p>
-											<p class="sale-price">14,800</p>
-											<p class="normal-price"></p>
-										</dd>
-										<div class="review-container">
-											<!--썸네일 바로 밑 리뷰수, 장바구니 버튼-->
-											<p class="rvCount-wrap">
-												<span class="rvCount">20</span>
-												<!--어떻게 받아와야됨-->
-											</p>
-										</div>
-										<div class="cart-in">
-											<img src="" alt="" />
-											<!--카트 아이콘 (클릭이벤트)-->
-										</div>
-									</div>
-								</dl>
-							</div>
-						</li>
-
-						<li id="itembox8" class="item-wrap">
-							<div class="item-container">
-								<dl>
-									<a href="" class="item-viewlink"></a>
-									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
-									<div class="item-image">
-										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지1-->
-										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지2 *호버-->
-									</div>
-									<div class="item-info">
-										<dd class="name-container">
-											<p class="item-name">N 마롱 네일</p>
-										</dd>
-										<dd class="price-container">
-											<p class="dcRate"></p>
-											<p class="sale-price">14,800</p>
-											<p class="normal-price"></p>
-										</dd>
-										<div class="review-container">
-											<!--썸네일 바로 밑 리뷰수, 장바구니 버튼-->
-											<p class="rvCount-wrap">
-												<span class="rvCount">20</span>
-												<!--어떻게 받아와야됨-->
-											</p>
-										</div>
-										<div class="cart-in">
-											<img src="" alt="" />
-											<!--카트 아이콘 (클릭이벤트)-->
-										</div>
-									</div>
-								</dl>
-							</div>
-						</li>
-
-						<li id="itembox9" class="item-wrap">
-							<div class="item-container">
-								<dl>
-									<a href="" class="item-viewlink"></a>
-									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
-									<div class="item-image">
-										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지1-->
-										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지2 *호버-->
-									</div>
-									<div class="item-info">
-										<dd class="name-container">
-											<p class="item-name">N 마롱 네일</p>
-										</dd>
-										<dd class="price-container">
-											<p class="dcRate"></p>
-											<p class="sale-price">14,800</p>
-											<p class="normal-price"></p>
-										</dd>
-										<div class="review-container">
-											<!--썸네일 바로 밑 리뷰수, 장바구니 버튼-->
-											<p class="rvCount-wrap">
-												<span class="rvCount">20</span>
-												<!--어떻게 받아와야됨-->
-											</p>
-										</div>
-										<div class="cart-in">
-											<img src="" alt="" />
-											<!--카트 아이콘 (클릭이벤트)-->
-										</div>
-									</div>
-								</dl>
-							</div>
-						</li>
-
-						<li id="itembox10" class="item-wrap">
-							<div class="item-container">
-								<dl>
-									<a href="" class="item-viewlink"></a>
-									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
-									<div class="item-image">
-										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지1-->
-										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지2 *호버-->
-									</div>
-									<div class="item-info">
-										<dd class="name-container">
-											<p class="item-name">N 마롱 네일</p>
-										</dd>
-										<dd class="price-container">
-											<p class="dcRate"></p>
-											<p class="sale-price">14,800</p>
-											<p class="normal-price"></p>
-										</dd>
-										<div class="review-container">
-											<!--썸네일 바로 밑 리뷰수, 장바구니 버튼-->
-											<p class="rvCount-wrap">
-												<span class="rvCount">20</span>
-												<!--어떻게 받아와야됨-->
-											</p>
-										</div>
-										<div class="cart-in">
-											<img src="" alt="" />
-											<!--카트 아이콘 (클릭이벤트)-->
-										</div>
-									</div>
-								</dl>
-							</div>
-						</li>
-
-						<li id="itembox11" class="item-wrap">
-							<div class="item-container">
-								<dl>
-									<a href="" class="item-viewlink"></a>
-									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
-									<div class="item-image">
-										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지1-->
-										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지2 *호버-->
-									</div>
-									<div class="item-info">
-										<dd class="name-container">
-											<p class="item-name">N 마롱 네일</p>
-										</dd>
-										<dd class="price-container">
-											<p class="dcRate"></p>
-											<p class="sale-price">14,800</p>
-											<p class="normal-price"></p>
-										</dd>
-										<div class="review-container">
-											<!--썸네일 바로 밑 리뷰수, 장바구니 버튼-->
-											<p class="rvCount-wrap">
-												<span class="rvCount">20</span>
-												<!--어떻게 받아와야됨-->
-											</p>
-										</div>
-										<div class="cart-in">
-											<img src="" alt="" />
-											<!--카트 아이콘 (클릭이벤트)-->
-										</div>
-									</div>
-								</dl>
-							</div>
-						</li>
-
-						<li id="itembox12" class="item-wrap">
-							<div class="item-container">
-								<dl>
-									<a href="" class="item-viewlink"></a>
-									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
-									<div class="item-image">
-										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지1-->
-										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지2 *호버-->
-									</div>
-									<div class="item-info">
-										<dd class="name-container">
-											<p class="item-name">N 마롱 네일</p>
-										</dd>
-										<dd class="price-container">
-											<p class="dcRate"></p>
-											<p class="sale-price">14,800</p>
-											<p class="normal-price"></p>
-										</dd>
-										<div class="review-container">
-											<!--썸네일 바로 밑 리뷰수, 장바구니 버튼-->
-											<p class="rvCount-wrap">
-												<span class="rvCount">20</span>
-												<!--어떻게 받아와야됨-->
-											</p>
-										</div>
-										<div class="cart-in">
-											<img src="" alt="" />
-											<!--카트 아이콘 (클릭이벤트)-->
-										</div>
-									</div>
-								</dl>
-							</div>
-						</li>
-
-						<li id="itembox13" class="item-wrap">
-							<div class="item-container">
-								<dl>
-									<a href="" class="item-viewlink"></a>
-									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
-									<div class="item-image">
-										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지1-->
-										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지2 *호버-->
-									</div>
-									<div class="item-info">
-										<dd class="name-container">
-											<p class="item-name">N 마롱 네일</p>
-										</dd>
-										<dd class="price-container">
-											<p class="dcRate"></p>
-											<p class="sale-price">14,800</p>
-											<p class="normal-price"></p>
-										</dd>
-										<div class="review-container">
-											<!--썸네일 바로 밑 리뷰수, 장바구니 버튼-->
-											<p class="rvCount-wrap">
-												<span class="rvCount">20</span>
-												<!--어떻게 받아와야됨-->
-											</p>
-										</div>
-										<div class="cart-in">
-											<img src="" alt="" />
-											<!--카트 아이콘 (클릭이벤트)-->
-										</div>
-									</div>
-								</dl>
-							</div>
-						</li>
-
-						<li id="itembox14" class="item-wrap">
-							<div class="item-container">
-								<dl>
-									<a href="" class="item-viewlink"></a>
-									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
-									<div class="item-image">
-										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지1-->
-										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지2 *호버-->
-									</div>
-									<div class="item-info">
-										<dd class="name-container">
-											<p class="item-name">N 마롱 네일</p>
-										</dd>
-										<dd class="price-container">
-											<p class="dcRate"></p>
-											<p class="sale-price">14,800</p>
-											<p class="normal-price"></p>
-										</dd>
-										<div class="review-container">
-											<!--썸네일 바로 밑 리뷰수, 장바구니 버튼-->
-											<p class="rvCount-wrap">
-												<span class="rvCount">20</span>
-												<!--어떻게 받아와야됨-->
-											</p>
-										</div>
-										<div class="cart-in">
-											<img src="" alt="" />
-											<!--카트 아이콘 (클릭이벤트)-->
-										</div>
-									</div>
-								</dl>
-							</div>
-						</li>
-
-						<li id="itembox15" class="item-wrap">
-							<div class="item-container">
-								<dl>
-									<a href="" class="item-viewlink"></a>
-									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
-									<div class="item-image">
-										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지1-->
-										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지2 *호버-->
-									</div>
-									<div class="item-info">
-										<dd class="name-container">
-											<p class="item-name">N 마롱 네일</p>
-										</dd>
-										<dd class="price-container">
-											<p class="dcRate"></p>
-											<p class="sale-price">14,800</p>
-											<p class="normal-price"></p>
-										</dd>
-										<div class="review-container">
-											<!--썸네일 바로 밑 리뷰수, 장바구니 버튼-->
-											<p class="rvCount-wrap">
-												<span class="rvCount">20</span>
-												<!--어떻게 받아와야됨-->
-											</p>
-										</div>
-										<div class="cart-in">
-											<img src="" alt="" />
-											<!--카트 아이콘 (클릭이벤트)-->
-										</div>
-									</div>
-								</dl>
-							</div>
-						</li>
-
-						<li id="itembox16" class="item-wrap">
-							<div class="item-container">
-								<dl>
-									<a href="" class="item-viewlink"></a>
-									<!--컨테이너 영역 전부 차지하고 누르면 이동하게끔-->
-									<div class="item-image">
-										<img src="../resources/images/prd_image/마롱네일1jpg.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지1-->
-										<img src="../resources/images/prd_image/마롱네일2.jpg" alt="" width="800" height="800" />
-										<!--썸네일 이미지2 *호버-->
-									</div>
-									<div class="item-info">
-										<dd class="name-container">
-											<p class="item-name">N 마롱 네일</p>
-										</dd>
-										<dd class="price-container">
-											<p class="dcRate"></p>
-											<p class="sale-price">14,800</p>
-											<p class="normal-price"></p>
-										</dd>
-										<div class="review-container">
-											<!--썸네일 바로 밑 리뷰수, 장바구니 버튼-->
-											<p class="rvCount-wrap">
-												<span class="rvCount">20</span>
-												<!--어떻게 받아와야됨-->
-											</p>
-										</div>
-										<div class="cart-in">
-											<img src="" alt="" />
-											<!--카트 아이콘 (클릭이벤트)-->
-										</div>
-									</div>
-								</dl>
-							</div>
-						</li>
 					</ul>
 				</div>
 

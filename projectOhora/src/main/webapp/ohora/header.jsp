@@ -110,7 +110,7 @@
               </li>
 
               <li class="eng_font">
-                <a href="/product/list.html?cate_no=44">product</a>
+                <a href="/projectOhora/product/list.do">product</a>
                 <!-- 마우스 오버 시 나오는 영역(product) -->
                 <ul class="menu_2ul">
                   <li>

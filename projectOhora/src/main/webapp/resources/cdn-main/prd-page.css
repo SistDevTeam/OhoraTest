@@ -674,7 +674,7 @@ span.rvCount {
 }
 
 span.rvCount::before {
-  content: "리뷰?????????";
+  content: "리뷰";
   font-weight: normal;
   margin-right: 3px;
 }
@@ -1037,7 +1037,7 @@ span.rvCount::before {
   text-align: center;
 }
 
-/* 체크 이미지 표시 */
+/* 泥댄겕 �씠誘몄� �몴�떆 */
 .side-check-type-color
   .side-type-list-color
   > li
@@ -1058,7 +1058,7 @@ span.rvCount::before {
 .side-check-type-color
   .side-type-list-color
   > li
-  > input[value$='코랄핑크']+label::before
+  > input[value$='肄붾엫�븨�겕']+label::before
 	{
 	background: #E4A0A6;
 }
@@ -1066,7 +1066,7 @@ span.rvCount::before {
 .side-check-type-color
   .side-type-list-color
   > li
-  > input[value$='블루네이비']+label::before
+  > input[value$='釉붾（�꽕�씠鍮�']+label::before
 	{
 	background: #73A3CC;
 }
@@ -1074,7 +1074,7 @@ span.rvCount::before {
 .side-check-type-color
   .side-type-list-color
   > li
-  > input[value$='누드베이지']+label::before
+  > input[value$='�늻�뱶踰좎씠吏�']+label::before
 	{
 	background: #F0DDBF;
 }
@@ -1082,7 +1082,7 @@ span.rvCount::before {
 .side-check-type-color
   .side-type-list-color
   > li
-  > input[value$='레드버건디']+label::before
+  > input[value$='�젅�뱶踰꾧굔�뵒']+label::before
 	{
 	background: #90101A;
 }
@@ -1090,7 +1090,7 @@ span.rvCount::before {
 .side-check-type-color
   .side-type-list-color
   > li
-  > input[value$='화이트']+label::before
+  > input[value$='�솕�씠�듃']+label::before
 	{
 	background: #fff;
 	border: 1px solid #e6e6e6;
@@ -1099,7 +1099,7 @@ span.rvCount::before {
 .side-check-type-color
   .side-type-list-color
   > li
-  > input[value$='골드']+label::before
+  > input[value$='怨⑤뱶']+label::before
 	{
 	background: #D4B56A;
 }
@@ -1107,7 +1107,7 @@ span.rvCount::before {
 .side-check-type-color
   .side-type-list-color
   > li
-  > input[value$='그린']+label::before
+  > input[value$='洹몃┛']+label::before
 	{
 	background: #B3D465;
 }
@@ -1115,7 +1115,7 @@ span.rvCount::before {
 .side-check-type-color
   .side-type-list-color
   > li
-  > input[value$='옐로우']+label::before
+  > input[value$='�삉濡쒖슦']+label::before
 	{
 	background: #F7C94E;
 }
@@ -1123,7 +1123,7 @@ span.rvCount::before {
 .side-check-type-color
   .side-type-list-color
   > li
-  > input[value$='누드베이지']+label::before
+  > input[value$='�늻�뱶踰좎씠吏�']+label::before
 	{
 	background: #F0DDBF;
 }
@@ -1131,7 +1131,7 @@ span.rvCount::before {
 .side-check-type-color
   .side-type-list-color
   > li
-  > input[value$='퍼플']+label::before
+  > input[value$='�띁�뵆']+label::before
 	{
 	background: #8957A1;
 }
@@ -1139,7 +1139,7 @@ span.rvCount::before {
 .side-check-type-color
   .side-type-list-color
   > li
-  > input[value$='블랙']+label::before
+  > input[value$='釉붾옓']+label::before
 	{
 	background: #000;
 }
@@ -1147,7 +1147,7 @@ span.rvCount::before {
 .side-check-type-color
   .side-type-list-color
   > li
-  > input[value$='브라운']+label::before
+  > input[value$='釉뚮씪�슫']+label::before
 	{
 	background: #8A705A;
 }
@@ -1155,7 +1155,7 @@ span.rvCount::before {
 .side-check-type-color
   .side-type-list-color
   > li
-  > input[value$='실버그레이']+label::before
+  > input[value$='�떎踰꾧렇�젅�씠']+label::before
 	{
 	background: #C6C6C6;
 }
@@ -1163,7 +1163,7 @@ span.rvCount::before {
 .side-check-type-color
   .side-type-list-color
   > li
-  > input[value$='네온']+label::before
+  > input[value$='�꽕�삩']+label::before
 	{
 	background: #DEF33D;
 }
@@ -1171,7 +1171,7 @@ span.rvCount::before {
 .side-check-type-color
   .side-type-list-color
   > li
-  > input[value$='오렌지']+label::before
+  > input[value$='�삤�젋吏�']+label::before
 	{
 	background: #FEA36D;
 }
