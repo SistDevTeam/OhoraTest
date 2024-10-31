@@ -7,7 +7,7 @@
 <head>
 <meta charset="UTF-8">
 <title>ohora 오호라 공식몰</title>
-<link rel="stylesheet" href="ohora_Fend_brand4.css">
+<link rel="stylesheet" href="../resources/cdn-main/ohora_Fend_brand4.css">
 <link rel="shortcut icon"
 	href="https://www.ohora.kr/web/upload/favicon_20190801113230.ico" />
 <script
@@ -160,6 +160,11 @@
 
 
 <script>
+//시작시 큰 로고 움직이기
+$('window').ready(function () {
+	$('.col90').eq(0).addClass("active fp-completely");
+})
+
 // 클릭 시 선택 유지
 $('a').on("click", function () {
     $('a').removeClass("active"); 
