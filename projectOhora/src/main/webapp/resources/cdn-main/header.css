@@ -2491,96 +2491,6 @@ a {
 /* 네비게이션 바 */
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Noto+Sans+KR:300,400,500,700&display=swap");
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-input,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video,
-fieldset {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  vertical-align: baseline;
-  outline: 0;
-}
-
 body,
 html,
 :lang(ko) {
@@ -3843,18 +3753,291 @@ a {
 
 /* 콘텐츠 css 밑에 입력 */
 
-/* 마우스 오버 */
+/* 마우스 호버 */
 .menu_2ul {
-  display: none !important; 
-  visibility: hidden !important; 
-  opacity: 0 !important; 
-  position: absolute; 
-  z-index: 10; 
-  transition: opacity 0.3s ease; 
+  display: none !important; /* 기본적으로 숨김 */
+  visibility: hidden !important; /* 기본적으로 숨김 */
+  opacity: 0 !important; /* 기본적으로 완전 투명 */
+  position: absolute; /* 위치를 조정 */
+  z-index: 10; /* 다른 요소 위에 표시 */
+  transition: opacity 0.3s ease; /* 부드러운 전환 효과 */
 }
 
 .eng_font:hover .menu_2ul {
-  display: block !important; 
-  visibility: visible !important; 
-  opacity: 1 !important; 
+  display: block !important; /* 마우스 오버 시 표시 */
+  visibility: visible !important; /* 마우스 오버 시 보이기 */
+  opacity: 1 !important; /* 마우스 오버 시 완전 불투명 */
+}
+
+/* 검색 */
+#fix_position .hd_search_container,
+#fix_position .hd_cate_container {
+  display: none;
+  -webkit-box-shadow: 0px 30px 90px 11px rgba(3, 3, 3, 0.07);
+  box-shadow: 0px 30px 90px 11px rgba(3, 3, 3, 0.07);
+}
+
+#fix_position .SP_search_wrap {
+  padding-bottom: 30px 0 50px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.SP_search_wrap {
+  padding: 20px 0 30px;
+  text-align: center;
+}
+
+.SP_search_wrap .SP_utilListSearch_inner {
+  min-width: 1200px;
+}
+
+.SP_search_wrap .SP_utilListSearch_inner form {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+  unicode-bidi: isolate;
+}
+input[type="hidden" i] {
+  display: none !important;
+}
+input:not(
+    [type="image" i],
+    [type="range" i],
+    [type="checkbox" i],
+    [type="radio" i]
+  ) {
+  overflow-clip-margin: 0px !important;
+  overflow: clip !important;
+}
+
+input[type="hidden" i] {
+  appearance: none;
+  background-color: initial;
+  cursor: default;
+  padding: initial;
+  border: initial;
+}
+
+input:not(
+    [type="file" i],
+    [type="image" i],
+    [type="checkbox" i],
+    [type="radio" i]
+  ) {
+}
+
+input {
+  text-rendering: auto;
+  color: fieldtext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  background-color: field;
+  margin: 0em;
+  padding: 1px 0px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+  padding-block: 1px;
+  padding-inline: 2px;
+}
+fieldset {
+  display: block;
+  min-inline-size: min-content;
+  margin-inline: 2px;
+  border-style: groove;
+  border-image: initial;
+  padding-block: 0.35em 0.625em;
+  padding-inline: 0.75em;
+}
+
+legend {
+  display: block;
+  unicode-bidi: isolate;
+  padding-inline: 2px;
+}
+
+.SP_search_wrap .SP_utilListSearch_inner #keyword {
+  width: 800px;
+  border: none;
+  background: none;
+  border-bottom: 2px solid #111;
+  height: 55px;
+  line-height: 55px;
+  font-size: 23px;
+  color: #111;
+  padding-left: 10px;
+}
+
+body input[type="text"] {
+  display: inline-block;
+  vertical-align: middle;
+  height: 40px;
+  padding-left: 20px;
+  font-size: 15px;
+  color: #000;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  min-width: 100px;
+}
+
+input:not(
+    [type="image" i],
+    [type="range" i],
+    [type="checkbox" i],
+    [type="radio" i]
+  ) {
+  overflow-clip-margin: 0px !important;
+  overflow: clip !important;
+}
+
+input[type="text" i] {
+  padding-block: 1px;
+  padding-inline: 2px;
+}
+
+input:not(
+    [type="file" i],
+    [type="image" i],
+    [type="checkbox" i],
+    [type="radio" i]
+  ) {
+}
+
+.SP_search_wrap .SP_utilListSearch_inner .SP_srh_submit_btn {
+  position: absolute;
+  left: auto;
+  right: 10px;
+  top: auto;
+  bottom: 10px;
+  margin-bottom: 10px;
+  margin-right: 8px;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+button {
+  appearance: auto;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  margin: 0em;
+  padding-block: 1px;
+  padding-inline: 6px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+}
+
+/* 돋보기 */
+
+.SP_cm_icon.SP_black_search_icon {
+  width: 28px;
+  height: 28px;
+  margin: 0 auto;
+  background-image: url(https://www.ohora.kr/smartpc/_img/icon/ham_search.png);
+}
+.SP_cm_icon {
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1px;
+  color: #fff;
+  text-indent: -9999px;
+}
+
+ul,
+li,
+ol,
+dl,
+dt,
+dd {
+  list-style: none;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
+}
+
+.SP_search_wrap .SP_utilListKeyword_inner ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+li {
+  list-style: none;
+}
+ul,
+li,
+ol,
+dl,
+dt,
+dd {
+  list-style: none;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  unicode-bidi: isolate;
+}
+
+.SP_search_wrap .SP_utilListKeyword_inner ul li a {
+  display: block;
+  padding: 6px 10px;
+  border: 1px solid #999;
+  background: transparent;
+  color: #000;
+  font-size: 15px;
+}
+
+/* 검색바 스티키 */
+
+.hd_search_container {
+  background: rgb(255, 255, 255, 0.9);
+  top: 154px; /* 네비게이션 바의 높이에 따라 조정 */
+  margin-top: 20px; /* 네비게이션 바와의 간격 */
+  display: none; /* 기본적으로 숨김 */
+  position: absolute; /* 스크롤 시 고정된 위치에 있도록 설정 */
+  width: 100%; /* 가로 전체를 차지하도록 설정 */
+  display: none; /* 기본적으로 숨김 */
 }
