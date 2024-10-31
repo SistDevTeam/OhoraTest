@@ -235,26 +235,26 @@
       });
     </script>
 
-    <script>
-      $(document).ready(function() {
-        // 검색창을 감싸고 있는 div 요소 선택
-        const searchContainer = $('.hd_search_container');
-
-        // 검색창을 기본적으로 숨김
-        searchContainer.hide();
-
-        // .small_icon.search_fixed_btn 요소 클릭 시
-        $('.small_icon.search_fixed_btn').on('click', function() {
-          // 검색창 보이기/숨기기 토글
-          searchContainer.toggle();
-          
+   <script>
+    $(document).ready(function() {
+      // 검색창을 감싸고 있는 div 요소 선택
+      const searchContainer = $('.hd_search_container');
+  
+      // 검색창을 기본적으로 숨김
+      searchContainer.hide();
+  
+      // .small_icon.search_fixed_btn 요소 클릭 시
+      $('.small_icon.search_fixed_btn').on('click', function() {
+        // 검색창 보이기/숨기기 애니메이션 토글
+        searchContainer.slideToggle(450, function() {
           // 검색창이 보일 때 포커스 주기
           if (searchContainer.is(':visible')) {
             $('#keyword').focus();
           }
         });
       });
-    </script>
+    });
+  </script>
   
   </body>
 </html>
