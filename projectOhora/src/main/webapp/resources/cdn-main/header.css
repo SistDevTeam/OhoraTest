@@ -2486,7 +2486,6 @@ a {
 
 /* 콘텐츠 css 밑에 입력 */
 
-
 /* 마우스 호버 */
 
 /* 네비게이션 바 */
@@ -3844,7 +3843,18 @@ a {
 
 /* 콘텐츠 css 밑에 입력 */
 
+/* 마우스 오버 */
+.menu_2ul {
+  display: none !important; 
+  visibility: hidden !important; 
+  opacity: 0 !important; 
+  position: absolute; 
+  z-index: 10; 
+  transition: opacity 0.3s ease; 
+}
 
-/* 마우스 호버 */
-
-/* 네비게이션 바 */
+.eng_font:hover .menu_2ul {
+  display: block !important; 
+  visibility: visible !important; 
+  opacity: 1 !important; 
+}
