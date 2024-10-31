@@ -161,7 +161,108 @@
           </div>
         </div>
       </div>
+ 
+
+    <!-- 검색 -->
+    <div class="hd_search_container" style="overflow: hidden; display: block">
+      <div class="SP_search_wrap">
+        <div class="SP_utilListSearch_inner">
+          <form
+            id="searchBarForm"
+            name=""
+            action="/product/search.html"
+            method="get"
+            target="_self"
+            enctype="multipart/form-data"
+          >
+            <input id="banner_action" name="banner_action" value="" type="hidden" />
+            <div class="xans-element- xans-layout xans-layout-searchheader">
+          
+              <fieldset>
+                <legend style="display: none">검색</legend>
+                <input
+                  id="keyword"
+                  name="keyword"
+                  fw-filter=""
+                  fw-label="검색어"
+                  fw-msg=""
+                  class="inputTypeText"
+                  placeholder=""
+                  onkeyup="SEARCH_HASHTAG.getHashtag($(this)); "
+                  autocomplete="off"
+                  onmousedown="SEARCH_BANNER.clickSearchForm(this)"
+                  value=""
+                  type="text"
+                /><button
+                  type="button"
+                  class="SP_srh_submit_btn"
+                  onclick="SEARCH_BANNER.submitSearchBanner(this); return false;"
+                >
+                  <span class="SP_cm_icon SP_black_search_icon"></span>
+                </button>
+              </fieldset>
+            </div>
+          </form>
+        </div>
+    
+        <!--------------- 검색 키워드 --------------->
+        <div class="SP_utilListKeyword_inner">
+          <ul>
+            <li><a href="/product/list.html?cate_no=671">#OUTLET 입장하기</a></li>
+            <li><a href="/product/list.html?cate_no=120">#BEST 디자인 추천</a></li>
+            <li><a href="/event/event6.html">#첫구매 젤램프 증정</a></li>
+          </ul>
+        </div>
+        <!--------------- 검색 키워드 --------------->
+      </div>
     </div>
+  </div>
+
+
+    <!-- 콘텐츠 -->
+    <div class="main_container">
+        <!-- 메인 배너 (메인 이미지 - 스와이프) 영역 -->
+        <div class="mainSwipeBanner">
+
+            <div class="mainBannerWrapper swiper mySwiper">
+                   <!-- 화면에 띄워질 경우 : cloneBanner-active 클래스 추가 -->
+
+                <div class="swiper-wrapper">
+                   <div class="cloneBanner cloneBanner-active swiper-slide">
+                       <a href="">
+                           <img src="https://ohora.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/d48eebf0f5f2c9dd1c5c69708d37e872.jpg" alt="월간 베스트 오브 베스트">
+                           <span class="shopNow">shop now</span>
+                       </a>
+                   </div>
+
+                   <div class="cloneBanner swiper-slide">
+                       <a href="">
+                           <img src="https://ohora.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/cff66bbfd6b49ef154d19564381c73d0.jpg" alt="컬렉션 상시 배너">
+                           <span class="shopNow" class="swiper-slide">shop now</span>
+                       </a>
+                   </div>
+
+                   <div class="cloneBanner swiper-slide">
+                       <a href="">
+                           <img src="https://ohora.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/4160fe76d5fd935dddb5ae90f7607d03.webp" alt="첫구매 사은품">
+                           <span class="shopNow" class="swiper-slide">shop now</span>
+                       </a>
+                   </div>
+
+                   <div class="cloneBanner swiper-slide">
+                       <a href="">
+                           <img src="https://ohora.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/472e9fbd0e36e3d5757bc47e500fb700.webp" alt="베스트 리뷰 보상">
+                           <span class="shopNow" class="swiper-slide">shop now</span>
+                       </a>
+                   </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>    
+    <!-- 콘텐츠 -->
+
+
   <!-- 슬라이더 초기화 코드 -->
     <script>
       $(document).ready(function () {
@@ -179,5 +280,26 @@
       });
     </script>
 
+    <script>
+      $(document).ready(function() {
+        // 검색창을 감싸고 있는 div 요소 선택
+        const searchContainer = $('.hd_search_container');
+
+        // 검색창을 기본적으로 숨김
+        searchContainer.hide();
+
+        // .small_icon.search_fixed_btn 요소 클릭 시
+        $('.small_icon.search_fixed_btn').on('click', function() {
+          // 검색창 보이기/숨기기 토글
+          searchContainer.toggle();
+          
+          // 검색창이 보일 때 포커스 주기
+          if (searchContainer.is(':visible')) {
+            $('#keyword').focus();
+          }
+        });
+      });
+    </script>
+  
   </body>
 </html>
