@@ -218,51 +218,6 @@
     </div>
   </div>
 
-
-    <!-- 콘텐츠 -->
-    <div class="main_container">
-        <!-- 메인 배너 (메인 이미지 - 스와이프) 영역 -->
-        <div class="mainSwipeBanner">
-
-            <div class="mainBannerWrapper swiper mySwiper">
-                   <!-- 화면에 띄워질 경우 : cloneBanner-active 클래스 추가 -->
-
-                <div class="swiper-wrapper">
-                   <div class="cloneBanner cloneBanner-active swiper-slide">
-                       <a href="">
-                           <img src="https://ohora.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/d48eebf0f5f2c9dd1c5c69708d37e872.jpg" alt="월간 베스트 오브 베스트">
-                           <span class="shopNow">shop now</span>
-                       </a>
-                   </div>
-
-                   <div class="cloneBanner swiper-slide">
-                       <a href="">
-                           <img src="https://ohora.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/cff66bbfd6b49ef154d19564381c73d0.jpg" alt="컬렉션 상시 배너">
-                           <span class="shopNow" class="swiper-slide">shop now</span>
-                       </a>
-                   </div>
-
-                   <div class="cloneBanner swiper-slide">
-                       <a href="">
-                           <img src="https://ohora.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/4160fe76d5fd935dddb5ae90f7607d03.webp" alt="첫구매 사은품">
-                           <span class="shopNow" class="swiper-slide">shop now</span>
-                       </a>
-                   </div>
-
-                   <div class="cloneBanner swiper-slide">
-                       <a href="">
-                           <img src="https://ohora.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/472e9fbd0e36e3d5757bc47e500fb700.webp" alt="베스트 리뷰 보상">
-                           <span class="shopNow" class="swiper-slide">shop now</span>
-                       </a>
-                   </div>
-                </div>
-
-                <div class="swiper-pagination"></div>
-            </div>
-        </div>    
-    <!-- 콘텐츠 -->
-
-
   <!-- 슬라이더 초기화 코드 -->
     <script>
       $(document).ready(function () {
