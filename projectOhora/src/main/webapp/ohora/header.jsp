@@ -103,10 +103,10 @@
           <div class="gnb_menu_container">
             <ul class="gnb_menu_wrap menu_1ul">
               <li class="eng_font menu_1li submenu">
-                <a href="/product/list.html?cate_no=121">new</a>
+                <a href="/projectOhora/product/list.do?sort=new">new</a>
               </li>
               <li class="eng_font menu_1li submenu">
-                <a href="/product/list.html?cate_no=120">best</a>
+                <a href="/projectOhora/product/list.do?sort=sales">best</a>
               </li>
 
               <li class="eng_font">
