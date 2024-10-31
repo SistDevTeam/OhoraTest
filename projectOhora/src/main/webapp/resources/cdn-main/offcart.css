@@ -710,7 +710,7 @@ li {
 }
 
 a:-webkit-any-link {
-    color: -webkit-link;
+    color: black;
     cursor: pointer;
 }
 
