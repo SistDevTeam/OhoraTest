@@ -224,6 +224,18 @@ $(window).on("scroll", function () {
 	}
 })
 		
+$(document).on("keydown", function(e) {
+    const st = $(window).scrollTop();
+
+    if (e.key === "ArrowUp" || e.keyCode === 38 || e.keyCode === 33) { // 위쪽 방향키
+        $("html, body").stop(true).animate({ scrollTop: st - 911 }, 500);
+        e.preventDefault();
+    } else if (e.key === "ArrowDown" || e.keyCode === 40 || e.keyCode === 34) { // 아래쪽 방향키
+        $("html, body").stop(true).animate({ scrollTop: st + 911 }, 500);
+        e.preventDefault(); 
+    }
+});		
+		
 </script>
  
 </html>
