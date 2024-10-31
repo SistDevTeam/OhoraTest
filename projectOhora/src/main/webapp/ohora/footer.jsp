@@ -105,7 +105,7 @@
         </div>
       </div>
       <div class="line"></div>
-      <div class="company">
+      <div class="company" style="margin-top: 10px; margin-bottom: 10px;">
         <p>
           대표 : 유기현<br />
           회사 : 주식회사 글루가<br />
