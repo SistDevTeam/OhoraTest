@@ -959,7 +959,7 @@
       <!-- 매거진 끝 -->
 
        <div class="bot_banner-container">
-           <a href="" class="aboutOhora">
+           <a href="/projectOhora/ohora/ohora_Fend_brand4.jsp" class="aboutOhora">
                <div class="aboutOho-wrap">
                    <h1>ohora, beyond extraordinary</h1>
                    <p>
@@ -969,7 +969,7 @@
                    <span>자세히 보기 &gt; </span>
                </div>
            </a>
-           <a href="" class="aboutMembership">
+           <a href="#empty" class="aboutMembership">
                <div class="aboutMem-wrap">
                    <h1>오호라 멤버십</h1>
                    <p>오호라 멤버십에 조인하고 혜택을 받아보세요.</p>
