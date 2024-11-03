@@ -4311,10 +4311,8 @@ fieldset {
 * {
   box-sizing: border-box;
 }
-user agent stylesheet a:-webkit-any-link {
-  color: -webkit-link;
+a:-webkit-any-link {
   cursor: pointer;
-  text-decoration: underline;
 }
 
 .ham_modify#fix_position .hd_cate_container .inner > div.first a span {
