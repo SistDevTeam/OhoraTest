@@ -17,6 +17,7 @@
     vertical-align: text-bottom;
  }  
 </style>
+<%@include file="header.jsp" %>
 </head>
 
  <body>
@@ -123,5 +124,6 @@
     </div>
 
     <!-- 메인 전체 컨테이너 -->
+    <%@include file="footer.jsp" %>
   </body>
 </html>
