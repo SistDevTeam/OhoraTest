@@ -26,14 +26,8 @@
       <div class="chat">
         <div class="top_left">
           <span class="kakao_chat">
-            <a href="https://www.ohora.kr/etc/CS.html"
-              >카카오톡 상담 (@ohora)</a
-            >
-          </span>
-          <span class="center_chat">
-            <a
-              href="https://www.ohora.kr/member/login.html?returnUrl=%2Fboard%2Fconsult%2Flist.html%3Fboard_no%3D9"
-              >게시판 상담 (1:1 문의하기)</a
+            <a href="https://oe9lp.channel.io/home"
+              >1:1 문의하기</a
             >
           </span>
         </div>
@@ -68,14 +62,14 @@
           주문
           <div class="sub" id="aa">
             <a
-              href="https://www.ohora.kr/member/login.html?returnUrl=/myshop/order/list.html"
+              href="/projectOhora/ohora/login.jsp"
               >주문·배송내역</a
             ><br /><br />
             <a
-              href="https://www.ohora.kr/member/login.html?returnUrl=/myshop/order/list.html?mode=cs"
+              href="/projectOhora/ohora/login.jsp"
               >취소/교환/반품내역</a
             ><br /><br />
-            <a href="https://www.ohora.kr/order/basket.html">장바구니</a>
+            <a href="/projectOhora/ohora/offcart.jsp">장바구니</a>
           </div>
         </div>
       </div>
@@ -84,11 +78,11 @@
         <div class="list" id="b">
           회원
           <div class="sub" id="bb">
-            <a href="#">신규 혜택</a><br /><br />
-            <a href="#">멤버십 혜택</a><br /><br />
-            <a href="#">마이페이지</a><br /><br />
-            <a href="#">적립금·쿠폰내역</a><br /><br />
-            <a href="#">회원정보변경</a>
+            <a href="/projectOhora/ohora/login.jsp">신규 혜택</a><br /><br />
+            <a href="/projectOhora/ohora/login.jsp">멤버십 혜택</a><br /><br />
+            <a href="/projectOhora/ohora/login.jsp">마이페이지</a><br /><br />
+            <a href="/projectOhora/ohora/login.jsp">적립금·쿠폰내역</a><br /><br />
+            <a href="/projectOhora/ohora/login.jsp">회원정보변경</a>
           </div>
         </div>
       </div>
@@ -97,10 +91,10 @@
         <div class="list" id="c">
           서비스
           <div class="sub" id="cc">
-            <a href="#">FAQ</a><br /><br />
-            <a href="#">상담톡</a><br /><br />
-            <a href="#">사용법</a><br /><br />
-            <a href="#">공지사항</a>
+            <a href="/projectOhora/ohora/FAQ.jsp">FAQ</a><br /><br />
+            <a href="https://oe9lp.channel.io/home">상담톡</a><br /><br />
+            <a href="/projectOhora/ohora/howto.jsp">사용법</a><br /><br />
+            <a href="/projectOhora/ohora/notice.jsp">공지사항</a>
           </div>
         </div>
       </div>
@@ -122,9 +116,9 @@
       </div>
       <div class="line"></div>
       <div class="bottom">
-        <span class="a"><a href="#">브랜드 소개</a></span>
-        <span class="b"><a href="#">이용약관</a></span>
-        <span class="c"><a href="#">개인정보처리방침</a></span>
+        <span class="a"><a href="/projectOhora/ohora/ohora_Fend_brand4.jsp">브랜드 소개</a></span>
+        <span class="b"><a href="/projectOhora/ohora/termsofservice.jsp">이용약관</a></span>
+        <span class="c"><a href="/projectOhora/ohora/policy.jsp">개인정보처리방침</a></span>
       </div>
     </div>
   </body>
