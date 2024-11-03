@@ -53,7 +53,7 @@
                   tabindex="0"
                 >
                   <a
-                    href="/event/event6.html"
+                    href="/projectOhora/ohora/event_event6.jsp"
                     tabindex="0"
                     style="display: block"
                     ><img
@@ -78,10 +78,10 @@
             <div
               class="xans-element- xans-layout xans-layout-statelogoff SP_gnb_inr"
             >
-              <a href="/member/join_intro.html"
+              <a href="/projectOhora/ohora/join.jsp"
                 ><span class="title">회원가입</span></a
               >|
-              <a href="/member/login.html" class="log"
+              <a href="/projectOhora/ohora/login.jsp" class="log"
                 ><span class="title">로그인</span></a
               >
             </div>
@@ -90,7 +90,7 @@
         <div class="SMS_fixed_inner">
           <div class="xans-element- xans-layout xans-layout-logotop fixed_logo">
             <a
-              href="/"
+              href="/projectOhora/ohora/oho_main.jsp"
               style="display: block; text-align: center; margin-top: 30px"
             >
               <img
@@ -115,22 +115,22 @@
                 <!-- 마우스 오버 시 나오는 영역(product) -->
                 <ul class="menu_2ul">
                   <li>
-                    <a href="/product/list.html?cate_no=160"
+                    <a href="/projectOhora/product/list.do"
                       ><span>네일</span></a
                     >
                   </li>
                   <li>
-                    <a href="/product/list.html?cate_no=161"
+                    <a href="/projectOhora/product/list.do"
                       ><span>페디</span></a
                     >
                   </li>
                   <li>
-                    <a href="/product/list.html?cate_no=470"
+                    <a href="/projectOhora/product/list.do"
                       ><span>커스텀</span></a
                     >
                   </li>
                   <li>
-                    <a href="/product/list.html?cate_no=49"
+                    <a href="/projectOhora/product/list.do"
                       ><span>케어 &amp; 툴</span></a
                     >
                   </li>
@@ -139,11 +139,11 @@
               </li>
 
               <li class="eng_font menu_1li submenu">
-                <a href="/product/list.html?cate_no=671">outlet</a>
+                <a href="/projectOhora/product/list.do">outlet</a>
               </li>
-              <li class="eng_font"><a href="/event/index.html">event</a></li>
+              <li class="eng_font"><a href="/projectOhora/ohora/event_index.jsp">event</a></li>
               <li class="eng_font">
-                <a href="/board/gallery/list.html?board_no=13">how to</a>
+                <a href="/projectOhora/ohora/howto.jsp">how to</a>
               </li>
             </ul>
           </div>
@@ -154,7 +154,7 @@
             <div
               class="xans-element- xans-layout xans-layout-orderbasketcount small_icon m_cart common_cart"
             >
-              <a href="/order/basket.html"
+              <a href="/projectOhora/ohora/offcart.jsp"
                 ><b class="count EC-Layout-Basket-count">0</b></a
               >
             </div>
@@ -209,9 +209,9 @@
         <!--------------- 검색 키워드 --------------->
         <div class="SP_utilListKeyword_inner">
           <ul>
-            <li><a href="/product/list.html?cate_no=671">#OUTLET 입장하기</a></li>
-            <li><a href="/product/list.html?cate_no=120">#BEST 디자인 추천</a></li>
-            <li><a href="/event/event6.html">#첫구매 젤램프 증정</a></li>
+            <li><a href="/projectOhora/product/list.do">#OUTLET 입장하기</a></li>
+            <li><a href="/projectOhora/product/list.do">#BEST 디자인 추천</a></li>
+            <li><a href="/projectOhora/ohora/event_event6.jsp">#첫구매 젤램프 증정</a></li>
           </ul>
         </div>
         <!--------------- 검색 키워드 --------------->
@@ -227,45 +227,45 @@
    
 
             <div class="big_txt">
-              <a class="eng_font big_" href="경로 추가하세요">
+              <a class="eng_font big_" href="/projectOhora/product/list.do">
                 <span>new</span>
               </a>
-              <a class="">
+              <a class="/projectOhora/product/list.do">
                 <span></span>
               </a>
-              <a class="">
+              <a class="/projectOhora/product/list.do">
                 <span></span>
               </a>
             </div>
             <div class="big_txt" style="margin-top: 60px;">
-              <a class="eng_font big_" href="경로 추가하세요">
+              <a class="eng_font big_" href="/projectOhora/product/list.do">
                 <span>best</span>
               </a>
-              <a href="경로 추가하세요">
+              <a href="/projectOhora/product/list.do">
                 <span>네일</span>
               </a>
-              <a href="경로 추가하세요">
+              <a href="/projectOhora/product/list.do">
                 <span>페디</span>
               </a>
             </div>
           </div>
           <div class="cate_wrap first">
             <div class="big_txt">
-              <a class="eng_font big_" href="경로 추가하세요">
+              <a class="eng_font big_" href="/projectOhora/product/list.do">
                 <span>nail</span>
               </a>
-              <a class="" href="경로 추가하세요">
+              <a class="" href="/projectOhora/product/list.do">
                 <span>젤스트립</span>
               </a>
-              <a class="" href="경로 추가하세요">
+              <a class="" href="/projectOhora/product/list.do">
                 <span>젤네일팁</span>
               </a>
             </div>
             <div class="big_txt" style="margin-top: 63px;">
-              <a class="eng_font big_" href="경로 추가하세요">
+              <a class="eng_font big_" href="/projectOhora/product/list.do">
                 <span>pedi</span>
               </a>
-              <a class="" href="경로 추가하세요">
+              <a class="" href="/projectOhora/product/list.do">
                 <span>젤스트립</span>
               </a>
             </div>
@@ -273,7 +273,7 @@
 
           <div class="cate_wrap first">
             <div class="big_txt">
-              <a class="eng_font big_" href="경로 추가하세요">
+              <a class="eng_font big_" href="/projectOhora/product/list.do">
                 <span>outlet</span>
               </a>
             </div>
@@ -286,12 +286,12 @@
             </div>
 
             <div class="big_txt" style="margin-top: 80px;">
-              <a class="eng_font big_" href="경로 추가하세요">
+              <a class="eng_font big_" href="/projectOhora/product/list.do">
                 <span>custom</span>
               </a>
             </div>
             <div class="big_txt" style="margin-top: 45px;">
-              <a class="eng_font big_" href="경로 추가하세요">
+              <a class="eng_font big_" href="/projectOhora/product/list.do">
                 <span>care &amp; tool</span>
               </a>
             </div>
@@ -306,7 +306,7 @@
           <div class="cate_wrap second">
   
             <div class="big_txt" style="margin-left: 35px; margin-bottom: 42px;">
-              <a class="big_ eng_font" href="경로 추가하세요">
+              <a class="big_ eng_font" href="/projectOhora/ohora/event_index.jsp">
                 <span>event</span>
               </a>
             </div>
@@ -314,25 +314,25 @@
             <div class="big_txt" style="margin-left: 35px;  margin-bottom: 42px;">
               <a
                 class="big_ eng_font"
-                href="경로 추가하세요"
+                href="/projectOhora/ohora/oho_review.jsp"
               >
                 <span>review</span>
               </a>
             </div>
             <div class="big_txt" style="margin-left: 35px;">
-              <a class="big_ eng_font" href="경로 추가하세요">
+              <a class="big_ eng_font" href="#empty">
                 <span style="margin-top: 10px;">brand</span>
               </a>
-              <a class="" href="경로 추가하세요">
+              <a class="" href="/projectOhora/ohora/ohora_Fend_brand4.jsp">
                 <span>about</span>
               </a>
-              <a class="" href="경로 추가하세요">
+              <a class="" href="#empty">
                 <span>membership</span>
               </a>
-              <a class="" href="경로 추가하세요">
+              <a class="" href="#empty">
                 <span>magazine</span>
               </a>
-              <a class="" href="경로 추가하세요">
+              <a class="" href="#empty">
                 <span>collaboration</span>
               </a>
             </div>
@@ -416,12 +416,12 @@
             </div>
             <!--// 오호라 크루 추천-->
             <div class="third_cate">
-              <a href="경로 추가하세요"><span>CS Center</span></a>
-              <a href="경로 추가하세요"
+              <a href="https://oe9lp.channel.io/home"><span>CS Center</span></a>
+              <a href="/projectOhora/ohora/notice.jsp"
                 ><span>Notice</span></a
               >
-              <a href="경로 추가하세요"><span>FAQ</span></a>
-              <a href="경로 추가하세요">How to</a>
+              <a href="/projectOhora/ohora/FAQ.jsp"><span>FAQ</span></a>
+              <a href="/projectOhora/ohora/howto.jsp">How to</a>
             </div>
           </div>
           
