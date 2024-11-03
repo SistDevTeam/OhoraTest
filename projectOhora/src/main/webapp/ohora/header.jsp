@@ -329,7 +329,7 @@
               <a class="" href="#empty">
                 <span>membership</span>
               </a>
-              <a class="" href="#empty">
+              <a class="" href="/projectOhora/ohora/magazine.jsp">
                 <span>magazine</span>
               </a>
               <a class="" href="#empty">
