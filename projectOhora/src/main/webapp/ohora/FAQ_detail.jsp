@@ -30,7 +30,7 @@
             class="xans-element- xans-board xans-board-title-1002 xans-board-title xans-board-1002 SP_subContHeader"
           >
             <h2 class="SP_subTitle eng_font">
-              <font color="#555555">FAQ</font>
+              <font color="#555555" style="text-transform: uppercase">FAQ</font>
             </h2>
             <!-- <p class="SP_subTtileStxt">이용안내 FAQ입니다.</p> -->
           </div>
