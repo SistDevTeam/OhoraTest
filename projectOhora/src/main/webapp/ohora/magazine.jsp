@@ -30,67 +30,59 @@
             class="xans-element- xans-board xans-board-title-8 xans-board-title xans-board-8 SP_subContHeader"
           >
             <h2 class="SP_subTitle S eng_font">magazine</h2>
-            <!-- <p class="SP_subTtileStxt">오호라의 새로운 소식들을 전달해드리는 공간입니다.</p> -->
-            <!-- <p class="imgArea"><img src="//img0001.echosting.cafe24.com/front/type_b/image/board/g_board_top.gif"  /></p> -->
+           
           </div>
           <div class="boardSort"></div>
-          <!-- <ul module="board_listheader_8">
-                <li><a class="btnNormal displaynone" href="/board/gallery/list.html"><img src="//img.echosting.cafe24.com/skin/base/common/btn_icon_type_image.gif" alt="" /> 이미지형</a></li>
-                <li><a class="btnNormal displaynone" href="/board/gallery/list2.html"><img src="//img.echosting.cafe24.com/skin/base/common/btn_icon_type_list.gif" alt="" /> 리스트형</a></li>
-            </ul> -->
+        
           <div class="notice"></div>
           <div
             class="xans-element- xans-board xans-board-list-8 xans-board-list xans-board-8 SP_gallListTable_wrap"
           >
-            <!--
-                    $count = 12
-                    $login_page_url = /member/login.html
-                    $deny_access_url = /index.html
-                -->
+           
             <ul>
               <li class="xans-record-">
-                <a href="/article/magazine/8/209520/" class="imgLink"
+                <a href="#empty" class="imgLink"
                   ><img
-                    src="//ohora2019.cafe24.com/file_data/ohora2019//2023/06/27/0c623df88e3d06f5ab35888159832c4f.jpg"
+                    src="http://ohora2019.cafe24.com/file_data/ohora2019//2023/06/27/0c623df88e3d06f5ab35888159832c4f.jpg"
                     onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
                     alt=""
                 /></a>
-                <a href="/article/magazine/8/209520/" class="imgLink"
+                <a href="#empty" class="imgLink"
                   >[69] summer nostalgia collection
                 </a>
                 <p class="writeName Nunito_Sans_font">ohora</p>
                 <!-- <em class="displaynone">작성일 : 2023-06-27</em> -->
               </li>
               <li class="xans-record-">
-                <a href="/article/magazine/8/205910/" class="imgLink"
+                <a href="#empty" class="imgLink"
                   ><img
-                    src="//ohora2019.cafe24.com/file_data/ohora2019//2023/05/23/82072fc1d7f7a03b80fd9d42519c8865.jpg"
+                    src="http://ohora2019.cafe24.com/file_data/ohora2019//2023/05/23/82072fc1d7f7a03b80fd9d42519c8865.jpg"
                     onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
                     alt=""
                 /></a>
-                <a href="/article/magazine/8/205910/" class="imgLink"
+                <a href="#empty" class="imgLink"
                   >[68] festival ladies collection
                 </a>
                 <p class="writeName Nunito_Sans_font">ohora</p>
                 <!-- <em class="displaynone">작성일 : 2023-05-23</em> -->
               </li>
               <li class="xans-record-">
-                <a href="/article/magazine/8/196541/" class="imgLink"
+                <a href="#empty" class="imgLink"
                   ><img
-                    src="//ohora2019.cafe24.com/file_data/ohora2019//2022/10/13/25d4083e64f627dcddf735898676a20d.jpg"
+                    src="http://ohora2019.cafe24.com/file_data/ohora2019//2022/10/13/25d4083e64f627dcddf735898676a20d.jpg"
                     onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
                     alt=""
                 /></a>
-                <a href="/article/magazine/8/196541/" class="imgLink"
+                <a href="#empty" class="imgLink"
                   >[67] french chic collection
                 </a>
                 <p class="writeName Nunito_Sans_font">ohora</p>
                 <!-- <em class="displaynone">작성일 : 2022-10-13</em> -->
               </li>
               <li class="xans-record-">
-                <a href="/article/magazine/8/194170/" class="imgLink"
+                <a href="#empty" class="imgLink"
                   ><img
-                    src="//ohora2019.cafe24.com/file_data/ohora2019//2022/09/19/05e814479e61c856024805ded5f5162d.jpg"
+                    src="http://ohora2019.cafe24.com/file_data/ohora2019//2022/09/19/05e814479e61c856024805ded5f5162d.jpg"
                     onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
                     alt=""
                 /></a>
@@ -101,13 +93,13 @@
                 <!-- <em class="displaynone">작성일 : 2022-09-19</em> -->
               </li>
               <li class="xans-record-">
-                <a href="/article/magazine/8/190582/" class="imgLink"
+                <a href="#empty" class="imgLink"
                   ><img
-                    src="//ohora2019.cafe24.com/file_data/ohora2019//2022/08/26/c3f520adf1f9986bceb137cd3489e3d7.jpg"
+                    src="	http://ohora2019.cafe24.com/file_data/ohora2019//2022/08/26/c3f520adf1f9986bceb137cd3489e3d7.jpg"
                     onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
                     alt=""
                 /></a>
-                <a href="/article/magazine/8/190582/" class="imgLink"
+                <a href="#empty" class="imgLink"
                   >[65] mood collection
                 </a>
                 <p class="writeName Nunito_Sans_font">ohora</p>
@@ -116,89 +108,91 @@
               <li class="xans-record-">
                 <a href="/article/magazine/8/174601/" class="imgLink"
                   ><img
-                    src="//ohora2019.cafe24.com/file_data/ohora2019//2022/07/08/63ad5b0fac785775403f16e3922daab9.jpg"
+                    src="	http://ohora2019.cafe24.com/file_data/ohora2019//2022/07/08/63ad5b0fac785775403f16e3922daab9.jpg"
                     onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
                     alt=""
                 /></a>
-                <a href="/article/magazine/8/174601/" class="imgLink"
+                <a href="#empty" class="imgLink"
                   >[64] neon tint collection
                 </a>
                 <p class="writeName Nunito_Sans_font">ohora</p>
                 <!-- <em class="displaynone">작성일 : 2022-06-28</em> -->
               </li>
               <li class="xans-record-">
-                <a href="/article/magazine/8/169665/" class="imgLink"
+                <a href="#empty" class="imgLink"
                   ><img
-                    src="//ohora2019.cafe24.com/file_data/ohora2019//2022/06/14/09520ab6dee4f83d50dff672c5aa2809.jpg"
+                    src="http://ohora2019.cafe24.com/file_data/ohora2019//2022/06/14/09520ab6dee4f83d50dff672c5aa2809.jpg"
                     onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
                     alt=""
                 /></a>
-                <a href="/article/magazine/8/169665/" class="imgLink"
+                <a href="#empty" class="imgLink"
                   >[63] paradise collection
                 </a>
                 <p class="writeName Nunito_Sans_font">ohora</p>
                 <!-- <em class="displaynone">작성일 : 2022-06-14</em> -->
               </li>
               <li class="xans-record-">
-                <a href="/article/magazine/8/167898/" class="imgLink"
+                <a href="#empty" class="imgLink"
                   ><img
-                    src="//ohora2019.cafe24.com/file_data/ohora2019//2022/06/07/84fa4b703615c76a289d0920b3ba87b3.jpg"
+                    src="	http://ohora2019.cafe24.com/file_data/ohora2019//2022/06/07/84fa4b703615c76a289d0920b3ba87b3.jpg"
                     onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
                     alt=""
                 /></a>
-                <a href="/article/magazine/8/167898/" class="imgLink"
+                <a href="#empty" class="imgLink"
                   >[62] animal friends collection
                 </a>
                 <p class="writeName Nunito_Sans_font">ohora</p>
                 <!-- <em class="displaynone">작성일 : 2022-06-07</em> -->
               </li>
               <li class="xans-record-">
-                <a href="/article/magazine/8/166149/" class="imgLink"
+                <a href="#empty" class="imgLink"
                   ><img
-                    src="//ohora2019.cafe24.com/file_data/ohora2019//2022/05/30/2391c0983151c1d0528f68af8a95b01c.jpg"
+                    src="http://ohora2019.cafe24.com/file_data/ohora2019//2022/05/30/2391c0983151c1d0528f68af8a95b01c.jpg
+"
                     onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
                     alt=""
                 /></a>
-                <a href="/article/magazine/8/166149/" class="imgLink"
+                <a href="#empty" class="imgLink"
                   >[61] summer fantasy collection
                 </a>
                 <p class="writeName Nunito_Sans_font">ohora</p>
                 <!-- <em class="displaynone">작성일 : 2022-05-30</em> -->
               </li>
               <li class="xans-record-">
-                <a href="/article/magazine/8/157398/" class="imgLink"
+                <a href="#empty" class="imgLink"
                   ><img
-                    src="//ohora2019.cafe24.com/file_data/ohora2019//2022/04/18/deed752f281881420d2e75369cda6508.jpg"
+                    src="http://ohora2019.cafe24.com/file_data/ohora2019//2022/04/18/deed752f281881420d2e75369cda6508.jpg
+"
                     onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
                     alt=""
                 /></a>
-                <a href="/article/magazine/8/157398/" class="imgLink"
+                <a href="#empty" class="imgLink"
                   >[60] spring fever pedi collection [2]</a
                 >
                 <p class="writeName Nunito_Sans_font">ohora</p>
                 <!-- <em class="displaynone">작성일 : 2022-04-18</em> -->
               </li>
               <li class="xans-record-">
-                <a href="/article/magazine/8/156841/" class="imgLink"
+                <a href="#empty" class="imgLink"
                   ><img
-                    src="//ohora2019.cafe24.com/file_data/ohora2019//2022/04/11/682c83e5432d304b93b99b8f63e146c3.jpg"
+                    src="http://ohora2019.cafe24.com/file_data/ohora2019//2022/04/11/682c83e5432d304b93b99b8f63e146c3.jpg"
                     onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
                     alt=""
                 /></a>
-                <a href="/article/magazine/8/156841/" class="imgLink"
+                <a href="#empty" class="imgLink"
                   >[59] hello spring pedi collection [1]</a
                 >
                 <p class="writeName Nunito_Sans_font">ohora</p>
                 <!-- <em class="displaynone">작성일 : 2022-04-11</em> -->
               </li>
               <li class="xans-record-">
-                <a href="/article/magazine/8/155635/" class="imgLink"
+                <a href="#empty" class="imgLink"
                   ><img
-                    src="//ohora2019.cafe24.com/file_data/ohora2019//2022/03/29/3cb6587d97f208362c98b8e2be3efbf7.jpg"
+                    src="http://ohora2019.cafe24.com/file_data/ohora2019//2022/03/29/3cb6587d97f208362c98b8e2be3efbf7.jpg"
                     onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
                     alt=""
                 /></a>
-                <a href="/article/magazine/8/155635/" class="imgLink"
+                <a href="#empty" class="imgLink"
                   >[58] special day collection
                 </a>
                 <p class="writeName Nunito_Sans_font">ohora</p>
@@ -217,32 +211,32 @@
     1. /myshop/board_list.html
 -->
           <div class="SP_page_prev_wrap">
-            <a href="?board_no=8&amp;page=1" class="SP_pg_prev_btn"></a>
+            <a href="#empty" class="SP_pg_prev_btn"></a>
           </div>
           <div class="SP_page_num_list">
             <ol>
               <li class="xans-record-">
-                <a href="?board_no=8&amp;page=1" class="this">1</a>
+                <a href="#empty" class="this">1</a>
               </li>
               <li class="xans-record-">
-                <a href="?board_no=8&amp;page=2" class="other">2</a>
+                <a href="#empty" class="other">2</a>
               </li>
               <li class="xans-record-">
-                <a href="?board_no=8&amp;page=3" class="other">3</a>
+                <a href="#empty" class="other">3</a>
               </li>
               <li class="xans-record-">
-                <a href="?board_no=8&amp;page=4" class="other">4</a>
+                <a href="#empty" class="other">4</a>
               </li>
               <li class="xans-record-">
-                <a href="?board_no=8&amp;page=5" class="other">5</a>
+                <a href="#empty" class="other">5</a>
               </li>
               <li class="xans-record-">
-                <a href="?board_no=8&amp;page=6" class="other">6</a>
+                <a href="#empty" class="other">6</a>
               </li>
             </ol>
           </div>
           <div class="SP_page_next_wrap">
-            <a href="?board_no=8&amp;page=2" class="SP_pg_next_btn"></a>
+            <a href="#empty" class="SP_pg_next_btn"></a>
           </div>
         </div>
 
