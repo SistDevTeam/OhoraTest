@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>너리싱 네일 오일 사용법 how to - ohora</title>
+<title>젤네일팁 사용편 how to - ohora</title>
 <link rel="shortcut icon" type="image/x-icon" href="../resources/images/favicon.ico">
 <link rel="stylesheet" href="../resources/cdn-main/howto_detail.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -73,7 +73,7 @@
 										<tbody>
 											<tr>
 												<th scope="row">제목</th>
-												<td colspan="3">너리싱 네일 오일 사용법</td>
+												<td colspan="3">젤네일팁 사용편</td>
 											</tr>
 											<tr>
 												<th scope="row">작성자</th>
@@ -105,22 +105,25 @@
 															src="//www.ohora.kr/file_data/ohora2019/2021/12/29/40d6a19bb6e10ceba0abf53eef15fe59.jpg"
 															boarder="0" alt="" style="max-width: 587px !important;"><br></span>
 														<div class="fr-view fr-view-article">
+
+															<!-- youtube -->
+															<div class="ec-ucc-media-box-153009"
+																style="position: relative; max-height: 100%; padding-bottom: 56.25%; overflow: hidden; margin-bottom: 14px;">
+																	<iframe src="https://www.youtube.com/embed/Z_ryc-CnXF4" 
+																	frameborder="0" style="border: 0px; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe>
+																</div>
+															<!--  -->
 															<p>
 																<img
-																	src="/projectOhora/resources/images/howto_detail_image/howtouse_detail01.jpg"
+																	src="/projectOhora/resources/images/howto_detail_image/howtouse_detail16.jpg"
 																	class="fr-fic fr-dib">
 															</p>
 															<p>
 																<a
-																	href="https://www.ohora.kr/product/detail.html?product_no=670&cate_no=49&display_group=1">
+																	href="https://www.ohora.kr/product/list.html?cate_no=436&page_num=1">
 																	<img
-																	src="/projectOhora/resources/images/howto_detail_image/howtouse_detail02.jpg"
+																	src="/projectOhora/resources/images/howto_detail_image/howtouse_detail17.jpg"
 																	class="fr-fic fr-dib"></a><br>
-															</p>
-															<p>
-																<img
-																	src="/projectOhora/resources/images/howto_detail_image/howtouse_detail03.jpg"
-																	class="fr-fic fr-dib">
 															</p>
 														</div>
 													</div>
@@ -134,7 +137,8 @@
 													onkeydown="if (event.keyCode == 13 || event.which == 13) { return false; }"
 													autocomplete="new-password" value="" type="password">
 													<span class="ec-base-help txtInfo">삭제하려면 비밀번호를
-														입력하세요.</span></td>
+														입력하세요.</span>
+														</td>
 											</tr>
 										</tbody>
 									</table>
@@ -231,13 +235,13 @@
 					<div
 						class="xans-element- xans-board xans-board-movement-8 xans-board-movement xans-board-8 SP_subSection board_movement_wrap">
 						<ul>
+						<!-- 다음 글, 이전 글 연결링크 -->
 							<li class="prev "><span>이전글</span><a
-								href="/projectOhora/ohora/howto_detail01.jsp">VIP GIFT season 4. 사용법</a></li>
+								href="/projectOhora/ohora/howto_detail07.jsp">스트링리무버 사용편</a></li>
 							<li class="next "><span>다음글</span><a
-								href="/projectOhora/ohora/howto_detail04.jsp">루즈스킨 리무버 사용편</a></li>
+								href="/projectOhora/ohora/howto_detail01.jsp">VIP GIFT season 4. 사용법</a></li>
 						</ul>
 					</div>
-
 				</div>
 			</div>
 
@@ -261,21 +265,21 @@
 			});
 			</script>
 			<script>
-    // 첫 번째 버튼 클릭 이벤트
-    $(".SP_cm_btn.SP_btn_gray_bd.displaynone").eq(2).on("click", function() {
-        alert("잘못된 접근입니다.");
-    });
-
-    // 두 번째 버튼 클릭 이벤트
-    $(".SP_cm_btn.SP_btn_gray_bd.displaynone").eq(3).on("click", function(){
-        alert("본인이 작성하지 않은 게시글입니다.");
-    });
-
-    // 세 번째 버튼 클릭 이벤트
-    $(".SP_cm_btn.SP_btn_gray_bd.displaynone").eq(4).on("click", function(){
-        alert("관리자만 작성 가능합니다.");
-    });
-</script>
+		    // 첫 번째 버튼 클릭 이벤트
+		    $(".SP_cm_btn.SP_btn_gray_bd.displaynone").eq(2).on("click", function() {
+		        alert("잘못된 접근입니다.");
+		    });
+		
+		    // 두 번째 버튼 클릭 이벤트
+		    $(".SP_cm_btn.SP_btn_gray_bd.displaynone").eq(3).on("click", function(){
+		        alert("본인이 작성하지 않은 게시글입니다.");
+		    });
+		
+		    // 세 번째 버튼 클릭 이벤트
+		    $(".SP_cm_btn.SP_btn_gray_bd.displaynone").eq(4).on("click", function(){
+		        alert("관리자만 작성 가능합니다.");
+		    });
+		</script>
 		</div>
 	</div>
 
