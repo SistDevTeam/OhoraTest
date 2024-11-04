@@ -344,8 +344,6 @@ input {
   left: auto;
   right: 13px;
   display: inline-block;
-  width: 15px;
-  height: auto;
 }
 body,
 html,
@@ -408,11 +406,7 @@ user agent stylesheet button {
   border-image: initial;
 }
 
-.SP_ordSrh_chooseSel span button img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
+
 body,
 html,
 :lang(ko) {
@@ -1383,11 +1377,7 @@ ol {
 
 /* 달력이미지  */
 
-.SP_ordSrh_chooseSel span button img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
+
 body, html, :lang(ko) {
     font-family: 'Noto Sans KR', sans-serif;
 }
