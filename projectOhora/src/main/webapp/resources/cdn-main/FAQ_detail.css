@@ -1,28 +1,11 @@
-@charset "UTF-8";
-body{
-    min-width: 1200px;
-    max-width: 1200px;
-    width: 80%;
-    margin: 0 auto; /* 페이지를 가로 중앙 정렬 */
-    padding: 0 20px; /* 좌우 여백을 일정하게 추가 */
-    box-sizing: border-box; /* 패딩이 너비 계산에 포함되도록 */
-}
 
-#container {
-    border: none;
-}
-
-#contents {
-    min-height: 670px;
+.SP_layoutFix {
+    width: 1200px;
+    margin: 0 auto;
 }
 
 #ivStyle .SP_layoutFix {
     width: 1050px;
-}
-
-.SP_layoutFix {
-    /* width: 1200px; */
-    margin: 0 auto;
 }
 
 .SP_subContHeader {
@@ -314,9 +297,7 @@ body input[type="password"] {
     box-sizing: border-box;
 }
 a:-webkit-any-link {
-    color: -webkit-link;
     cursor: pointer;
-    text-decoration: none;
 }
 
 table {
