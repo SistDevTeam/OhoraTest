@@ -18,6 +18,7 @@
  }  
 </style>
 </head>
+<%@include file="header.jsp" %>
 <body>
 
 <!------------------------------ 상품 상세 영역 -------------------------------->
@@ -2791,6 +2792,8 @@ document.querySelector(".SP_prdAddSetToggle").onclick = function() {
       },
     });
   </script>
+
+  <%@include file="footer.jsp" %>
 </body>
    
 </html>
