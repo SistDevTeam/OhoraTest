@@ -272,7 +272,7 @@
                       >스팸해제</a
                     >
                   </span>
-                  <a href="/board/faq/3/" class="SP_cm_btn SP_btn_gray_bd sizeS"
+                  <a href="/projectOhora/ohora/FAQ.jsp" class="SP_cm_btn SP_btn_gray_bd sizeS"
                     >목록</a
                   >
                 </div>
