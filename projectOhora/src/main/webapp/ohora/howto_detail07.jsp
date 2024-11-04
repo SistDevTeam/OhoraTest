@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>스트링리무버 사용편 how to - ohora</title>
+<title>프로 루즈스킨 리무버편 - ohora</title>
 <link rel="shortcut icon" type="image/x-icon" href="../resources/images/favicon.ico">
 <link rel="stylesheet" href="../resources/cdn-main/howto_detail.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -18,6 +18,7 @@
 </style>
 </head>
 <%@include file="header.jsp" %>
+
 <body>
 
 	<div id="container">
@@ -73,7 +74,7 @@
 										<tbody>
 											<tr>
 												<th scope="row">제목</th>
-												<td colspan="3">스트링리무버 사용편</td>
+												<td colspan="3">VIP GIFT season 4. 사용법</td>
 											</tr>
 											<tr>
 												<th scope="row">작성자</th>
@@ -104,35 +105,34 @@
 														<span class="SP_tbDetailThumbImg"><img
 															src="//www.ohora.kr/file_data/ohora2019/2021/12/29/40d6a19bb6e10ceba0abf53eef15fe59.jpg"
 															boarder="0" alt="" style="max-width: 587px !important;"><br></span>
+														<div class="ec-ucc-media-box-148230"
+															style="position: relative; max-height: 100%; padding-bottom: 56.25%; overflow: hidden; margin-bottom: 14px;">
+															<iframe src="https://www.youtube.com/embed/VwrFe6ZI6Cw"
+																frameborder="0"
+																style="border: 0px; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"
+																webkitallowfullscreen="" mozallowfullscreen=""
+																allowfullscreen=""></iframe>
+														</div>
 														<div class="fr-view fr-view-article">
-
-															<!-- youtube -->
-															<div class="ec-ucc-media-box-62721"
-																style="position: relative; max-height: 100%; padding-bottom: 56.25%; overflow: hidden; margin-bottom: 14px;">
-																	<iframe src="https://www.youtube.com/embed/IBZu7OBM04M" 
-																	frameborder="0" style="border: 0px; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;">
-																	</iframe>
-																</div>
-															<!--  -->
-															
 															<p>
-															    <!-- 젤네일팁 페이지 이동 -->
 																<a
-																	href="https://www.ohora.kr/product/list.html?cate_no=162&page_num=1">
-																	<img
-																	src="/projectOhora/resources/images/howto_detail_image/howtouse_detail13.jpg"
+																	href="https://www.ohora.kr/product/detail.html?product_no=1272&amp;cate_no=44"><img
+																	src="/projectOhora/resources/images/howto_detail_image/howtouse_1200_03.jpg"
 																	class="fr-fic fr-dib"></a><br>
 															</p>
 															<p>
 																<img
-																	src="/projectOhora/resources/images/howto_detail_image/howtouse_detail14.jpg"
+																	src="/projectOhora/resources/images/howto_detail_image/howtouse_1200_04.jpg"
 																	class="fr-fic fr-dib">
 															</p>
 															<p>
 																<img
-																	src="/projectOhora/resources/images/howto_detail_image/howtouse_detail15.jpg"
+																	src="/projectOhora/resources/images/howto_detail_image/howtouse_1200_05.jpg"
 																	class="fr-fic fr-dib">
 															</p>
+															<img
+																src="/projectOhora/resources/images/howto_detail_image/howtouse_1200_06.jpg"
+																class="fr-fic fr-dib">
 														</div>
 													</div>
 												</td>
@@ -145,8 +145,7 @@
 													onkeydown="if (event.keyCode == 13 || event.which == 13) { return false; }"
 													autocomplete="new-password" value="" type="password">
 													<span class="ec-base-help txtInfo">삭제하려면 비밀번호를
-														입력하세요.</span>
-														</td>
+														입력하세요.</span></td>
 											</tr>
 										</tbody>
 									</table>
@@ -243,16 +242,19 @@
 					<div
 						class="xans-element- xans-board xans-board-movement-8 xans-board-movement xans-board-8 SP_subSection board_movement_wrap">
 						<ul>
-						<!-- 다음 글, 이전 글 연결링크 -->
 							<li class="prev "><span>이전글</span><a
-								href="/projectOhora/ohora/howto_detail04.jsp">젤네일팁 사용편</a></li>
+								href="/projectOhora/ohora/howto_detail08.jsp">젤네일팁 사용편</a></li>
 							<li class="next "><span>다음글</span><a
-								href="/projectOhora/ohora/howto_detail08.jsp">너리싱 네일 오일 사용법</a></li>
+								href="/projectOhora/ohora/howto_detail03.jsp">너리싱 네일 오일 사용법</a></li>
 						</ul>
 					</div>
+
 				</div>
 			</div>
 
+	
+			
+			
 			<script>
 			 // go_top 버튼 스크립트
 			$(document).ready(function() {
@@ -273,21 +275,21 @@
 			});
 			</script>
 			<script>
-		    // 첫 번째 버튼 클릭 이벤트
-		    $(".SP_cm_btn.SP_btn_gray_bd.displaynone").eq(2).on("click", function() {
-		        alert("잘못된 접근입니다.");
-		    });
-		
-		    // 두 번째 버튼 클릭 이벤트
-		    $(".SP_cm_btn.SP_btn_gray_bd.displaynone").eq(3).on("click", function(){
-		        alert("본인이 작성하지 않은 게시글입니다.");
-		    });
-		
-		    // 세 번째 버튼 클릭 이벤트
-		    $(".SP_cm_btn.SP_btn_gray_bd.displaynone").eq(4).on("click", function(){
-		        alert("관리자만 작성 가능합니다.");
-		    });
-		</script>
+    // 첫 번째 버튼 클릭 이벤트
+    $(".SP_cm_btn.SP_btn_gray_bd.displaynone").eq(2).on("click", function() {
+        alert("잘못된 접근입니다.");
+    });
+
+    // 두 번째 버튼 클릭 이벤트
+    $(".SP_cm_btn.SP_btn_gray_bd.displaynone").eq(3).on("click", function(){
+        alert("본인이 작성하지 않은 게시글입니다.");
+    });
+
+    // 세 번째 버튼 클릭 이벤트
+    $(".SP_cm_btn.SP_btn_gray_bd.displaynone").eq(4).on("click", function(){
+        alert("관리자만 작성 가능합니다.");
+    });
+</script>
 		</div>
 	</div>
 
