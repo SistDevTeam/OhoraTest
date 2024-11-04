@@ -104,6 +104,7 @@
                       src="https://img.echosting.cafe24.com/skin/admin_ko_KR/myshop/ico_cal.gif"
                       alt="..."
                       title="..."
+                      style="width: 15px; height: 15px"
                     /></button></span
                 ><span class="SP_extraTxt">~</span
                 ><span class="SP_endday"
@@ -122,6 +123,7 @@
                       src="https://img.echosting.cafe24.com/skin/admin_ko_KR/myshop/ico_cal.gif"
                       alt="..."
                       title="..."
+                      style="width: 15px; height: 15px"
                     /></button
                 ></span>
               </div>
