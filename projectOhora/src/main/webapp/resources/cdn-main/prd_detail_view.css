@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+body {
+    max-width: 1200px; /* 페이지의 최대 너비를 설정 */
+    margin: 0 auto; /* 페이지를 가로 중앙 정렬 */
+    padding: 0 20px; /* 좌우 여백을 일정하게 추가 */
+    box-sizing: border-box; /* 패딩이 너비 계산에 포함되도록 */
+}
 /* 테이블 전체 스타일 */
 .infoTbl {
     width: 100%;
