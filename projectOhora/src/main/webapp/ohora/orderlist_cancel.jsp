@@ -23,10 +23,6 @@
   
 
     <!-- 콘텐츠 -->
-    <div id="contents">
-      <script>
-        SMARTPC_GLOBAL_OBJECT.page = "mypage";
-      </script>
       <div id="SP_mypage_wrap">
         <div class="SP_subSection large">
           <h2 class="SP_subTitle"><span class="eng_font">order</span></h2>
@@ -38,7 +34,7 @@
           >
             <ul class="menu">
               <li class="tab_class_cs">
-                <a href="../orderlist_log/orderlist_log.html">
+                <a href="/projectOhora/ohora/orderlist_log.jsp">
                   주문내역조회(<span id="xans_myshop_total_orders_cs">0</span
                   >)</a
                 >
@@ -94,7 +90,7 @@
                       class="ui-datepicker-trigger"
                     >
                       <img
-                        src="//img.echosting.cafe24.com/skin/admin_ko_KR/myshop/ico_cal.gif"
+                        src="	https://img.echosting.cafe24.com/skin/admin_ko_KR/myshop/ico_cal.gif"
                         alt="..."
                         title="..."
                       /></button></span
@@ -112,7 +108,7 @@
                       class="ui-datepicker-trigger"
                     >
                       <img
-                        src="//img.echosting.cafe24.com/skin/admin_ko_KR/myshop/ico_cal.gif"
+                        src="	https://img.echosting.cafe24.com/skin/admin_ko_KR/myshop/ico_cal.gif"
                         alt="..."
                         title="..."
                       /></button
@@ -124,7 +120,7 @@
                       alt="조회"
                       id="order_search_btn"
                       type="image"
-                      src="//img.echosting.cafe24.com/skin/admin_ko_KR/myshop/btn_search.gif"
+                      src="https://img.echosting.cafe24.com/skin/admin_ko_KR/myshop/btn_search.gif"
                   /></span>
                 </div>
               </fieldset>
@@ -174,18 +170,51 @@
                 </tr>
               </thead>
             </table>
-            <p class="SP_message">주문 내역이 없습니다.</p>
-          </div>
+           <p class="SP_message">주문 내역이 없습니다.</p>
+        </div>
 
-          <div
-            class="xans-element- xans-myshop xans-myshop-orderhistorypaging SP_pagenation_wrap"
-          >
-            <!--
-            * 사용처
-            - /myshop/order/list.html
-          --></div>
+        <div
+          class="xans-element- xans-myshop xans-myshop-orderhistorypaging SP_pagenation_wrap"
+        >
+          <!--
+    * 사용처
+    - /myshop/order/list.html
+  -->
+          <div class="SP_page_prev_wrap">
+            <a
+              href="?page=1&amp;history_start_date=2024-08-06&amp;history_end_date=2024-11-04&amp;past_year=2023"
+              class="SP_pg_prevAll_btn"
+            ></a>
+            <a
+              href="?page=1&amp;history_start_date=2024-08-06&amp;history_end_date=2024-11-04&amp;past_year=2023"
+              class="SP_pg_prev_btn"
+            ></a>
+          </div>
+          <div class="SP_page_num_list">
+            <ol>
+              <li class="xans-record-">
+                <a
+                  href="?page=1&amp;history_start_date=2024-08-06&amp;history_end_date=2024-11-04&amp;past_year=2023"
+                  class="this"
+                  style="text-decoration: underline;"
+                  >1</a
+                >
+              </li>
+            </ol>
+          </div>
+          <div class="SP_page_next_wrap">
+            <a
+              href="?page=1&amp;history_start_date=2024-08-06&amp;history_end_date=2024-11-04&amp;past_year=2023"
+              class="SP_pg_next_btn"
+            ></a>
+            <a
+              href="?page=1&amp;history_start_date=2024-08-06&amp;history_end_date=2024-11-04&amp;past_year=2023"
+              class="SP_pg_nextAll_btn"
+            ></a>
+          </div>
         </div>
       </div>
+    </div>
 
       <!-- cre.ma / init 스크립트 (PC) / 스크립트를 수정할 경우 연락주세요 (support@cre.ma) -->
       <script>
@@ -206,7 +235,6 @@
           "//widgets.cre.ma/ohora.kr/init.js"
         );
       </script>
-    </div>
 
     <script>
       (function (i, s, o, g, r, a, m) {
