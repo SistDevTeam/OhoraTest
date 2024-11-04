@@ -21,7 +21,6 @@
 
 <body>
 <%@include file="header.jsp" %>
-    <div id="wrap" style="padding-top: 157px !important">
       <div id="container">
         <div id="contents">
           <div id="SP_boardPageChk">
@@ -42,49 +41,49 @@
                     <ul>
                       <li class="active">
                         <a
-                          href="/board/free/list.html?board_no=3&amp;category_no="
+                          href="#empty"
                           >전체</a
                         >
                       </li>
                       <li>
                         <a
-                          href="/board/free/list.html?board_no=3&amp;category_no=1"
+                          href="#empty"
                           >상품</a
                         >
                       </li>
                       <li>
                         <a
-                          href="/board/free/list.html?board_no=3&amp;category_no=2"
+                          href="#empty"
                           >주문/결제/취소</a
                         >
                       </li>
                       <li>
                         <a
-                          href="/board/free/list.html?board_no=3&amp;category_no=3"
+                          href="#empty"
                           >배송</a
                         >
                       </li>
                       <li>
                         <a
-                          href="/board/free/list.html?board_no=3&amp;category_no=4"
+                          href="#empty"
                           >교환/반품/환불</a
                         >
                       </li>
                       <li>
                         <a
-                          href="/board/free/list.html?board_no=3&amp;category_no=5"
+                          href="#empty"
                           >사이트 이용</a
                         >
                       </li>
                       <li>
                         <a
-                          href="/board/free/list.html?board_no=3&amp;category_no=6"
+                          href="#empty"
                           >회원</a
                         >
                       </li>
                       <li>
                         <a
-                          href="/board/free/list.html?board_no=3&amp;category_no=7"
+                          href="#empty"
                           >기타</a
                         >
                       </li>
@@ -150,7 +149,7 @@
                         <td class="subject left txtBreak">
                           <strong>
                             <a
-                              href="/article/faq/3/166365/"
+                              href="/projectOhora/ohora/FAQ_detail.jsp"
                               style="color: #555555"
                               >Q. 비회원 구매 시 첫 구매 혜택 적용이
                               안되나요?</a
@@ -173,7 +172,7 @@
                         <td class="subject left txtBreak">
                           <strong>
                             <a
-                              href="/article/faq/3/217049/"
+                              href="#empty"
                               style="color: #555555"
                               >Q. 반품 비용은 어떻게 되나요?</a
                             >
@@ -204,7 +203,7 @@
                         <td class="subject left txtBreak">
                           <strong>
                             <a
-                              href="/article/faq/3/17793/"
+                              href="#empty"
                               style="color: #555555"
                               >Q. 교환/반품을 하고 싶은 경우 어떻게 하면
                               되나요?</a
@@ -227,7 +226,7 @@
                         <td class="subject left txtBreak">
                           <strong>
                             <a
-                              href="/article/faq/3/217046/"
+                              href="#empty"
                               style="color: #555555"
                               >Q. 네이버페이로 주문했는데 젤램프 사은품이 오지
                               않았어요.</a
@@ -257,7 +256,7 @@
                         <td class="category">상품</td>
                         <td class="subject left txtBreak">
                           <a
-                            href="/article/faq/3/222470/"
+                            href="#empty"
                             style="color: #555555"
                             >Q. [젤스트립] 국가별 젤스트립 사이즈가 어떻게
                             되나요?</a
@@ -278,7 +277,7 @@
                         <td class="category">상품</td>
                         <td class="subject left txtBreak">
                           <a
-                            href="/article/faq/3/217177/"
+                            href="#empty"
                             style="color: #555555"
                             >Q. 오호라 보관함 사이즈가 어떻게 되나요?</a
                           >
@@ -298,7 +297,7 @@
                         <td class="category">회원</td>
                         <td class="subject left txtBreak">
                           <a
-                            href="/article/faq/3/217054/"
+                            href="#empty"
                             style="color: #555555"
                             >Q. 비회원으로 주문했는데 주문 번호를
                             잊어버렸어요.</a
@@ -319,7 +318,7 @@
                         <td class="category">교환/반품/환불</td>
                         <td class="subject left txtBreak">
                           <a
-                            href="/article/faq/3/217053/"
+                            href="#empty"
                             style="color: #555555"
                             >Q. 불량 제품을 받았는데 어떻게 하나요?</a
                           >
@@ -339,7 +338,7 @@
                         <td class="category">상품</td>
                         <td class="subject left txtBreak">
                           <a
-                            href="/article/faq/3/217052/"
+                            href="#empty"
                             style="color: #555555"
                             >Q. [젤램프]오호라 프로 포터블 램프가 빨리 꺼져요/안
                             켜져요.</a
@@ -360,7 +359,7 @@
                         <td class="category">상품</td>
                         <td class="subject left txtBreak">
                           <a
-                            href="/article/faq/3/217051/"
+                            href="#empty"
                             style="color: #555555"
                             >Q. [젤램프] 젤램프 다리가 펴지지 않아요.</a
                           >
@@ -380,7 +379,7 @@
                         <td class="category">상품</td>
                         <td class="subject left txtBreak">
                           <a
-                            href="/article/faq/3/217050/"
+                            href="#empty"
                             style="color: #555555"
                             >Q. 언더코트는 어떻게 사용하나요?</a
                           >
@@ -400,7 +399,7 @@
                         <td class="category">배송</td>
                         <td class="subject left txtBreak">
                           <a
-                            href="/article/faq/3/217048/"
+                            href="#empty"
                             style="color: #555555"
                             >Q. 배송지 변경은 어떻게 하나요?</a
                           >
@@ -420,7 +419,7 @@
                         <td class="category">주문/결제/취소</td>
                         <td class="subject left txtBreak">
                           <a
-                            href="/article/faq/3/217045/"
+                            href="#empty"
                             style="color: #555555"
                             >Q. 네이버페이로 주문했는데 주문 번호 확인이 되지
                             않아요.</a
@@ -441,7 +440,7 @@
                         <td class="category">주문/결제/취소</td>
                         <td class="subject left txtBreak">
                           <a
-                            href="/article/faq/3/217044/"
+                            href="#empty"
                             style="color: #555555"
                             >Q.주문한 상품을 취소/변경 하고 싶어요.</a
                           >
@@ -464,7 +463,7 @@
                 >
                   <div class="SP_tableBtnAlign_right">
                     <a
-                      href="/board/free/write.html?board_no=3"
+                      href="#empty"
                       class="SP_cm_btn SP_btn_gray_bd displaynone"
                       >글쓰기</a
                     >
@@ -547,7 +546,7 @@
                           type="text"
                         />
                         <a
-                          href="#none"
+                          href="#empty"
                           class="SP_cm_btn SP_btn_blue_bg"
                           onclick="BOARD.form_submit('boardSearchForm');"
                           >검색하기</a
@@ -566,32 +565,32 @@
     1. /myshop/board_list.html
 -->
                 <div class="SP_page_prev_wrap">
-                  <a href="?board_no=3&amp;page=1" class="SP_pg_prev_btn"></a>
+                  <a href="#empty" class="SP_pg_prev_btn"></a>
                 </div>
                 <div class="SP_page_num_list">
                   <ol>
                     <li class="xans-record-">
-                      <a href="?board_no=3&amp;page=1" class="this">1</a>
+                      <a href="#empty" class="this">1</a>
                     </li>
                     <li class="xans-record-">
-                      <a href="?board_no=3&amp;page=2" class="other">2</a>
+                      <a href="#empty" class="other">2</a>
                     </li>
                     <li class="xans-record-">
-                      <a href="?board_no=3&amp;page=3" class="other">3</a>
+                      <a href="#empty" class="other">3</a>
                     </li>
                     <li class="xans-record-">
-                      <a href="?board_no=3&amp;page=4" class="other">4</a>
+                      <a href="#empty" class="other">4</a>
                     </li>
                     <li class="xans-record-">
-                      <a href="?board_no=3&amp;page=5" class="other">5</a>
+                      <a href="#empty" class="other">5</a>
                     </li>
                     <li class="xans-record-">
-                      <a href="?board_no=3&amp;page=6" class="other">6</a>
+                      <a href="#empty" class="other">6</a>
                     </li>
                   </ol>
                 </div>
                 <div class="SP_page_next_wrap">
-                  <a href="?board_no=3&amp;page=2" class="SP_pg_next_btn"></a>
+                  <a href="#empty" class="SP_pg_next_btn"></a>
                 </div>
               </div>
 
@@ -613,7 +612,6 @@
           </style>
         </div>
       </div>
-    </div>
     <%@include file="footer.jsp" %>
   </body>
 </html>
