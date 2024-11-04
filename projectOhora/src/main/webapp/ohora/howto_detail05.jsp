@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">kg
+<meta charset="UTF-8">
 <title>파츠 세미큐어젤 부착편 how to - ohora</title>
 <link rel="shortcut icon" type="image/x-icon" href="../resources/images/favicon.ico">
 <link rel="stylesheet" href="../resources/cdn-main/howto_detail.css">
@@ -19,7 +19,6 @@
 </head>
 <%@include file="header.jsp" %>
 <body>
-
 	<div id="container">
 		<div id="contents">
 			<div id="SP_boardPageChk">
