@@ -888,7 +888,7 @@
        <div class="main-magazine-container">
            <h3>
                <strong>오호라 매거진</strong>
-               <a href="" class="magazine-Morebtn">+ 전체보기</a>
+               <a href="/projectOhora/ohora/magazine.jsp" class="magazine-Morebtn">+ 전체보기</a>
            </h3>
 
            <div class="magazine-swiper-container ">
@@ -907,7 +907,7 @@
                            <!-- before로 선택안된 애들 꺼멓게 만들어줌 -->
                             <div class="magazine-slide-wrap">
                                <a href="" class="magazine-thumb">
-                                   <img class="magazine-swiper-item " src="https://ohora.kr/file_data/ohora2019//2023/06/27/0c623df88e3d06f5ab35888159832c4f.jpg" alt="매거진 이미지">
+                                   <img class="magazine-swiper-item " src="https://ohora.kr/file_data/ohora2019//2023/05/23/82072fc1d7f7a03b80fd9d42519c8865.jpg" alt="매거진 이미지">
                                    <!-- 포커스의 prev -->
                                </a>
                             </div>
@@ -916,7 +916,7 @@
                            <!-- before로 선택안된 애들 꺼멓게 만들어줌 -->
                             <div class="magazine-slide-wrap">
                                <a href="" class="magazine-thumb">
-                                   <img class="magazine-swiper-item " src="https://ohora.kr/file_data/ohora2019//2023/06/27/0c623df88e3d06f5ab35888159832c4f.jpg" alt="매거진 이미지">
+                                   <img class="magazine-swiper-item " src="https://ohora.kr/file_data/ohora2019//2022/10/13/25d4083e64f627dcddf735898676a20d.jpg" alt="매거진 이미지">
                                    <!-- 포커스 -->
                                </a>
                             </div>
@@ -925,7 +925,7 @@
                            <!-- before로 선택안된 애들 꺼멓게 만들어줌 -->
                             <div class="magazine-slide-wrap">
                                <a href="" class="magazine-thumb">
-                                   <img class="magazine-swiper-item" src="https://ohora.kr/file_data/ohora2019//2023/06/27/0c623df88e3d06f5ab35888159832c4f.jpg" alt="매거진 이미지">
+                                   <img class="magazine-swiper-item" src="https://ohora.kr/file_data/ohora2019//2022/09/19/05e814479e61c856024805ded5f5162d.jpg" alt="매거진 이미지">
                                    <!-- 포커스의 next -->
                                </a>
                             </div>
@@ -934,7 +934,7 @@
                            <!-- before로 선택안된 애들 꺼멓게 만들어줌 -->
                             <div class="magazine-slide-wrap">
                                <a href="" class="magazine-thumb">
-                                   <img class="magazine-swiper-item" src="https://ohora.kr/file_data/ohora2019//2023/06/27/0c623df88e3d06f5ab35888159832c4f.jpg" alt="매거진 이미지">
+                                   <img class="magazine-swiper-item" src="https://ohora.kr/file_data/ohora2019//2022/07/08/63ad5b0fac785775403f16e3922daab9.jpg" alt="매거진 이미지">
                                </a>
                             </div>
                        </li>
@@ -942,7 +942,7 @@
                            <!-- before로 선택안된 애들 꺼멓게 만들어줌 -->
                             <div class="magazine-slide-wrap">
                                <a href="" class="magazine-thumb">
-                                   <img class="magazine-swiper-item" src="https://ohora.kr/file_data/ohora2019//2023/06/27/0c623df88e3d06f5ab35888159832c4f.jpg" alt="매거진 이미지">
+                                   <img class="magazine-swiper-item" src="https://ohora.kr/file_data/ohora2019//2022/06/07/84fa4b703615c76a289d0920b3ba87b3.jpg" alt="매거진 이미지">
                                </a>
                             </div>
                        </li>
