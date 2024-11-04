@@ -44,7 +44,7 @@
 
               <ul>
                 <li class="xans-record-">
-                  <a href="/article/how-to/13/61145/" class="imgLink"
+                  <a href="/projectOhora/ohora/howto_detail01.jsp" class="imgLink"
                     ><img
                       src="//www.ohora.kr/file_data/ohora2019//2020/07/27/2e812a1fc316abff4f7b9b0bc1dd71cb.jpg"
                       onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
@@ -57,7 +57,7 @@
                         alt=""
                         class="ec-common-rwd-image"
                       />
-                      <a href="/article/how-to/13/61145/">
+                      <a href="/projectOhora/ohora/howto_detail01.jsp">
                         세미큐어젤 부착편
                       </a>
                     </p>
@@ -66,7 +66,7 @@
                   </div>
                 </li>
                 <li class="xans-record-">
-                  <a href="/article/how-to/13/62360/" class="imgLink"
+                  <a href="/projectOhora/ohora/howto_detail02.jsp" class="imgLink"
                     ><img
                       src="//www.ohora.kr/file_data/ohora2019//2020/07/27/cf77f3e9c00f1971f4fccc5f4dddd7cf.jpg"
                       onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
@@ -79,7 +79,7 @@
                         alt=""
                         class="ec-common-rwd-image"
                       />
-                      <a href="/article/how-to/13/62360/">
+                      <a href="/projectOhora/ohora/howto_detail02.jsp">
                         세미큐어젤 제거편
                       </a>
                     </p>
@@ -88,7 +88,7 @@
                   </div>
                 </li>
                 <li class="xans-record-">
-                  <a href="/article/how-to/13/153009/" class="imgLink"
+                  <a href="/projectOhora/ohora/howto_detail03.jsp" class="imgLink"
                     ><img
                       src="//www.ohora.kr/file_data/ohora2019//2022/06/15/a4438f64fa906fa7f1ce24b3de24058f.jpg"
                       onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
@@ -101,14 +101,14 @@
                         alt=""
                         class="ec-common-rwd-image"
                       />
-                      <a href="/article/how-to/13/153009/"> 젤네일팁 사용편 </a>
+                      <a href="/projectOhora/ohora/howto_detail03.jsp"> 젤네일팁 사용편 </a>
                     </p>
                     <p class="writeName Nunito_Sans_font">ohora</p>
 
                   </div>
                 </li>
                 <li class="xans-record-">
-                  <a href="/article/how-to/13/166349/" class="imgLink"
+                  <a href="/projectOhora/ohora/howto_detail04.jsp" class="imgLink"
                     ><img
                       src="//www.ohora.kr/file_data/ohora2019//2022/05/31/7ec391b3a6d1ca961403d054aaa6597d.jpg"
                       onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
@@ -121,7 +121,7 @@
                         alt=""
                         class="ec-common-rwd-image"
                       />
-                      <a href="/article/how-to/13/166349/">
+                      <a href="/projectOhora/ohora/howto_detail04.jsp">
                         스트링리무버 사용편
                       </a>
                     </p>
@@ -130,7 +130,7 @@
                   </div>
                 </li>
                 <li class="xans-record-">
-                  <a href="/article/how-to/13/62721/" class="imgLink"
+                  <a href="/projectOhora/ohora/howto_detail05.jsp" class="imgLink"
                     ><img
                       src="//www.ohora.kr/file_data/ohora2019//2020/07/28/d98598ccd012af5bc1e92ff3c3ac1c8a.jpg"
                       onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
@@ -143,7 +143,7 @@
                         alt=""
                         class="ec-common-rwd-image"
                       />
-                      <a href="/article/how-to/13/62721/">
+                      <a href="/projectOhora/ohora/howto_detail05.jsp">
                         파츠 세미큐어젤 부착편
                       </a>
                     </p>
@@ -152,7 +152,7 @@
                   </div>
                 </li>
                 <li class="xans-record-">
-                  <a href="/article/how-to/13/75973/" class="imgLink"
+                  <a href="/projectOhora/ohora/howto_detail06.jsp" class="imgLink"
                     ><img
                       src="//www.ohora.kr/file_data/ohora2019//2020/10/23/a4691822c5ce9c4f279553c908a9847b.jpg"
                       onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
@@ -165,7 +165,7 @@
                         alt=""
                         class="ec-common-rwd-image"
                       />
-                      <a href="/article/how-to/13/75973/">
+                      <a href="/projectOhora/ohora/howto_detail06.jsp">
                         글로시 탑젤 사용편
                       </a>
                     </p>
@@ -174,7 +174,7 @@
                   </div>
                 </li>
                 <li class="xans-record-">
-                  <a href="/article/how-to/13/83901/" class="imgLink"
+                  <a href="/projectOhora/ohora/howto_detail07.jsp" class="imgLink"
                     ><img
                       src="//www.ohora.kr/file_data/ohora2019//2020/10/23/2638f59545b037ce122ab56323cff2c4.jpg"
                       onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
@@ -187,7 +187,7 @@
                         alt=""
                         class="ec-common-rwd-image"
                       />
-                      <a href="/article/how-to/13/83901/">
+                      <a href="/projectOhora/ohora/howto_detail07.jsp">
                         루즈스킨 리무버 사용편
                       </a>
                     </p>
@@ -196,7 +196,7 @@
                   </div>
                 </li>
                 <li class="xans-record-">
-                  <a href="/article/how-to/13/118207/" class="imgLink"
+                  <a href="/projectOhora/ohora/howto_detail08.jsp" class="imgLink"
                     ><img
                       src="//www.ohora.kr/file_data/ohora2019//2021/06/22/6f98f65858d3227169254043dab9b9df.jpg"
                       onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
@@ -209,7 +209,7 @@
                         alt=""
                         class="ec-common-rwd-image"
                       />
-                      <a href="/article/how-to/13/118207/">
+                      <a href="/projectOhora/ohora/howto_detail08.jsp">
                         너리싱 네일 오일 사용법
                       </a>
                     </p>
@@ -218,7 +218,7 @@
                   </div>
                 </li>
                 <li class="xans-record-">
-                  <a href="/article/how-to/13/68826/" class="imgLink"
+                  <a href="/projectOhora/ohora/howto_detail09.jsp" class="imgLink"
                     ><img
                       src="//www.ohora.kr/file_data/ohora2019//2020/10/23/7b88224d9cb264bbb4d06d7608ecbcbf.jpg"
                       onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
@@ -231,14 +231,14 @@
                         alt=""
                         class="ec-common-rwd-image"
                       />
-                      <a href="/article/how-to/13/68826/"> 젤램프 사용편 </a>
+                      <a href="/projectOhora/ohora/howto_detail09.jsp"> 젤램프 사용편 </a>
                     </p>
                     <p class="writeName Nunito_Sans_font">ohora</p>
      
                   </div>
                 </li>
                 <li class="xans-record-">
-                  <a href="/article/how-to/13/148230/" class="imgLink"
+                  <a href="/projectOhora/ohora/howto_detail10.jsp" class="imgLink"
                     ><img
                       src="//www.ohora.kr/file_data/ohora2019//2021/12/29/40d6a19bb6e10ceba0abf53eef15fe59.jpg"
                       onerror="this.src='//img.echosting.cafe24.com/thumb/198x198.gif'"
@@ -251,7 +251,7 @@
                         alt=""
                         class="ec-common-rwd-image"
                       />
-                      <a href="/article/how-to/13/148230/">
+                      <a href="/projectOhora/ohora/howto_detail10.jsp">
                         VIP GIFT season 4. 사용법
                       </a>
                     </p>
