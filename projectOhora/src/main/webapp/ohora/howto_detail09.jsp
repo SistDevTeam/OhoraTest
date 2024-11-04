@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>세미큐어젤 제거편 how to - ohora</title>
+<title>젤램프 사용편 how to - ohora</title>
 <link rel="shortcut icon" type="image/x-icon" href="../resources/images/favicon.ico">
 <link rel="stylesheet" href="../resources/cdn-main/howto_detail.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -73,7 +73,7 @@
 										<tbody>
 											<tr>
 												<th scope="row">제목</th>
-												<td colspan="3">세미큐어젤 제거편</td>
+												<td colspan="3">젤램프 사용편</td>
 											</tr>
 											<tr>
 												<th scope="row">작성자</th>
@@ -104,29 +104,32 @@
 														<span class="SP_tbDetailThumbImg"><img
 															src="//www.ohora.kr/file_data/ohora2019/2021/12/29/40d6a19bb6e10ceba0abf53eef15fe59.jpg"
 															boarder="0" alt="" style="max-width: 587px !important;"><br></span>
-
-															<!-- youtube -->
-															<div class="ec-ucc-media-box-62360" style="position: relative; max-height: 100%; padding-bottom: 56.25%;
-															 overflow: hidden; margin-bottom: 14px;"><iframe src="https://www.youtube.com/embed/tNvQHLpOhHM" 
-															 frameborder="0" style="border: 0px; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;
-															 webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="""></iframe>
-															 </div>
-															<!--  -->
-															
-														<div class="fr-view fr-view-article"> 
+														<div class="fr-view fr-view-article">
 															<p>
 																<img
-																	src="/projectOhora/resources/images/howto_detail_image/howtouse_detail16.jpg"
+																	src="/projectOhora/resources/images/howto_detail_image/howtouse_1200_03_shop1_143348.jpg"
 																	class="fr-fic fr-dib">
 															</p>
 															<p>
 																<a
-																	href="https://www.ohora.kr/product/list.html?cate_no=436&page_num=1">
+																	href="https://www.ohora.kr/product/detail.html?product_no=1272&amp;cate_no=44">
 																	<img
-																	src="/projectOhora/resources/images/howto_detail_image/howtouse_detail17.jpg" size="1000px/11143px"
-																	class="fr-fic fr-dib">
-																	</a><br>
+																	src="/projectOhora/resources/images/howto_detail_image/howtouse_1200_04_shop1_114535.jpg"
+																	class="fr-fic fr-dib"></a><br>
 															</p>
+															<p>
+																<img
+																	src="/projectOhora/resources/images/howto_detail_image/howtouse_1200_05_shop1_114535.jpg"
+																	class="fr-fic fr-dib">
+															</p>
+															<p>
+																<img
+																	src="/projectOhora/resources/images/howto_detail_image/howtouse_1200_06_shop1_114535.jpg"
+																	class="fr-fic fr-dib">
+															</p>
+															<img
+																src="/projectOhora/resources/images/howto_detail_image/howtouse_1200_07_shop1_115235.jpg"
+																class="fr-fic fr-dib">
 														</div>
 													</div>
 												</td>
@@ -239,9 +242,9 @@
 						<ul>
 						<!-- 다음 글, 이전 글 연결링크 -->
 							<li class="prev "><span>이전글</span><a
-								href="/projectOhora/ohora/howto_detail06.jsp">파츠 세미큐어젤 부착편</a></li>
+								href="/projectOhora/ohora/howto_detail05.jsp">글로시 탑젤 사용편</a></li>
 							<li class="next "><span>다음글</span><a
-								href="/projectOhora/ohora/howto_detail10.jsp">세미큐어젤 부착편</a></li>
+								href="/projectOhora/ohora/howto_detail06.jsp">파츠 세미큐어젤 부착편</a></li>
 						</ul>
 					</div>
 				</div>
