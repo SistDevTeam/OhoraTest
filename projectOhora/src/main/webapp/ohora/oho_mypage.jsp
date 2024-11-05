@@ -289,7 +289,7 @@
                                 <!-- li 마다 after로 > 모양있음 -->
                                 <li><a href="">주문내역</a></li>
                                 <li><a href="">회원정보</a></li>
-                                <li><a href="">배송주소록</a></li>
+                                <li><a href="/projectOhora/ohora/addr.jsp">배송주소록</a></li>
                                 <li><a href="">이용약관</a></li>
                             </ul>
                         </div>
