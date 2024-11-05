@@ -20,7 +20,7 @@
 </head>
 <%@include file="header.jsp" %>
 <body>
-    <div id="wrap" style="padding-top: 156px !important">
+    <div id="wrap">
       <div id="container">
         <div id="contents">
           <div id="SMS_login_warp" class="login_container SP_layoutFix">
