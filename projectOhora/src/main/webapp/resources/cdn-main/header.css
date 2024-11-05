@@ -442,7 +442,7 @@ img {
 }
 
 .SP_top_wrap .layout_Top, .SP_top_wrap .layout_Top, .SP_top_wrap .layout_Top {
-  display: inline-block; margin: 0 auto; min-width: 1200px; padding-right: 180px; padding: 0; text-align: right; width: 100%;
+   margin: 0 auto; min-width: 1200px; padding-right: 180px; padding: 0; text-align: right; width: 100%;
 }
 
 .SP_gnb_inr, .SP_gnb_inr, .SP_gnb_inr {
@@ -1060,4 +1060,3 @@ button {
   a {
   color: #000; display: block; font-size: 17px; line-height: 1; margin-bottom: 19px; width: 60%;
 }
-
