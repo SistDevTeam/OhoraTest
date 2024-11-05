@@ -336,16 +336,27 @@
           </div>
 
           <div
-            style="
-              font-size: 15px;
-              font-weight: bolder;
-              text-align: center;
-              margin-top: 100px;
-              margin-bottom: 170px;
-            "
-          >
-            1
-          </div>
+		    style="
+		      font-size: 15px;
+		      font-weight: bolder;
+		      text-align: center;
+		      margin-top: 100px;
+		      margin-bottom: 170px;
+		    "
+			>
+		    <img alt="" src="https://www.ohora.kr/smartpc/_img/icon/page_prev_btn.svg" style="display: inline-block;
+			    vertical-align: middle;
+			    width: 7px;
+			    height: 13px;"
+			    >
+			    &nbsp;&nbsp;&nbsp;
+		    	1
+		    	&nbsp;&nbsp;&nbsp;
+		    <img alt="" src="https://www.ohora.kr/smartpc/_img/icon/page_next_btn.svg" style="display: inline-block;
+			    vertical-align: middle;
+			    width: 7px;
+			    height: 13px;">
+		</div>
         </div>
       </div>
 
