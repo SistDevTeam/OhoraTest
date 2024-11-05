@@ -287,17 +287,17 @@
                         <div class="myShopMenu-list">
                             <ul>
                                 <!-- li 마다 after로 > 모양있음 -->
-                                <li><a href="">주문내역</a></li>
-                                <li><a href="">회원정보</a></li>
+                                <li><a href="/projectOhora/ohora/orderlist_log.jsp">주문내역</a></li>
+                                <li><a href="/projectOhora/ohora/oho_memInfo.jsp">회원정보</a></li>
                                 <li><a href="/projectOhora/ohora/addr.jsp">배송주소록</a></li>
-                                <li><a href="">이용약관</a></li>
+                                <li><a href="/projectOhora/ohora/termsofservice.jsp">이용약관</a></li>
                             </ul>
                         </div>
 
                         <div class="myShopMenu-list">
                             <ul>
                                 <li>
-                                    <a href="">쿠폰내역<span class="">
+                                    <a href="/projectOhora/ohora/coupon.jsp">쿠폰내역<span class="">
                                         <span class="xans_myshop_main_coupon_cnt">0</span>
                                         장</span>
                                     </a>
@@ -309,8 +309,8 @@
                                 </li>
                                                 
                                 <li class="caty">
-                                    <a href="">장바구니
-                                        <span class="">2개</span>
+                                    <a href="/projectOhora/ohora/offcart.jsp">장바구니
+                                        <span class="">0개</span>
                                     </a>
                                 </li>
                                                 
