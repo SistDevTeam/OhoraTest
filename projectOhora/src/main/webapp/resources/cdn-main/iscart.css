@@ -232,9 +232,7 @@ a {
 }
 
 a:-webkit-any-link {
-    color: -webkit-link;
     cursor: pointer;
-    /* text-decoration: underline; */
 }
 
 li {
