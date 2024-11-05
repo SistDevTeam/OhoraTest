@@ -71,8 +71,8 @@
 </div>
 <div class="SP_utility_Wrap">
                             <div class="SP_findinfo">
-                                <li><a href="/member/login.html">기존회원 로그인</a></li>
-                                <li><a href="/member/login.html?noMemberOrder&amp;returnUrl=%2Fmyshop%2Forder%2Flist.html">비회원 주문조회</a></li>
+                                <li><a href="/projectOhora/ohora/login.jsp">기존회원 로그인</a></li>
+                                <li><a href="/projectOhora/ohora/ordercheck_nolog.jsp">비회원 주문조회</a></li>
                             </div>
                         </div>
 </div></form>
