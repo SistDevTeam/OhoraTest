@@ -81,7 +81,7 @@
                     <td class="subject left txtBreak">
                       <strong>
                         <a
-                          href="/article/notice/14/231005/"
+                          href="#empty"
                           style="color: #333333"
                           >[공지]개인정보 처리방침 변경 안내</a
                         >
@@ -98,7 +98,7 @@
                     <td class="subject left txtBreak">
                       <strong>
                         <a
-                          href="/article/notice/14/229221/"
+                          href="#empty"
                           style="color: #333333"
                           >[공지]개인정보 처리방침 내 수탁업체(택배사)
                           변경사항</a
@@ -119,7 +119,7 @@
                     <td class="category displaynone"></td>
                     <td class="subject left txtBreak">
                       <a
-                        href="/article/notice/14/231166/"
+                        href="#empty"
                         style="color: #333333"
                         >[종료][10/14~10/28] 오호라 보관함 증정 이벤트</a
                       >
@@ -134,7 +134,7 @@
                     <td class="category displaynone"></td>
                     <td class="subject left txtBreak">
                       <a
-                        href="/article/notice/14/231094/"
+                        href="#empty"
                         style="color: #333333"
                         >[종료][10/7~10/14] 오호라 팝젤 증정 이벤트</a
                       >
@@ -149,7 +149,7 @@
                     <td class="category displaynone"></td>
                     <td class="subject left txtBreak">
                       <a
-                        href="/article/notice/14/230607/"
+                        href="#empty"
                         style="color: #333333"
                         >[공지]추석 연휴 배송 및 고객 상담 마감 안내</a
                       >
@@ -164,7 +164,7 @@
                     <td class="category displaynone"></td>
                     <td class="subject left txtBreak">
                       <a
-                        href="/article/notice/14/229586/"
+                        href="#empty"
                         style="color: #333333"
                         >[공지]친구 추천 프로모션 종료 안내</a
                       >
@@ -179,7 +179,7 @@
                     <td class="category displaynone"></td>
                     <td class="subject left txtBreak">
                       <a
-                        href="/article/notice/14/228129/"
+                        href="#empty"
                         style="color: #333333"
                         >[7/8~7/15] 구매 금액대별 쿠폰팩 이벤트</a
                       >
@@ -194,7 +194,7 @@
                     <td class="category displaynone"></td>
                     <td class="subject left txtBreak">
                       <a
-                        href="/article/notice/14/227697/"
+                        href="#empty"
                         style="color: #333333"
                         >[공지]개인정보 처리방침 내 수탁업체 변경사항</a
                       >
@@ -208,7 +208,7 @@
                     <td class="category displaynone"></td>
                     <td class="subject left txtBreak">
                       <a
-                        href="/article/notice/14/227584/"
+                        href="#empty"
                         style="color: #333333"
                         >[종료][6/24~7/1] 오호라 보관함 증정 이벤트</a
                       >
@@ -223,7 +223,7 @@
                     <td class="category displaynone"></td>
                     <td class="subject left txtBreak">
                       <a
-                        href="/article/notice/14/227316/"
+                        href="#empty"
                         style="color: #333333"
                         >[종료][6/17~6/28] 신제품 포토 리뷰 적립금 5,000점 지급
                         이벤트</a
@@ -239,7 +239,7 @@
                     <td class="category displaynone"></td>
                     <td class="subject left txtBreak">
                       <a
-                        href="/article/notice/14/224951/"
+                        href="#empty"
                         style="color: #333333"
                         >[공지] 포토 리뷰 적립금 변경 안내</a
                       >
@@ -254,7 +254,7 @@
                     <td class="category displaynone"></td>
                     <td class="subject left txtBreak">
                       <a
-                        href="/article/notice/14/222930/"
+                        href="#empty"
                         style="color: #333333"
                         >[공지] 2023년 휴면 회원 약관 개정 안내</a
                       >
