@@ -105,7 +105,7 @@
                   </div>
                   <div class="btnJoin btnArea type1">
                     <a
-                      href="/member/join_intro.html"
+                      href="/projectOhora/ohora/join.jsp"
                       class="btnEm SMSjoin_btnTD wh"
                       >회원가입 후 혜택받기</a
                     >
