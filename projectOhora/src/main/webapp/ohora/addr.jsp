@@ -428,7 +428,7 @@
           >
         </div>
         <div class="SP_submitBtn_right">
-          <a href="register.html" class="SP_cm_btn SP_btn_gray_bd"
+          <a href="/projectOhora/ohora/addr_manage.jsp" class="SP_cm_btn SP_btn_gray_bd"
         	  style="border: 1px solid #000"
             >배송지등록</a
           >
