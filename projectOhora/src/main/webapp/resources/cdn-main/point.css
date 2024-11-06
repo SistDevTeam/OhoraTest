@@ -268,10 +268,9 @@ a {
     text-decoration: none;
 }
 a:-webkit-any-link {
-    color: -webkit-link;
     cursor: pointer;
-    text-decoration: underline;
 }
+
 .SP_infoUserUtilLink_wrap {
     font-size: 0;
     margin-top: 45px;
