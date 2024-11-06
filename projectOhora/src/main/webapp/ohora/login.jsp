@@ -194,13 +194,13 @@
 
                       <div class="btnArea typeLogin">
                         <a
-                          href="/member/id/find_id.html"
+                          href="/projectOhora/ohora/findID.jsp"
                           class="btnLogin SMS_login_id SMSloginID_btnTD"
                           id="aa"
                           ><b class="SMS_icon"></b>아이디 찾기</a
                         >
                         <a
-                          href="/member/passwd/find_passwd_info.html"
+                          href="/projectOhora/ohora/findPasswd.jsp"
                           class="btnLogin SMS_login_pw SMSloginPW_btnTD"
                           id="aaa"
                           ><b class="SMS_icon"></b>비밀번호 찾기</a
