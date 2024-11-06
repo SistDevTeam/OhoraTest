@@ -326,7 +326,7 @@
               <a class="" href="/projectOhora/ohora/ohora_Fend_brand4.jsp">
                 <span>about</span>
               </a>
-              <a class="" href="#empty">
+              <a class="" href="/projectOhora/ohora/membership.jsp">
                 <span>membership</span>
               </a>
               <a class="" href="/projectOhora/ohora/magazine.jsp">
