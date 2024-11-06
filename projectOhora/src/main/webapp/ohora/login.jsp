@@ -206,7 +206,7 @@
                           ><b class="SMS_icon"></b>비밀번호 찾기</a
                         >
                         <a
-                          href="/member/login.html?noMemberOrder&amp;returnUrl=%2Fmyshop%2Forder%2Flist.html"
+                          href="/projectOhora/ohora/ordercheck_nolog.jsp"
                           class="btnLogin SMS_login_id_join SMSjoin_btnTD"
                           id="aaaa"
                           ><b class="SMS_icon"></b>비회원 주문조회</a
