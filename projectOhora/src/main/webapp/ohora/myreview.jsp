@@ -135,11 +135,11 @@
                   </p>
                   <div class="SP_infoUserUtilLink_wrap">
                     <a
-                      href="/article/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD/1/1/%20%20"
+                      href="#empty"
                       >등급 혜택보기</a
                     >
                     <a
-                      href="/myshop/order/list.html?order_status=shipped_complate"
+                      href="#empty"
                       >후기쓰러가기</a
                     >
                     <a href="https://oe9lp.channel.io/home">1:1문의하기</a>
@@ -267,7 +267,7 @@
                         <div class="SP_myOrderInfoTitle">my point</div>
                         <div class="SP_myOrderInfoCont">
                           <a
-                            href="/myshop/mileage/historyList.html"
+                            href="#empty"
                             class="SP_mileageCount"
                             style=""
                             >0</a
@@ -281,7 +281,7 @@
                       <div class="SP_displayTableInr">
                         <div class="SP_myOrderInfoTitle">my coupon</div>
                         <div class="SP_myOrderInfoCont">
-                          <a href="/myshop/coupon/coupon.html">0</a>
+                          <a href="#empty">0</a>
                         </div>
                       </div>
                     </div>
@@ -301,7 +301,7 @@
 		              class="managing_reviews_header__tab managing_reviews_header__tab--active"
 		            >
 		              <a
-		                href="/ohora.kr/my/managing_reviews?secure_username=V22f4eb7ce780134f8410b45f40206779b&amp;tab_type=pending&amp;widget_env=100"
+		                href="#empty"
 		                class="managing_reviews_header__tab_link"
 		                data-remote="true"
 		              >
@@ -310,7 +310,7 @@
 		            </li>
 		            <li class="managing_reviews_header__tab">
 		              <a
-		                href="/ohora.kr/my/managing_reviews?secure_username=V22f4eb7ce780134f8410b45f40206779b&amp;tab_type=written&amp;widget_env=100"
+		                href="#empty"
 		                class="managing_reviews_header__tab_link js-widget-header-basic-reviews-count"
 		                data-remote="true"
 		              >
