@@ -366,7 +366,7 @@
                   onclick="myshopAddr.formCheck();"
                   >등록</a
                 >
-                <a href="list.html" class="SP_cm_btn SP_btn_gray_bd">취소</a>
+                <a href="/projectOhora/ohora/addr.jsp" class="SP_cm_btn SP_btn_gray_bd">취소</a>
               </div>
             </div>
           </div>
