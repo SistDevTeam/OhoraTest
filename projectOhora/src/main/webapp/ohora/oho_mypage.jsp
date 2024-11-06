@@ -315,7 +315,7 @@
                                 </li>
                                                 
                                 <li>
-                                    <a href="">게시글 관리</a>
+                                    <a href="/projectOhora/ohora/myreview.jsp">게시글 관리</a>
                                 </li>
                             </ul>
                         </div>
