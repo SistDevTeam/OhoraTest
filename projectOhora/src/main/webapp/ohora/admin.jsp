@@ -161,7 +161,7 @@
                                     </a>
                                 </li>
                                 <li class="point-history">
-                                    <a href="">
+                                    <a href="/projectOhora/admin/product.do">
                                    	상품삭제
                                     </a>
                                 </li>
