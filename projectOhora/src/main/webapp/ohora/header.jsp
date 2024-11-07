@@ -1,6 +1,12 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page trimDirectiveWhitespaces="true" %>
+<%
+	Integer userId = (Integer) session.getAttribute("userId");
+	
+	// 값 확인
+	System.out.println("set userId : " + userId);
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -78,19 +84,32 @@
             <div
               class="xans-element- xans-layout xans-layout-statelogoff SP_gnb_inr"
             >
-              <a href="/projectOhora/ohora/join.jsp"
-                ><span class="title">회원가입</span></a
-              >|
-              <a href="/projectOhora/ohora/login.jsp" class="log"
-                ><span class="title">로그인</span></a
-              >
+            <!-- 갱신함 / 경로는 아직 안넣음 -->
+            <%
+            	if ( userId == null ) {
+            %>
+	              <a href="/projectOhora/ohora/join.jsp"><span class="title">회원가입</span></a>|
+	              <a href="/projectOhora/ohora/login.jsp" class="log"><span class="title">로그인</span></a>
+            <%		
+            	} else if ( userId == 1001 ) {
+            %>
+            	 <a href="/projectOhora/ohora/admin.jsp"><span class="title">관리자페이지</span></a>|
+	             <a href="#empty" class="log"><span class="title">로그아웃</span></a>
+            <%
+            	} else {
+            %>
+            	<a href="/member/join_intro.html"><span class="title">마이페이지</span></a>|
+	            <a href="#empty" class="log"><span class="title">로그아웃</span></a>
+	          <%
+            	} 
+              %>   
             </div>
           </div>
         </div>
         <div class="SMS_fixed_inner">
           <div class="xans-element- xans-layout xans-layout-logotop fixed_logo">
             <a
-              href="/projectOhora/ohora/oho_main.jsp"
+              href="/"
               style="display: block; text-align: center; margin-top: 30px"
             >
               <img
@@ -139,9 +158,9 @@
               </li>
 
               <li class="eng_font menu_1li submenu">
-                <a href="/projectOhora/product/list.do">outlet</a>
+                <a href="/product/list.html?cate_no=671">outlet</a>
               </li>
-              <li class="eng_font"><a href="/projectOhora/ohora/event_index.jsp">event</a></li>
+              <li class="eng_font"><a href="/projectOhora/product/list.do">event</a></li>
               <li class="eng_font">
                 <a href="/projectOhora/ohora/howto.jsp">how to</a>
               </li>
@@ -164,7 +183,7 @@
       </div>
  
 
-    <!-- 검색 -->
+   <!-- 검색 -->
     <div class="hd_search_container" style="overflow: hidden; display: none">
       <div class="SP_search_wrap">
         <div class="SP_utilListSearch_inner">
@@ -230,14 +249,14 @@
               <a class="eng_font big_" href="/projectOhora/product/list.do">
                 <span>new</span>
               </a>
-              <a class="/projectOhora/product/list.do">
+              <a class="" href="/projectOhora/product/list.do">
                 <span></span>
               </a>
-              <a class="/projectOhora/product/list.do">
+              <a class="" href="/projectOhora/product/list.do">
                 <span></span>
               </a>
             </div>
-            <div class="big_txt" style="margin-top: 60px;">
+            <div class="big_txt">
               <a class="eng_font big_" href="/projectOhora/product/list.do">
                 <span>best</span>
               </a>
@@ -251,17 +270,17 @@
           </div>
           <div class="cate_wrap first">
             <div class="big_txt">
-              <a class="eng_font big_" href="/projectOhora/product/list.do">
+              <a class="eng_font big_" href="/product/list.html?cate_no=160">
                 <span>nail</span>
               </a>
-              <a class="" href="/projectOhora/product/list.do">
+              <a class="" href="/product/list.html?cate_no=435">
                 <span>젤스트립</span>
               </a>
-              <a class="" href="/projectOhora/product/list.do">
+              <a class="" href="/product/list.html?cate_no=436">
                 <span>젤네일팁</span>
               </a>
             </div>
-            <div class="big_txt" style="margin-top: 63px;">
+            <div class="big_txt">
               <a class="eng_font big_" href="/projectOhora/product/list.do">
                 <span>pedi</span>
               </a>
@@ -285,12 +304,12 @@
               <span></span>
             </div>
 
-            <div class="big_txt" style="margin-top: 80px;">
+            <div class="big_txt">
               <a class="eng_font big_" href="/projectOhora/product/list.do">
                 <span>custom</span>
               </a>
             </div>
-            <div class="big_txt" style="margin-top: 45px;">
+            <div class="big_txt">
               <a class="eng_font big_" href="/projectOhora/product/list.do">
                 <span>care &amp; tool</span>
               </a>
@@ -433,6 +452,7 @@
   </div> <!-- sticky 적용을 위한 태그-->
 
   
+ 
   <!-- 슬라이더 초기화 코드 -->
     <script>
       $(document).ready(function () {
@@ -482,6 +502,7 @@
           }
         });
       });
-    </script>  
+    </script>
+
   </body>
 </html>
