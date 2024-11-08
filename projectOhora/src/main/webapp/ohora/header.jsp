@@ -3,9 +3,13 @@
 <%@ page trimDirectiveWhitespaces="true" %>
 <%
 	Integer userId = (Integer) session.getAttribute("userId");
+	Integer productCount = (Integer) session.getAttribute("productCount");
 	
 	// 값 확인
-	System.out.println("set userId : " + userId);
+	System.out.println("header userId : " + userId);
+	System.out.println("header productCount : " + productCount);
+	
+	String contextPath = request.getContextPath();
 %>
 <!DOCTYPE html>
 <html>
@@ -16,7 +20,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="google" content="notranslate">
-<link rel="stylesheet" href="../resources/cdn-main/header.css">
+<link rel="stylesheet" href="/projectOhora/resources/cdn-main/header.css">
 <script src="http://localhost/jspPro/resources/cdn-main/example.js"></script>
   <link
       rel="stylesheet"
@@ -32,7 +36,6 @@
 </style>
   
 </head>
-<body>
 <div class="SP_topBanner" style="display: block">
       <div class="SP_layoutMin">
         <div class="SP_topBn_inr"></div>
@@ -59,7 +62,7 @@
                   tabindex="0"
                 >
                   <a
-                    href="/projectOhora/ohora/event_event6.jsp"
+                    href="/event/event6.html"
                     tabindex="0"
                     style="display: block"
                     ><img
@@ -88,28 +91,23 @@
             <%
             	if ( userId == null ) {
             %>
-	              <a href="/projectOhora/ohora/join.jsp"><span class="title">회원가입</span></a>|
-	              <a href="/projectOhora/ohora/login.jsp" class="log"><span class="title">로그인</span></a>
+	              <a href="<%= contextPath %>/ohora.do?join=signup"><span class="title">회원가입</span></a>|
+	              <a href="<%= contextPath %>/ohora.do?login=gologin" class="log"><span class="title">로그인</span></a>
             <%		
-            	} else if ( userId == 1001 ) {
-            %>
-            	 <a href="/projectOhora/ohora/admin.jsp"><span class="title">관리자페이지</span></a>|
-	             <a href="#empty" class="log"><span class="title">로그아웃</span></a>
-            <%
             	} else {
             %>
-            	<a href="/member/join_intro.html"><span class="title">마이페이지</span></a>|
-	            <a href="#empty" class="log"><span class="title">로그아웃</span></a>
-	          <%
-            	} 
-              %>   
+            	 <a href="<%= contextPath %>/mypage/mypage.do?user_id=userId"><span class="title">마이페이지</span></a>|
+	             <a href="/member/login.html" class="log"><span class="title">로그아웃</span></a>
+            <%
+            	} // if else
+            %>
             </div>
           </div>
         </div>
         <div class="SMS_fixed_inner">
           <div class="xans-element- xans-layout xans-layout-logotop fixed_logo">
             <a
-              href="/projectOhora/ohora/oho_main.jsp"
+              href="/"
               style="display: block; text-align: center; margin-top: 30px"
             >
               <img
@@ -131,25 +129,26 @@
 
               <li class="eng_font">
                 <a href="/projectOhora/product/list.do">product</a>
+
                 <!-- 마우스 오버 시 나오는 영역(product) -->
                 <ul class="menu_2ul">
                   <li>
-                    <a href="/projectOhora/product/list.do"
+                    <a href="/product/list.html?cate_no=160"
                       ><span>네일</span></a
                     >
                   </li>
                   <li>
-                    <a href="/projectOhora/product/list.do"
+                    <a href="/product/list.html?cate_no=161"
                       ><span>페디</span></a
                     >
                   </li>
                   <li>
-                    <a href="/projectOhora/product/list.do"
+                    <a href="/product/list.html?cate_no=470"
                       ><span>커스텀</span></a
                     >
                   </li>
                   <li>
-                    <a href="/projectOhora/product/list.do"
+                    <a href="/product/list.html?cate_no=49"
                       ><span>케어 &amp; 툴</span></a
                     >
                   </li>
@@ -160,9 +159,9 @@
               <li class="eng_font menu_1li submenu">
                 <a href="/product/list.html?cate_no=671">outlet</a>
               </li>
-              <li class="eng_font"><a href="/projectOhora/product/list.do">event</a></li>
+              <li class="eng_font"><a href="/event/index.html">event</a></li>
               <li class="eng_font">
-                <a href="/projectOhora/ohora/howto.jsp">how to</a>
+                <a href="/board/gallery/list.html?board_no=13">how to</a>
               </li>
             </ul>
           </div>
@@ -173,17 +172,14 @@
             <div
               class="xans-element- xans-layout xans-layout-orderbasketcount small_icon m_cart common_cart"
             >
-              <a href="/projectOhora/ohora/offcart.jsp"
-                ><b class="count EC-Layout-Basket-count">0</b></a
-              >
+              <!-- 고정 값 0 을 어떻게 동적으로 바꾸는가 -->
+              <form action="<%= contextPath %>/cart/useriscart.do" method="post" id="CartForm"><a href="#" id="goCart"><b class="count EC-Layout-Basket-count"><%= productCount != null ? productCount : 0 %></b></a></form>
             </div>
             <div class="small_icon m_menu"><a class="SMS_menu"></a></div>
           </div>
         </div>
       </div>
- 
-
-   <!-- 검색 -->
+    <!-- 검색 -->
     <div class="hd_search_container" style="overflow: hidden; display: none">
       <div class="SP_search_wrap">
         <div class="SP_utilListSearch_inner">
